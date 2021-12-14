@@ -1,0 +1,47 @@
+TXT2
+SinsArchiveVersion 193
+entityType "StarBaseUpgrade"
+stageCount 2
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "K_UNITY_BLOCKCOLONIZE_NAME"
+	descStringID "K_UNITY_BLOCKCOLONIZE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "K_icon_enforcedloyaltystation"
+	smallHudIcon "K_icon_enforcedloyaltystation"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1800.000000
+		metal 275.000000
+		crystal 150.000000
+	upgradeTime 30.000000
+	nameStringID "K_UNITY_BLOCKCOLONIZE_NAME"
+	descStringID "K_UNITY_BLOCKCOLONIZE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "K_icon_enforcedloyaltystation"
+	smallHudIcon "K_icon_enforcedloyaltystation"
+	infoCardIcon ""
+	upgradePropertyCount 2
+	upgradeProperty
+		propertyType "CultureSpreadRate"
+		value 1.500000
+	upgradeProperty
+		propertyType "EnemyCultureRepelRate"
+		value 1.000000
+	upgradeBoolPropertyCount 2
+	upgradeBoolProperty "CanPreventEnemyColonize"
+	upgradeBoolProperty "CanPreventPlanetLossByBombing"
+xpModifier 50.000000

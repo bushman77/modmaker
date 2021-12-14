@@ -1,0 +1,47 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "C_Buff_Deploy_Mines_Sona"
+effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyWhenTakingDamage"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 15.000000
+	Level:1 15.000000
+	Level:2 15.000000
+	Level:3 15.000000
+cooldownTime
+	Level:0 40.000000
+	Level:1 40.000000
+	Level:2 40.000000
+	Level:3 40.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "C_ABILITY_DEPLOYS_ISOLYTIC_NAME"
+descStringID "C_ABILITY_DEPLOYS_ISOLYTIC_DESC"
+hudIcon "C_icon_particleweyoun"
+smallHudIcon "C_icon_particleweyoun"
+infoCardIcon ""

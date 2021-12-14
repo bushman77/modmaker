@@ -1,0 +1,47 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "G_buff_detectcloakcapitalblast_self"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID "G_detect"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+Level:0 40.00000 
+Level:1 40.00000 
+Level:2 40.00000 
+Level:3 40.00000 
+cooldownTime
+Level:0 70.00000 
+Level:1 70.00000 
+Level:2 70.00000 
+Level:3 70.00000 
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "G_ability_detectcloakcapitalblast_name"
+descStringID "G_ability_detectcloakcapitalblast_desc"
+hudIcon "F_res_icon_intrepidability"
+smallHudIcon "F_res_icon_intrepidability"
+infoCardIcon ""

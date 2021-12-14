@@ -1,0 +1,50 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "Buff_DominationOnTarget"
+		mediumEffectName "Buff_DominationOnTarget"
+		largeEffectName "Buff_DominationOnTarget"
+		soundID "EFFECT_ADAPTIVESHIELD"
+instantAction
+	buffInstantActionType "RestoreHullPoints"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	hull
+		Level:0 225.000000
+		Level:1 225.000000
+		Level:2 225.000000
+		Level:3 225.000000
+numPeriodicActions 0
+numOverTimeActions 1
+	overTimeAction
+		buffOverTimeActionType "RestoreHull"
+			hullRestoreRate
+				Level:0 30.000000
+				Level:1 30.000000
+				Level:2 30.000000
+				Level:3 30.000000
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 15.000000
+		Level:1 15.000000
+		Level:2 15.000000
+		Level:3 15.000000

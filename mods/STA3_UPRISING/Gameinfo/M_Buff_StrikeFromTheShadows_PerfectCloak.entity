@@ -1,0 +1,62 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "NotExclusive"
+isInterruptable TRUE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 30.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID "R_Cloak"
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfOwnerHasBuff"
+	conditionBuffType "M_Buff_StrikeFromTheShadows_PerfectCloak"
+	conditionBuffShortName ""
+	buffType "M_Buff_StrikeFromTheShadows_PerfectCloak2"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 2
+entityBoolModifier "DisableAbilities"
+entityBoolModifier "CannotBeDamaged"
+numFinishConditions 3
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 30.000000
+		Level:1 30.000000
+		Level:2 30.000000
+		Level:3 30.000000
+finishCondition
+	finishConditionType "DamageTaken"
+	damageNeeded
+		Level:0 1000.000000
+		Level:1 1600.000000
+		Level:2 1750.000000
+		Level:3 2000.000000
+	typeOfDamageNeeded "AFFECTS_ONLY_HULL"
+
+

@@ -1,0 +1,72 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack TRUE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 5
+instantAction
+	buffInstantActionType "ApplyBuffToLastSpawnerNoFilterNoRange"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "Buff_Spawn_DreadMissileSpawn"
+instantAction
+	buffInstantActionType "ApplyBuffToLastSpawnerNoFilterNoRange"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfOwnerHasBuff"
+	conditionBuffType "Buff_CAP4_Counter3"
+	conditionBuffShortName ""
+	buffType "Buff_CAP4_DisableBuild"
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfOwnerHasBuff"
+	conditionBuffType "Buff_CAP4_Counter2"
+	conditionBuffShortName ""
+	buffType "Buff_CAP4_Counter3"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfOwnerHasBuff"
+	conditionBuffType "Buff_CAP4_Counter1"
+	conditionBuffShortName ""
+	buffType "Buff_CAP4_Counter2"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfOwnerDoesNotHaveBuff"
+	conditionBuffType "Buff_CAP4_Counter1"
+	conditionBuffShortName ""
+	buffType "Buff_CAP4_Counter1"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AnyOnConditionInstantActionDone"

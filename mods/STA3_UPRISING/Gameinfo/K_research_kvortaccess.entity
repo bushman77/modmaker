@@ -1,0 +1,39 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "Bb_Kli_Kvort"
+smallHudIcon "Bb_Kli_Kvort"
+infoCardIcon ""
+NameStringID "K_research_kvortaccess_name"
+DescriptionStringID "K_research_kvortaccess_description"
+researchWindowLocation
+	block 0
+	pos [ 6 , 3 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+		ResearchPrerequisite
+	Subject "K_research_VorchaRefitaccess"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 45.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 1500.000000
+	metal 195.000000
+	crystal 190.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 6
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

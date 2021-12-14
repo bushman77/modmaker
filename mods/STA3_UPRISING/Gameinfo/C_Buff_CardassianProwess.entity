@@ -1,0 +1,52 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 3
+entityModifier
+	buffEntityModifierType "DamageAsDamageTarget"
+	value
+		Level:0 -0.150000
+		Level:1 -0.180000
+		Level:2 -0.200000
+		Level:3 -0.220000
+entityModifier
+	buffEntityModifierType "HullPointRestoreRate"
+	value
+		Level:0 0.500000
+		Level:1 0.600000
+		Level:2 0.700000
+		Level:3 0.800000
+entityModifier
+	buffEntityModifierType "ArmorAsDamageTarget"
+	value
+		Level:0 1.000000
+		Level:1 2.000000
+		Level:2 3.000000
+		Level:3 4.000000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "OutOfRange"
+finishCondition
+	finishConditionType "OwnerChanged"

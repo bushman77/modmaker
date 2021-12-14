@@ -1,0 +1,69 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadius"
+instantActionTriggerType "AlwaysPerform"
+buffType "F_Buff_Verteron_Field_Generator"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 3
+	object "Frigate"
+	object "Corvette"
+	object "CapitalShip"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 18000.000000
+	Level:1 18000.000000
+	Level:2 18000.000000
+	Level:3 18000.000000
+maxTargetCount 
+	Level:0 12.000000
+	Level:1 15.000000
+	Level:2 18.000000
+	Level:3 22.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "Ability_DominationActivate"
+	mediumEffectName "Ability_DominationActivate"
+	largeEffectName "Ability_DominationActivate"
+	soundID "EFFECT_DOMINATION"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility TRUE
+maxNumLevels 4
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityCLevel"
+aiUseTime "OnlyWhenEnemyFleetWillPrevail"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 120.000000
+	Level:1 120.000000
+	Level:2 120.000000
+	Level:3 120.000000
+cooldownTime
+	Level:0 120.000000
+	Level:1 120.000000
+	Level:2 120.000000
+	Level:3 120.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "F_Verteron_Field_Generator_Name"
+descStringID "F_Verteron_Field_Generator_Desc"
+hudIcon "F_ability_Vertgenerator"
+smallHudIcon "F_ability_Vertgenerator"
+infoCardIcon ""
+

@@ -1,0 +1,51 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "K_research_hullupgrade3"
+smallHudIcon "K_research_hullupgrade3"
+infoCardIcon ""
+NameStringID "IDS_K_res_hullupgrade3_name"
+DescriptionStringID "IDS_K_res_hullupgrade3_desc"
+researchWindowLocation
+	block 2
+	pos [ 7 , 3 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "K_research_hullupgrade2"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 60.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 1400.000000
+	metal 250.000000
+	crystal 275.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 7
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 2
+priority 2.000000
+researchBoolModifiers 0
+researchFloatModifiers 3
+researchModifier
+	modifierType "HullPointsMaxAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.025000
+researchModifier
+	modifierType "HullPointsRegenAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
+researchModifier
+	modifierType "MassReduction"
+	baseValue 0.000000
+	perLevelValue 0.100000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

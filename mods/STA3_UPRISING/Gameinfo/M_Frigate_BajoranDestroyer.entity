@@ -1,0 +1,210 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Light"
+statCountType "FrigateLight"
+mainViewIcon "Icon_G_Bajdest"
+picture "picture_newt_mostlycomeatnight"
+NameStringID "M_BAJORDESTR_NAME"
+DescriptionStringID "M_BAJORDESTR_DESC"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
+basePrice
+	credits 300.000000
+	metal 55.000000
+	crystal 0.000000
+slotCount 5.000000
+BuildTime 24.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 40.000000
+MaxHullPoints 1200.000000
+MaxShieldPoints 1100.000000
+HullPointRestoreRate 2.000000
+ShieldPointRestoreRate 2.000000
+BaseArmorPoints 3.000000
+maxMitigation 0.500000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 5
+numSpecificDebris 0
+armorType "Medium"
+hudIcon "Bb_Neutral_Bestri"
+smallHudIcon "Icon_Gen_Frigate"
+infoCardIcon "Icon_Gen_Frigate"
+minZoomDistanceMult 1.100000
+NumWeapons 2
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "BEAM"
+	DamagePerBank:FRONT 90.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 90.000000
+	DamagePerBank:RIGHT 90.000000
+	Range 4500.000000
+	PreBuffCooldownTime 7.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.15000
+	TravelSpeed 0.000000
+	Duration 1.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Fed_Weap_Phaser_Muzzle_Frigates"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "M_BajoranPhaser_Start"
+		hitEffectName "Fed_Weap_Phaser_Impact_Frigates"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Wpn_Imp_Pulse_Hull1"
+			sound "Wpn_Imp_Pulse_Hull2"
+			sound "Wpn_Imp_Pulse_Hull3"
+			sound "Wpn_Imp_Pulse_Hull4"			
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"		
+		beamEffectSounds
+			soundCount 1
+			sound "M_BajoranPhaser_Loop"
+		beamGlowTextureName "FedPhaserBeam_Glow"
+		beamCoreTextureName "FedPhaserBeam_Core"
+		beamWidth 6.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 28.000000
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 360.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4500.000000
+	PreBuffCooldownTime 24.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 1.000000
+	TravelSpeed 1300.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 2
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Fed_Weap_Photon_Muzzle"
+		muzzleSoundMinRespawnTime 0.005000
+		muzzleSounds
+			soundCount 1
+			sound "FedPhotonSaber"
+		hitEffectName "Weapon_Fed_Photon_Hit"
+		hitHullEffectSounds
+			soundCount 2
+			sound "Wpn_Imp_Torp_Hull1"
+			sound "Wpn_Imp_Torp_Hull2"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"	
+		missileTravelEffectName "Fed_Weap_Photon_Orange"
+		missileStartTurningDistance 250.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 0.010000			
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1500.000000
+ShieldMeshName "M_Bajor_Type1_Shield"
+renderShield TRUE
+maxAccelerationLinear 105.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 105.000000
+maxAccelerationAngular 6.700000
+maxDecelerationAngular 7.999996
+maxSpeedLinear 110.000000
+maxRollRate 15.000000
+maxRollAngle 40.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "Fed1Attack"
+SoundID "Fed1Attack2"
+SoundID "Fed1Attack3"
+NumSoundsFor:ONCREATION 3
+SoundID "Fed1Select"
+SoundID "Fed1Select2"
+SoundID "Fed1Select3"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "Fed1Move"
+SoundID "Fed1Move2"
+SoundID "Fed1Move3"
+NumSoundsFor:ONSELECTED 3
+SoundID "Fed1Select"
+SoundID "Fed1Select2"
+SoundID "Fed1Select3"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "Fed1Move3"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "M_BajoranDestroyer"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName ""
+ExplosionName "Explosion_Frigate_Fed_Medium"
+HyperspaceChargingSoundID "FederationEnterWarp"
+HyperspaceTravelSoundID ""
+EngineSoundID "ENGINE_TECHCAPITALSHIP"
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 200.000000
+AntiMatterRestoreRate 0.500000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 0
+minShadow 0.000000
+maxShadow 1.000000
+allegianceDecreasePerRoundtrip 0.000000

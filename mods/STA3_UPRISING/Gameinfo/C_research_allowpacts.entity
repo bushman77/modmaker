@@ -1,0 +1,38 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "C_icon_allowdiploresearch"
+smallHudIcon "C_icon_allowdiploresearch"
+infoCardIcon ""
+NameStringID "C_res_allowpacts_name"
+DescriptionStringID "C_res_allowpacts_desc"
+researchWindowLocation
+	block 0
+	pos [ 3 , 7 ]
+ResearchField "Diplomacy"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 120.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 800.000000
+	metal 100.000000
+	crystal 150.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 3
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 1
+researchModifier
+	modifierType "AllowPacts"
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

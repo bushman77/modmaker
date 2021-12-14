@@ -1,0 +1,92 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack TRUE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 4
+instantAction
+	buffInstantActionType "CreateFrigate"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	frigateType "F_Cap_Prometheus_A"
+	numFrigates
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 1.000000
+	matchOwnerDamageState TRUE
+	impulse 0.000000
+	expiryTime
+		Level:0 220.000000
+		Level:1 240.000000
+		Level:2 280.000000
+		Level:3 320.000000
+	spawnFrigateSoundID ""
+	postSpawnBuff "F_Buff_Multivam_Part"
+instantAction
+	buffInstantActionType "CreateFrigate"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	frigateType "F_Cap_Prometheus_B"
+	numFrigates
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 1.000000
+	matchOwnerDamageState TRUE
+	impulse 0.000000
+	expiryTime
+		Level:0 220.000000
+		Level:1 240.000000
+		Level:2 280.000000
+		Level:3 320.000000
+	spawnFrigateSoundID ""
+	postSpawnBuff "F_Buff_Multivam_Part"
+instantAction
+	buffInstantActionType "CreateFrigate"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	frigateType "F_Cap_Prometheus_C"
+	numFrigates
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 1.000000
+	matchOwnerDamageState TRUE
+	impulse 0.000000
+	expiryTime
+		Level:0 220.000000
+		Level:1 240.000000
+		Level:2 280.000000
+		Level:3 320.000000
+	spawnFrigateSoundID ""
+	postSpawnBuff "F_Buff_Multivam_Part"
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.500000
+	buffType "F_Buff_Multivam_Spawn2"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""	
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 220.000000
+		Level:1 240.000000
+		Level:2 280.000000
+		Level:3 320.000000

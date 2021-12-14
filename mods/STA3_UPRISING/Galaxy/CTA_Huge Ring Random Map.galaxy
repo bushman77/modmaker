@@ -1,0 +1,126 @@
+TXT2
+SinsArchiveVersion 193
+versionNumber 5
+isBrowsable TRUE
+browsePictureName "ScenarioPicture-RandomHugeRing"
+browseName "[CTA] Random - Huge Ring"
+browseDescription "A devastating solar event has wiped out almost all of the planets in this system, leaving only a rich outer rim for hungry empires to fight for. This map is randomly generated each time it is played."
+isFirstCapitalShipIsFlagship TRUE
+randomizeStartingPositions TRUE
+planetArtifactDensity 0.150000
+planetBonusDensity 0.600000
+normalStartHomePlanetUpgradeLevel:Population 3
+normalStartHomePlanetUpgradeLevel:CivilianModules 1
+normalStartHomePlanetUpgradeLevel:TacticalModules 0
+normalStartHomePlanetUpgradeLevel:Home 1
+normalStartHomePlanetUpgradeLevel:ArtifactLevel 10
+normalStartHomePlanetUpgradeLevel:Infrastructure 2
+quickStartHomePlanetUpgradeLevel:Population 4
+quickStartHomePlanetUpgradeLevel:CivilianModules 1
+quickStartHomePlanetUpgradeLevel:TacticalModules 0
+quickStartHomePlanetUpgradeLevel:Home 1
+quickStartHomePlanetUpgradeLevel:ArtifactLevel 10
+quickStartHomePlanetUpgradeLevel:Infrastructure 2
+recommendedGameTypeCount 1
+recommendedGameType "FFA"
+metersPerGalaxyUnit 25000.000000
+pixelsPerGalaxyUnit 1.000000
+useRandomGenerator TRUE
+randomizerParams
+	starPosOffsetRange
+		minPercentage 10.000000
+		maxPercentage 15.000000
+	playerParams
+		startingCredits 3000
+		startingMetal 800
+		startingCrystal 250
+		homePlanetType "TerranHome"
+		homePlanetStarRadiusRange
+			minPercentage 0.900000
+			maxPercentage 0.950000
+		areExtraPlanetsColonized FALSE
+		extraPlanetsMaxRadius 6.000000
+		extraPlanetsRadiusRange
+			minPercentage 0.900000
+			maxPercentage 1.000000
+		extraPlanetGroupCount 3
+		extraPlanetGroup
+			minCount 1
+			maxCount 1
+			planetTypeCount 1
+			planetType "CTARandomTier0"
+		extraPlanetGroup
+			minCount 1
+			maxCount 1
+			planetTypeCount 1
+			planetType "CTARandomTier0"
+		extraPlanetGroup
+			minCount 1
+			maxCount 1
+			planetTypeCount 1
+			planetType "CTARandomTier1"
+	starCount 1
+	star
+		type "RandomStar"
+		radius 110.000000
+		connectionStarRadiusRange 0.490000
+		connectionChance 0.850000
+		maxPlayerCount 10
+		ringCount 2
+		ring
+			starRadiusRange
+				minPercentage 0.4550000
+				maxPercentage 0.490000
+			militiaColonizationPerc 0.000000
+			planetGroupCount 1
+			planetGroup
+				minCount 2
+				maxCount 2
+				planetTypeCount 1
+				planetType "PirateBase"
+		ring
+			starRadiusRange
+				minPercentage 0.500000
+				maxPercentage 0.900000
+			militiaColonizationPerc 0.000000
+			planetGroupCount 8
+			planetGroup
+				minCount 7
+				maxCount 7
+				planetTypeCount 1
+				planetType "CTARandomTier0"
+			planetGroup
+				minCount 5
+				maxCount 5
+				planetTypeCount 1
+				planetType "CTARandomTier0"
+			planetGroup
+				minCount 4
+				maxCount 4
+				planetTypeCount 1
+				planetType "CTARandomTier1"
+			planetGroup
+				minCount 9
+				maxCount 10
+				planetTypeCount 1
+				planetType "CTARandomAllTiers"
+			planetGroup
+				minCount 7
+				maxCount 8
+				planetTypeCount 1
+				planetType "CTARandomAllTiers"
+			planetGroup
+				minCount 9
+				maxCount 10
+				planetTypeCount 1
+				planetType "CTARandomTier0to5"
+			planetGroup
+				minCount 8
+				maxCount 8
+				planetTypeCount 1
+				planetType "CTARandomAllTiers"
+			planetGroup
+				minCount 5
+				maxCount 5
+				planetTypeCount 1
+				planetType "Wormhole"

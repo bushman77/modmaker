@@ -1,0 +1,113 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn FALSE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault FALSE
+canBomb FALSE
+typeCount 3
+frigateRoleType "Colony"
+frigateRoleType "ResourceCapturer"
+frigateRoleType "StarBaseConstructor"
+statCountType "FrigateColony"
+mainViewIcon "Icon_C_colony"
+picture "C_Unitpicture_Card"
+NameStringID "C_COLONY_NAME"
+DescriptionStringID "C_COLONY_DESC"
+counterDescriptionStringID "ClassColony_RangeNA"
+basePrice
+	credits 10.000000
+	metal 10.000000
+	crystal 10.000000
+slotCount 4.000000
+BuildTime 30.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 6.000000
+MaxHullPoints 900.000000
+MaxShieldPoints 1000.000000
+HullPointRestoreRate 0.250000
+ShieldPointRestoreRate 0.500000
+BaseArmorPoints 0.000000
+maxMitigation 0.600000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 1
+numRandomDebrisSmall 9
+numSpecificDebris 0
+armorType "Light"
+hudIcon "C_hudicon_colonyship"
+smallHudIcon "Icon_Gen_Frigate"
+infoCardIcon "Icon_Gen_Frigate"
+minZoomDistanceMult 1.500000
+NumWeapons 0
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 0
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1500.000000
+ShieldMeshName ""
+renderShield FALSE
+maxAccelerationLinear 115.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 115.000000
+maxAccelerationAngular 4.650000
+maxDecelerationAngular 4.999996
+maxSpeedLinear 500.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 1
+SoundID "cardassian_colony1_begun"
+NumSoundsFor:ONCREATION 1
+SoundID "cardassian_colony1_select1"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "cardassian_colony1_move1"
+SoundID "cardassian_colony1_move2"
+SoundID "cardassian_colony1_move3"
+NumSoundsFor:ONSELECTED 3
+SoundID "cardassian_colony1_select1"
+SoundID "cardassian_colony1_select2"
+SoundID "cardassian_colony1_select3"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "cardassian_colony1_warp1"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "C_Colony"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName ""
+ExplosionName "Explosion_Frigate_Card_Medium"
+HyperspaceChargingSoundID "CardassianEnterWarp"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "Engine_Fed"
+ability:0 "C_Ability_Colonize_Frig"
+ability:1 "NEM_Ability_PassiveLowLifeT1"
+ability:2 "C_Ability_DeployMonac"
+ability:3 "C_Ability_DeployEaves"
+ability:4 ""
+MaxAntiMatter 225.000000
+AntiMatterRestoreRate 0.500000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 2
+minShadow 0.000000
+maxShadow 0.400000
+allegianceDecreasePerRoundtrip 0.000000

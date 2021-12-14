@@ -1,0 +1,61 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "R_BuffTargetLifeSupport"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 4
+	object "Frigate"
+	object "CapitalShip"
+	object "Corvette"
+	object "Titan"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 6000.000000
+	Level:1 6000.000000
+	Level:2 6000.000000
+	Level:3 6000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "None"
+cooldownTime
+	Level:0 20.000000
+	Level:1 6.000000
+	Level:2 6.000000
+	Level:3 6.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+	Subject "R_research_abilityaccess_targetlifesupport"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "R_AbilityTargetLifeSupport_name"
+descStringID "R_AbilityTargetLifeSupport_desc"
+hudIcon "R_hudicon_targetlifesupport"
+smallHudIcon "R_hudicon_targetlifesupport"
+infoCardIcon ""

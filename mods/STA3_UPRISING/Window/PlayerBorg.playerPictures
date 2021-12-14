@@ -1,0 +1,44 @@
+TXT2
+SinsArchiveVersion 193
+pictureCount 1
+LargeScreenPicture
+	textureName "Player_Portrait_Large_ST.tga"
+	startTopLeft [398,667]
+	width 195
+	height 219
+	rowItemCount 1
+	horizontalStride 0
+	verticalStride 0
+SmallScreenPicture
+	textureName "Player_Portrait_Small_ST.tga"
+	startTopLeft [127,221]
+	width 56
+	height 67
+	rowItemCount 1
+	horizontalStride 0
+	verticalStride 0
+BottomBarPicture
+	textureName "Player_Portrait_Window_ST.tga"
+	startTopLeft [172,312]
+	width 169
+	height 77
+	rowItemCount 1
+	horizontalStride 0
+	verticalStride 0
+ButtonIcon
+	textureName "Player_Portrait_Button_ST.tga"
+	startTopLeft [56,97]
+	width 24
+	height 29
+	rowItemCount 1
+	horizontalStride 0
+	verticalStride 0
+MediumScreenPicture
+	textureName "Player_Portrait_Medium_ST.tga"
+	startTopLeft [197,333]
+	width 98
+	height 109
+	rowItemCount 1
+	horizontalStride 0
+	verticalStride 0
+	

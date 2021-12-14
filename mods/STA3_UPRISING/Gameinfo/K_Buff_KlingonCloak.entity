@@ -1,0 +1,64 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "NotExclusive"
+isInterruptable TRUE
+isChannelling FALSE
+numInstantActions 3
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID "K_CLOAK"
+instantAction
+	buffInstantActionType "RemoveBuffOfType"
+	instantActionTriggerType "OnDamageTaken"
+	buffTypeToRemove "K_Buff_KlingonCloak"
+instantAction
+	buffInstantActionType "ApplyBuffToFirstSpawnerNoFilterNoRange"
+	instantActionTriggerType "OnBuffFinish"
+	buffType "K_Buff_KlingonCloak_DecloakBoost"
+numPeriodicActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "DrainAntiMatter"
+	drainAntiMatterRate
+		Level:0 0.200000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+numEntityModifiers 1
+	entityModifier 
+		buffEntityModifierType "ShieldMitigation"
+		value
+			Level:0 -100.000000
+			Level:1 -100.000000
+			Level:2 -100.000000
+			Level:3 -100.000000
+numEntityBoolModifiers 4
+entityBoolModifier "DisableWeapons"
+entityBoolModifier "CannotBeDamaged"
+entityBoolModifier "DisableRegeneration"
+entityBoolModifier "IsInvisible"
+numFinishConditions 3
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 40.000000
+		Level:1 40.000000
+		Level:2 40.000000
+		Level:3 40.000000
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "AntiMatterDepleted"

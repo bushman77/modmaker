@@ -1,0 +1,79 @@
+TXT2
+SinsArchiveVersion 193
+entityType "PlanetModuleRefinery"
+minZoomDistanceMult 2.000000
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
+numRandomDebrisLarge 4
+numRandomDebrisSmall 16
+numSpecificDebris 0
+armorType "Module"
+hudIcon "Bb_Kli_Refinery"
+smallHudIcon "Icon_K_Refinery"
+infoCardIcon "Icon_K_Refinery"
+planetUpgradeSlotType "Civilian"
+planetUpgradeSlotCount 4.000000
+basePrice
+	credits 1500.000000
+	metal 125.000000
+	crystal 175.000000
+NameStringID "K_REFINERY_NAME"
+DescriptionStringID "K_REFINERY_DESC"
+planetModuleRoleType "REFINERY"
+statCountType "ModuleRefinery"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+	Subject "K_research_planetmoduleaccess_refinery"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MaxHullPoints 10500.000000
+HullPointRestoreRate 3.000000
+BaseArmorPoints 5.000000
+MaxShieldPoints 0.000000
+ShieldPointRestoreRate 0.000000
+maxShieldMitigation 0.000000
+ExperiencePointsForDestroying 25.000000
+resourceExtractionType "Invalid"
+cultureSpreadRate 0.000000
+isAffectedBySimilarModuleCostResearch FALSE
+placementRadius 1050.000000
+nearPlacementDistOffset 0.000000
+farPlacementDistOffset 9000.000000
+spawnCount 1
+swapMineType ""
+angularSpeed 0.000000
+rotateSoundName ""
+rotateFacingType "None"
+rotateConstantly FALSE
+ShieldMeshName ""
+renderShield TRUE
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 0
+NumSoundsFor:ONSELECTED 1
+SoundID "K_Station_Starbase"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "K_Refinery"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExplosionName "Explosion_Station_Kli"
+mainViewIcon "Icon_K_Refinery"
+picture "Unit_Picture_Kli"
+minShadow 0.100000
+maxShadow 0.800000
+formationRank 3
+baseBuildTime 90.000000
+buildEffectName ""
+cargoShipType "K_Freighter_Cargo"
+maxCargoShipCount 6
+cargoShipRespawnTime 30.000000

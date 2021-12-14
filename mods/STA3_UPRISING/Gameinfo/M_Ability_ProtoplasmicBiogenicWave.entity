@@ -1,0 +1,71 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "M_buff_ProtoplasmicBiogenicWave_Self"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 6
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 8000.000000
+	Level:1 8000.000000
+	Level:2 8000.000000
+	Level:3 8000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyWhenManyTargetsInRangeOfBank"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 6.000000
+	Level:1 6.000000
+	Level:2 6.000000
+	Level:3 6.000000
+onlyAutoCastWhenTargetsInBank "FRONT"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 50.000000
+	Level:1 50.000000
+	Level:2 50.000000
+	Level:3 50.000000
+cooldownTime
+	Level:0 90.000000
+	Level:1 70.000000
+	Level:2 60.000000
+	Level:3 55.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "R_Ability_Thalaronwave_Name"
+descStringID "R_Ability_Thalaronwave_Desc"
+hudIcon "R_hudicon_thaleronwave"
+smallHudIcon "R_hudicon_thaleronwave"
+infoCardIcon ""

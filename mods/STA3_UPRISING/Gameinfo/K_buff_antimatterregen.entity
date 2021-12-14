@@ -1,0 +1,39 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+    buffInstantActionType "RestoreAntiMatter"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	antiMatter
+	    Level:0 100.00000
+		Level:1 130.00000
+		Level:2 160.00000
+		Level:3 180.00000
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "K_Ability_AntimatterRegen"
+		mediumEffectName "K_Ability_AntimatterRegen"
+		largeEffectName "K_Ability_AntimatterRegen"
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"
+

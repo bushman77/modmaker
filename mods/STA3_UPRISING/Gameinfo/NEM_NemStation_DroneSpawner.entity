@@ -1,0 +1,73 @@
+TXT2
+SinsArchiveVersion 193
+entityType "PlanetModuleStandard"
+minZoomDistanceMult 3.000000
+ability:0 "NEM_Ability_Spawn_AttackDrone"
+ability:1 "NEM_Ability_Spawn_SupportDrone"
+ability:2 ""
+ability:3 "G_Ability_StationCapture"
+ability:4 ""
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
+numRandomDebrisLarge 4
+numRandomDebrisSmall 13
+numSpecificDebris 0
+armorType "Module"
+hudIcon "Bb_Kli_Frigyard"
+smallHudIcon "Icon_K_Frigateyard"
+infoCardIcon "Icon_K_Frigateyard"
+planetUpgradeSlotType "Civilian"
+planetUpgradeSlotCount 4.000000
+basePrice
+	credits 600.000000
+	metal 80.000000
+	crystal 80.000000
+NameStringID "NEM_NemStation_DroneSpawner_Name"
+DescriptionStringID "NEM_NemStation_DroneSpawner_Desc"
+planetModuleRoleType "CULTURE"
+statCountType "ModuleCultureCenter"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MaxHullPoints 45500.000000
+HullPointRestoreRate 2.000000
+BaseArmorPoints 9.000000
+MaxShieldPoints 0.000000
+ShieldPointRestoreRate 0.000000
+maxShieldMitigation 0.000000
+ExperiencePointsForDestroying 25.000000
+resourceExtractionType "Invalid"
+cultureSpreadRate 0.000000
+isAffectedBySimilarModuleCostResearch FALSE
+placementRadius 550.000000
+nearPlacementDistOffset 0.000000
+farPlacementDistOffset 9000.000000
+spawnCount 1
+swapMineType ""
+angularSpeed 0.000000
+rotateSoundName ""
+rotateFacingType "None"
+rotateConstantly FALSE
+ShieldMeshName ""
+renderShield TRUE
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 0
+NumSoundsFor:ONSELECTED 1
+SoundID "K_Station_Shipyard"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "K_Shipyard_Frig"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExplosionName "Explosion_Station_Kli"
+mainViewIcon "Icon_K_Frigateyard"
+picture "Unit_Picture_Kli"
+minShadow 0.000000
+maxShadow 1.500000
+formationRank 3
+baseBuildTime 60.000000
+buildEffectName ""

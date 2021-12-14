@@ -1,0 +1,41 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "B_Buff_TerrifyingPresence_Self"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Passive"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "B_ABILITY_TERRIFIED_NAME"
+descStringID "B_ABILITY_TERRIFIED_DESC"
+hudIcon "B_res_Locutus"
+smallHudIcon "B_res_Locutus"
+infoCardIcon ""

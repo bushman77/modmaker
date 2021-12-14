@@ -1,0 +1,103 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 5
+instantAction
+buffInstantActionType "ApplyBuffToTargetWithEntryVehicles"
+instantActionTriggerType "OnDelay"
+	delayTime 0.001000
+buffType "M_Buff_Asteroid_1"
+targetFilter
+	numOwnerships 3
+	ownership "Enemy"
+	ownership "Friendly"	
+	ownership "NoOwner"		
+	numObjects 1
+	object "Planet"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 800.100000
+	Level:1 800.000000
+	Level:2 800.000000
+	Level:3 800.000000
+entryVehicleType "M_EntryVehicle_Dreadnaught"	
+numEntryVehicles
+	Level:0 1.000000
+	Level:1 6.000000
+	Level:2 9.000000
+	Level:3 12.000000
+travelTime 3.000000
+entryVehicleLaunchInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+instantAction
+	buffInstantActionType "MakeDead"
+	instantActionTriggerType "OnDelay"
+	delayTime 15.000000
+instantAction
+	buffInstantActionType "ResetPhysicsState"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+instantAction
+	buffInstantActionType "RuinPlanet"
+	instantActionTriggerType "OnDelay"
+			delayTime 8.100000
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 1
+		object "Planet"
+		numSpaces 1
+		space "Normal"
+		numConstraints 1
+		constraint "IsRuinable"
+	range
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+	afterRuinBuffType ""
+instantAction
+	buffInstantActionType "RuinPlanet"
+	instantActionTriggerType "OnDelay"
+			delayTime 8.000000
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 1
+		object "Planet"
+		numSpaces 1
+		space "Normal"
+		numConstraints 1
+		constraint "IsRuinable"
+	range
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+	afterRuinBuffType ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 5
+entityBoolModifier "CannotBeDamaged"
+entityBoolModifier "IsInvisible"
+entityBoolModifier "DisablePhaseJump"
+entityBoolModifier "DisableLinearEngines"
+entityBoolModifier "DisableAngularEngines"
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

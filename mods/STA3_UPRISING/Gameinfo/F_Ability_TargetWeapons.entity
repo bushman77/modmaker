@@ -1,0 +1,52 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "F_Buff_TargetWeapons_Self"
+effectInfo
+	effectAttachInfo
+		attachType "Above"
+	smallEffectName "F_Ability_ExpertTargeting"
+	mediumEffectName "F_Ability_ExpertTargeting"
+	largeEffectName "F_Ability_ExpertTargeting"
+	soundID "F_Ability_ExpertTargeting"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 65.000000
+	Level:1 65.000000
+	Level:2 65.000000
+	Level:3 65.000000
+cooldownTime
+	Level:0 40.000000
+	Level:1 40.000000
+	Level:2 40.000000
+	Level:3 40.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "F_TARGETWEAPONS_NAME"
+descStringID "F_TARGETWEAPONS_DESC"
+hudIcon "F_Jamtargetlock"
+smallHudIcon "F_Jamtargetlock"
+infoCardIcon ""

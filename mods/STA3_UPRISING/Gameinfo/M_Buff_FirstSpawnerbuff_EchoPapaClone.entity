@@ -1,0 +1,26 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 2
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 4
+entityBoolModifier "CannotBeDamaged"
+entityBoolModifier "IsInvisible"
+entityBoolModifier "DisableRegeneration"
+entityBoolModifier "DisablePhaseJump"
+numFinishConditions 2
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "LastSpawnerNoLongerHasBuff"
+		buffTypeToQuery "M_Buff_FirstSpawnerSelf_EchoPapaClone"
+		

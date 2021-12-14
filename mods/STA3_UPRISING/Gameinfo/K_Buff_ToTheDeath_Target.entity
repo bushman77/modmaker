@@ -1,0 +1,68 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "Ability_RevengeFromBeyond_Target"
+		mediumEffectName "Ability_RevengeFromBeyond_Target"
+		largeEffectName "Ability_RevengeFromBeyond_Target"
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsInRadius"
+	instantActionTriggerType "OnOwnerDeath"
+	buffType "K_Buff_ToTheDeath_Damage"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 4
+		object "Frigate"
+		object "CapitalShip"
+		object "Titan"
+		object "Corvette"			
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	range
+		Level:0 1000.000000
+		Level:1 1200.000000
+		Level:2 1400.000000
+		Level:3 1800.000000
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 45.000000
+		Level:1 60.000000
+		Level:2 70.000000
+		Level:3 80.000000
+finishCondition
+	finishConditionType "OwnerChanged"

@@ -1,0 +1,66 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "M_buff_LanceShot_activation"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 6
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "NotSelf"
+range
+	Level:0 6000.000000
+	Level:1 6000.000000
+	Level:2 6000.000000
+	Level:3 6000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility TRUE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyWhenAttackTargetIsInFiringSolutionAndHasAttackOrder"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 10.000000
+	Level:1 10.000000
+	Level:2 10.000000
+	Level:3 10.000000
+cooldownTime
+	Level:0 80.000000
+	Level:1 80.000000
+	Level:2 80.000000
+	Level:3 80.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "C_ability_PolaronBeamChimera_name"
+descStringID "C_ability_PolaronBeamChimera_desc"
+hudIcon "C_hudicon_manticorephasedpolaron"
+smallHudIcon "C_hudicon_manticorephasedpolaron"
+infoCardIcon ""

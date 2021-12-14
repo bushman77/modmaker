@@ -1,0 +1,67 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack TRUE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 2
+overTimeAction
+	buffOverTimeActionType "RestoreHull"
+	hullRestoreRate
+		Level:0 2.000000
+		Level:1 2.000000
+		Level:2 2.000000
+		Level:3 2.000000
+overTimeAction
+	buffOverTimeActionType "RestoreShields"
+	shieldRestoreRate
+		Level:0 2.000000
+		Level:1 2.000000
+		Level:2 2.000000
+		Level:3 2.000000
+numEntityModifiers 3
+entityModifier
+	buffEntityModifierType "MaxHullPoints"
+	value
+		Level:0 500.000000
+		Level:1 200.000000
+		Level:2 200.000000
+		Level:3 200.000000
+entityModifier
+	buffEntityModifierType "MaxShieldPoints"
+	value
+		Level:0 500.000000
+		Level:1 200.000000
+		Level:2 200.000000
+		Level:3 200.000000
+entityModifier
+	buffEntityModifierType "ArmorAsDamageTarget"
+	value
+		Level:0 4.000000
+		Level:1 4.000000
+		Level:2 4.000000
+		Level:3 4.000000
+numEntityBoolModifiers 3
+entityBoolModifier "DisableFighterLaunch"
+entityBoolModifier "Boarded"
+entityBoolModifier "DisableAbilities"
+numFinishConditions 1
+finishCondition
+	finishConditionType "OwnerChanged"

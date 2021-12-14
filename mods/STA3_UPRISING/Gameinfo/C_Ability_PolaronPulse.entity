@@ -1,0 +1,84 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInDirectionalCone"
+instantActionTriggerType "AlwaysPerform"
+buffType "C_Buff_PolaronPulseTarget"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 6
+	object "Corvette"
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "NotInvulnerable"
+weaponBank "FRONT"
+range
+	Level:0 4500.000000
+	Level:1 5000.000000
+	Level:2 5500.000000
+	Level:3 6000.000000
+coneAngle
+	Level:0 1.570000
+	Level:1 1.570000
+	Level:2 1.570000
+	Level:3 1.570000
+maxTargetCount
+	Level:0 -1.000000
+	Level:1 -1.000000
+	Level:2 -1.000000
+	Level:3 -1.000000
+effectInfo
+	effectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	smallEffectName "C_Ability_PolaronPulse_Travel"
+	mediumEffectName "C_Ability_PolaronPulse_Travel"
+	largeEffectName "C_Ability_PolaronPulse_Travel"
+	soundID "D_Pulse"
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyWhenManyTargetsInRangeOfBank"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 3.000000
+	Level:1 4.000000
+	Level:2 5.000000
+	Level:3 6.000000
+onlyAutoCastWhenTargetsInBank "FRONT"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "None"
+cooldownTime
+	Level:0 120.000000
+	Level:1 110.000000
+	Level:2 100.000000
+	Level:3 90.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "C_PolaronPulse_Name"
+descStringID "C_PolaronPulse_desc"
+hudIcon "C_icon_polaronweyoun"
+smallHudIcon "C_icon_polaronweyoun"
+infoCardIcon ""

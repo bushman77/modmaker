@@ -1,0 +1,50 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "R_Research_allianceupgrade_fed2"
+smallHudIcon "R_Research_allianceupgrade_fed2"
+infoCardIcon ""
+NameStringID "R_res_allianceupgrade_fed2_name"
+DescriptionStringID "R_res_allianceupgrade_fed2_desc"
+researchWindowLocation
+	block 0
+	pos [ 7 , 9 ]
+ResearchField "Diplomacy"
+Prerequisites
+	NumResearchPrerequisites 2
+		ResearchPrerequisite
+	Subject "R_research_allianceupgrade_fed1"
+	Level 1
+		ResearchPrerequisite
+	Subject "F_pact_rom"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 090.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 3060.000000
+	metal 280.000000
+	crystal 325.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 0.000000
+	crystal 25.000000
+Tier 7
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "PlanetHealthRegenRateAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
+researchModifier
+	modifierType "BombingDamageAsDamageTargetAdjustment"
+	baseValue 0.000000
+	perLevelValue -0.1500000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

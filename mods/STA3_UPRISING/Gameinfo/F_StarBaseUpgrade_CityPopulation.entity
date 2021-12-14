@@ -1,0 +1,66 @@
+TXT2
+SinsArchiveVersion 193
+entityType "StarBaseUpgrade"
+stageCount 3
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "F_SPACEDOCK_UPGRADECITYPOPULATION0_NAME"
+	descStringID "F_SPACEDOCK_UPGRADECITYPOPULATION0_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "F_Stationupgrade_Colonypods"
+	smallHudIcon "F_Stationupgrade_Colonypods"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1200.000000
+		metal 175.000000
+		crystal 150.000000
+	upgradeTime 30.000000
+	nameStringID "F_SPACEDOCK_UPGRADECITYPOPULATION1_NAME"
+	descStringID "F_SPACEDOCK_UPGRADECITYPOPULATION1_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "F_Stationupgrade_Colonypods"
+	smallHudIcon "F_Stationupgrade_Colonypods"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "Population"
+		value 40.000000
+	upgradeBoolPropertyCount 2
+	upgradeBoolProperty "CanPreventEnemyColonize"
+	upgradeBoolProperty "CanPreventPlanetLossByBombing"
+stage
+	price
+		credits 1700.000000
+		metal 225.000000
+		crystal 225.000000
+	upgradeTime 45.000000
+	nameStringID "F_SPACEDOCK_UPGRADECITYPOPULATION2_NAME"
+	descStringID "F_SPACEDOCK_UPGRADECITYPOPULATION2_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "F_Stationupgrade_Colonypods"
+	smallHudIcon "F_Stationupgrade_Colonypods"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "Population"
+		value 80.000000
+	upgradeBoolPropertyCount 2
+	upgradeBoolProperty "CanPreventEnemyColonize"
+	upgradeBoolProperty "CanPreventPlanetLossByBombing"
+xpModifier 50.000000

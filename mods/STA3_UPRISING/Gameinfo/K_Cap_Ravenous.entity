@@ -1,0 +1,303 @@
+TXT2
+SinsArchiveVersion 193
+entityType "CapitalShip"
+ability:0 "K_Ability_ColonizeCapital"
+ability:1 "K_Ability_Elite_Engineers"
+ability:2 "K_Ability_CommandShip"
+ability:3 "K_Ability_cloakfleet"
+ability:4 "K_Ability_KlingonCloakCap"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+autoJoinFleetDefault TRUE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 40.000000
+basePopulationKilled 1.550000
+bombingFreqTime 10.000000
+baseRange 3000.000000
+bombTransitTime 4.000000
+bombEffectCount 2
+bombEffectAngleVariance 2.500000
+bombEffectsDef
+	weaponType "Projectile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Kli_Weap_Photon_muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "K_PHOTON"
+	hitEffectName "Weapon_TechFrigatePlanetBombing_Hit"
+	hitHullEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	hitShieldsEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	projectileTravelEffectName "Kli_Weap_Photon_Red"
+mainViewIcon "Icon_K_Ravenous"
+basePrice
+	credits 3000.000000
+	metal 400.000000
+	crystal 250.000000
+slotCount 30.000000
+BuildTime 75.000000
+MaxHullPoints
+	StartValue 2600.000000
+	ValueIncreasePerLevel 0.000000
+MaxShieldPoints
+	StartValue 2200.000000
+	ValueIncreasePerLevel 0.000000
+HullPointRestoreRate
+	StartValue 0.2500000
+	ValueIncreasePerLevel 0.050000
+ShieldPointRestoreRate
+	StartValue 3.450000
+	ValueIncreasePerLevel 1.000000
+ArmorPointsFromExperience
+	StartValue 12.000000
+	ValueIncreasePerLevel 0.000000
+maxMitigation
+	StartValue 0.650000
+	ValueIncreasePerLevel 0.011110
+MaxAntiMatter
+	StartValue 250.000000
+	ValueIncreasePerLevel 35.000000
+AntiMatterRestoreRate
+	StartValue 0.850000
+	ValueIncreasePerLevel 0.100000
+CultureProtectRate
+	StartValue 0.300000
+	ValueIncreasePerLevel 0.050000
+NameStringID "K_RAVENOUS_NAME"
+DescriptionStringID "K_Cap_ravenous_desc"
+picture "Unit_Picture_Kli"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+roleType "Invalid"
+statCountType "CapitalShipUtility2"
+numRandomDebrisLarge 5
+numRandomDebrisSmall 19
+numSpecificDebris 2
+specificDebrisMeshName "K_Ravenous_Debris_A"
+specificDebrisMeshName "K_Ravenous_Debris_B"
+armorType "VeryHeavy"
+hudIcon "Bb_Kli_Ravenous"
+smallHudIcon "Icon_Gen_CapShip"
+infoCardIcon "Icon_Gen_CapShip"
+minZoomDistanceMult 0.2500000
+NumWeapons 3
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTIMEDIUM"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 440.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4500.000000
+	PreBuffCooldownTime 26.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 1.000000
+	TravelSpeed 1300.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 3
+		burstDelay 0.400000
+		fireDelay 0.000000
+		muzzleEffectName "Kli_Weap_Pulse_muzzle"
+		muzzleSoundMinRespawnTime 0.005000
+		muzzleSounds
+			soundCount 1
+			sound "K_PHOTON3"
+		hitEffectName "Weapon_Kli_GreenTorp_Hit"
+		hitHullEffectSounds
+			soundCount 2
+			sound "Wpn_Imp_Torp_Hull1"
+			sound "Wpn_Imp_Torp_Hull2"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"	
+		missileTravelEffectName "Kli_Weap_Photon_Green"
+		missileStartTurningDistance 250.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 0.010000	
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTIMEDIUM"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "FLASHBEAM"
+	DamagePerBank:FRONT 95.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4500.000000
+	PreBuffCooldownTime 7.500000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 4.50000
+	TravelSpeed 0.000000
+	Duration 1.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Kli_Weap_DisruptorGreen_Impact"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "K_PHASER_START"
+		hitEffectName "Kli_Weap_DisruptorGreen_Impact"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Wpn_Imp_Pulse_Hull1"
+			sound "Wpn_Imp_Pulse_Hull2"
+			sound "Wpn_Imp_Pulse_Hull3"
+			sound "Wpn_Imp_Pulse_Hull4"			
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"		
+		beamEffectSounds
+			soundCount 1
+			sound "K_PHASER_LOOP"
+		beamGlowTextureName "KliDisruptorBeamGreen_Glow"
+		beamCoreTextureName "KliDisruptorBeamGreen_Core"
+		beamWidth 15.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 8.000000		
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "LASERPSI"
+	DamagePerBank:FRONT 140.000000
+	DamagePerBank:BACK 80.000000
+	DamagePerBank:LEFT 110.000000
+	DamagePerBank:RIGHT 110.000000
+	Range 4500.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.30000
+	TravelSpeed 4000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.600000
+		fireDelay 0.000000
+		muzzleEffectName "Kli_Weap_Pulse_muzzle"
+		muzzleSoundMinRespawnTime 0.000100
+		muzzleSounds
+			soundCount 1
+			sound "K_PULSE"
+		hitEffectName "Weapon_Kli_Disruptor_Hit"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Wpn_Imp_Pulse_Hull1"
+			sound "Wpn_Imp_Pulse_Hull2"
+			sound "Wpn_Imp_Pulse_Hull3"
+			sound "Wpn_Imp_Pulse_Hull4"			
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"		
+		projectileTravelEffectName "Kli_Weap_Pulsephaser"	
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 1
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+mass 1500.000000
+ShieldMeshName "K_Vorcha_Shield"
+renderShield TRUE
+maxAccelerationLinear 95.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 95.000000
+maxAccelerationAngular 2.500000
+maxDecelerationAngular 2.500000
+maxSpeedLinear 300.000000
+maxRollRate 15.000000
+maxRollAngle 45.000000
+squadTypeEntityDef:0 "K_Squad_Dagger"
+squadAntiMatterCost:0 5.000000
+squadTypeEntityDef:1 "K_Squad_Bomber"
+squadAntiMatterCost:1 5.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "Kli12Attack"
+SoundID "Kli12Attack2"
+SoundID "Kli12Attack3"
+NumSoundsFor:ONCREATION 3
+SoundID "Kli12Select"
+SoundID "Kli12Select2"
+SoundID "Kli12Select3"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "Kli12Move"
+SoundID "Kli12Move2"
+SoundID "Kli12Move3"
+NumSoundsFor:ONSELECTED 3
+SoundID "Kli12Select"
+SoundID "Kli12Select2"
+SoundID "Kli12Select3"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "Kli12Move3"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "K_Ravenous"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName ""
+ExplosionName "Explosion_Capital_Kli"
+CommandPoints
+	StartValue 1.200000
+	ValueIncreasePerLevel 0.250000
+weaponCooldownDecreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.010000
+weaponDamageIncreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.010000
+HyperspaceChargingSoundID "KlingonEnterWarp"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "Engine_Klingon"
+formationRank 1
+minShadow 0.000000
+maxShadow 0.500000

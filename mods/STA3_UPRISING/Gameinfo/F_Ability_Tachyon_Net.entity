@@ -1,0 +1,52 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "AlwaysPerform"
+	buffType "F_Buff_Tachyon_Net_Chain_1"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget FALSE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 1.000000
+	Level:2 2.000000
+	Level:3 3.000000
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 200.000000
+	Level:1 190.000000
+	Level:2 180.000000
+	Level:3 170.000000
+cooldownTime
+	Level:0 120.000000
+	Level:1 110.000000
+	Level:2 100.000000
+	Level:3 90.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "F_Ability_Tachyon_Net_Name"
+descStringID "F_Ability_Tachyon_Net_Desc"
+hudIcon "F_ability_tachyondetectionnet"
+smallHudIcon "F_ability_tachyondetectionnet"
+infoCardIcon ""

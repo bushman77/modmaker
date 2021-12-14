@@ -1,0 +1,47 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "G_Buff_EvasiveManeuvers"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID "EFFECT_TELEKINETICPUSH"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 2
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyWhenTakingDamage"
+aiUseTargetCondition "IsNotWeaponDisabled"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget FALSE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 30.000000
+	Level:1 50.000000
+	Level:2 50.000000
+	Level:3 50.000000
+cooldownTime
+	Level:0 80.000000
+	Level:1 80.000000
+	Level:2 80.000000
+	Level:3 80.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "F_ability_evasivemaneuvers_name"
+descStringID "F_ability_evasivemaneuvers_desc"
+hudIcon "F_res_icon_saberability"
+smallHudIcon "F_res_icon_saberability"
+infoCardIcon ""

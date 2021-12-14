@@ -1,0 +1,79 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+instantActionTriggerType "AlwaysPerform"
+buffType "R_Buff_SingularityBurst_Starbase"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 6
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 4000.000000
+	Level:1 5500.000000
+	Level:2 5500.000000
+	Level:3 5500.000000
+maxTargetCount
+	Level:0 -1.000000
+	Level:1 -1.000000
+	Level:2 -1.000000
+	Level:3 -1.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "R_Ability_Ensare"
+	mediumEffectName "R_Ability_Ensare"
+	largeEffectName "R_Ability_Ensare"
+	soundID "R_Ability_Ensnare"
+travelSpeed 1000.000000
+effectStaggerDelay 0.000000
+hasWeaponEffects FALSE
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 2
+levelSourceType "StarBaseUpgradeLevel"
+sourcePropertyType "AbilityALevel"
+aiUseTime "OnlyWhenManyTargetsInRange"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 10.000000
+	Level:1 12.000000
+	Level:2 12.000000
+	Level:3 12.000000
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 80.000000
+	Level:1 70.000000
+	Level:2 70.000000
+	Level:3 70.000000
+cooldownTime
+	Level:0 30.000000
+	Level:1 20.000000
+	Level:2 20.000000
+	Level:3 20.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "R_SINGULARITYBURST_NAME"
+descStringID "R_SINGULARITYBURST_DESC"
+hudIcon "R_hudicon_singularityovercharge"
+smallHudIcon "R_hudicon_singularityovercharge"
+infoCardIcon ""

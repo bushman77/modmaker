@@ -1,0 +1,77 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "DoDamage"
+	damageRate
+		Level:0 10.000000
+		Level:1 15.000000
+		Level:2 20.000000
+		Level:3 25.000000
+	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
+	damageType "ENERGY"
+	isDamageShared TRUE	
+numEntityModifiers 6
+entityModifier
+	buffEntityModifierType "LinearMaxSpeed"
+	value
+		Level:0 -0.500000
+		Level:1 -0.700000
+		Level:2 -0.900000
+		Level:3 -1.100000
+entityModifier
+	buffEntityModifierType "LinearThrust"
+	value
+		Level:0 -0.500000
+		Level:1 -0.700000
+		Level:2 -0.900000
+		Level:3 -1.100000
+entityModifier
+	buffEntityModifierType "AngularThrust"
+	value
+		Level:0 -0.500000
+		Level:1 -0.700000
+		Level:2 -0.900000
+		Level:3 -1.100000
+entityModifier
+	buffEntityModifierType "HullPointRestoreRate"
+	value
+		Level:0 -0.100000
+		Level:1 -0.200000
+		Level:2 -0.300000
+		Level:3 -0.400000
+entityModifier
+	buffEntityModifierType "ShieldPointRestoreRate"
+	value
+		Level:0 -0.100000
+		Level:1 -0.200000
+		Level:2 -0.300000
+		Level:3 -0.400000
+entityModifier
+	buffEntityModifierType "WeaponCooldown"
+	value
+		Level:0 0.100000
+		Level:1 0.150000
+		Level:2 0.200000
+		Level:3 0.250000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 15.000000
+		Level:1 15.000000
+		Level:2 15.000000
+		Level:3 15.000000
+finishCondition
+	finishConditionType "OwnerChanged"

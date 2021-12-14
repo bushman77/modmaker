@@ -1,0 +1,2060 @@
+TXT2
+SinsArchiveVersion 193
+onlyLoadOnDemand FALSE
+brushCount 411
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_A_GEOTHERMAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ -1 , -1 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_A_GEOTHERMAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 0 , 50 , 50 ]
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_A_GEOTHERMAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 0 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_B_GEOMORTEUS"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 50 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_B_GEOMORTEUS"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 50 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_B_GEOMORTEUS"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 50 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_C_GEOINACTIVE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 100 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_C_GEOINACTIVE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 100 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_C_GEOINACTIVE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 100 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_D_ASTEROID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 150 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_D_ASTEROID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 150 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_D_ASTEROID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 150 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_D_ICEASTEROID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 200 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_D_ICEASTEROID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 200 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_D_ICEASTEROID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 200 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_D_CARBONACEOUS"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 250 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_D_CARBONACEOUS"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 250 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_D_CARBONACEOUS"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 250 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_D_METALLIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 300 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_D_METALLIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 300 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_D_METALLIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 300 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_D_CRYSTALLINE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 350 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_D_CRYSTALLINE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 350 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_D_CRYSTALLINE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 350 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_D_PLANETOID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 400 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_D_PLANETOID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 400 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_D_PLANETOID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 400 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_D_ICEPLANETOID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 450 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_D_ICEPLANETOID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 450 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_D_ICEPLANETOID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 450 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_D_SHATTERED"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 500 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_D_SHATTERED"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 500 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_D_SHATTERED"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 500 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_E_GEOPLASTIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 550 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_E_GEOPLASTIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 550 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_E_GEOPLASTIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 550 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_F_GEOMETALLIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 600 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_F_GEOMETALLIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 600 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_F_GEOMETALLIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 600 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_G_GEOCRYSTALLINE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 650 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_G_GEOCRYSTALLINE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 650 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_G_GEOCRYSTALLINE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 650 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_H_DESERT"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 700 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_H_DESERT"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 700 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_H_DESERT"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 700 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_I_ICEGIANT"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 750 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_I_ICEGIANT"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 750 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_I_ICEGIANT"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 750 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_I_URANIAN"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 800 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_I_URANIAN"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 800 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_I_URANIAN"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 800 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_I_NEPTUNIAN"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 850 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_I_NEPTUNIAN"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 850 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_I_NEPTUNIAN"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 850 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_J_GASGIANT"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 900 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_J_GASGIANT"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 900 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_J_GASGIANT"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 900 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_J_JOVIAN"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 950 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_J_JOVIAN"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 950 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_J_JOVIAN"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 950 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_J_SATURNIAN"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 1000 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_J_SATURNIAN"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 1000 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_J_SATURNIAN"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 1000 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_K_ADAPTABLE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 1050 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_K_ADAPTABLE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 1050 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_K_ADAPTABLE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 1050 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_K_TRANSJOVIAN"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 1100 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_K_TRANSJOVIAN"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 1100 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_K_TRANSJOVIAN"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 1100 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_L_MARGINAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 1150 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_L_MARGINAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 1150 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_L_MARGINAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 1150 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_L_TERRAFORMING"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 1200 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_L_TERRAFORMING"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 1200 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_L_TERRAFORMING"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 1200 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_M_ANCIENT"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 1250 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_M_ANCIENT"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 1250 , 50 , 50 ]
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_M_ANCIENT"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 1250 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_M_ARID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 1300 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_M_ARID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 1300  , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_M_ARID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 1300 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_M_ARBOREAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 1350 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_M_ARBOREAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 1350 , 50 , 50 ]
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_M_ARBOREAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 1350 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_M_DEVASTATED"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 1400 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_M_DEVASTATED"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 1400 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_M_DEVASTATED"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 1400 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_M_FRIGID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 1450 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_M_FRIGID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 1450 , 50 , 50 ]
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_M_FRIGID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 1450 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_M_GRASSLAND"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 1500 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_M_GRASSLAND"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 1500 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_M_GRASSLAND"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 1500 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_M_INDUSTRIAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 1550 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_M_INDUSTRIAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 1550 , 50 , 50 ]
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_M_INDUSTRIAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 1550 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_M_METROPOLIS"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 1600 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_M_METROPOLIS"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 1600 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_M_METROPOLIS"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 1600 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_M_MOUNTAINOUS"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 1650 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_M_MOUNTAINOUS"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 1650 , 50 , 50 ]
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_M_MOUNTAINOUS"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 1650 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_M_PARADISE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 1700 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_M_PARADISE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 1700 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_M_PARADISE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 1700 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_M_SWAMP"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 1750 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_M_SWAMP"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 1750 , 50 , 50 ]
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_M_SWAMP"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 1750 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_M_TEMPERATE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 1800 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_M_TEMPERATE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 1800 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_M_TEMPERATE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 1800 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_M_HOMEWORLD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ -2 , 1849 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_M_HOMEWORLD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 1850 , 50 , 50 ]
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_M_HOMEWORLD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 1850 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_N_HYDROCARBON"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 1900 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_N_HYDROCARBON"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 1900 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_N_HYDROCARBON"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 1900 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_N_REDUCING"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 1950 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_N_REDUCING"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 1950 , 50 , 50 ]
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_N_REDUCING"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 1950 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_O_OCEANIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 2000 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_O_OCEANIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 2000 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_O_OCEANIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 2000 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_O_STORM"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 2050 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_O_STORM"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 2050 , 50 , 50 ]
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_O_STORM"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 2050 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_P_CRYOSTATIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 2100 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_P_CRYOSTATIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 2100 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_P_CRYOSTATIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 2100 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_P_GLACIATED"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 2150 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_P_GLACIATED"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 2150 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_P_GLACIATED"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 2150 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_Q_VARIABLE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 2200 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_Q_VARIABLE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 2200 , 50 , 50 ]
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_Q_VARIABLE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 2200 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_Q_TIDAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 2250 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_Q_TIDAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 2250 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_Q_TIDAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 2250 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_R_ROGUE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 2300 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_R_ROGUE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 2300 , 50 , 50 ]
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_R_ROGUE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 2300 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_S_SUPERGIANT"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 2350 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_S_SUPERGIANT"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 2350 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_S_SUPERGIANT"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 2350 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_T_ULTRAGIANT"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 2400 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_T_ULTRAGIANT"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 2400 , 50 , 50 ]
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_T_ULTRAGIANT"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 2400 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_X_CTHONIAN"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 2450 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_X_CTHONIAN"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 2450 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_X_CTHONIAN"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 2450 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_X_PLASMA"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 2500 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_X_PLASMA"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 2500 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_X_PLASMA"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 2500 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_PLANET_CLASS_Y_DEMONWORLD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 2550 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_Y_DEMONWORLD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 2550 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_PLANET_CLASS_Y_DEMONWORLD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 2550 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_A_GEOTHERMAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 2600 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_A_GEOTHERMAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 2600 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_A_GEOTHERMAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 2600 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_B_GEOMORTEUS"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 2650 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_B_GEOMORTEUS"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 2650 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_B_GEOMORTEUS"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 2650 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_C_GEOINACTIVE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 2700 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_C_GEOINACTIVE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 2700 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_C_GEOINACTIVE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 2700 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_D_ASTEROID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 2750 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_D_ASTEROID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 2750 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_D_ASTEROID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 2750 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_D_ICEASTEROID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 2800 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_D_ICEASTEROID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 2800 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_D_ICEASTEROID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 2800 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_D_CARBONACEOUS"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 2850 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_D_CARBONACEOUS"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 2850 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_D_CARBONACEOUS"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 2850 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_D_METALLIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 2900 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_D_METALLIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 2900 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_D_METALLIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 2900 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_D_CRYSTALLINE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 2950 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_D_CRYSTALLINE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 2950 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_D_CRYSTALLINE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 2950 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_D_SELENIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 3000 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_D_SELENIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 3000 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_D_SELENIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 3000 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_D_SHATTERED"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 3050 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_D_SHATTERED"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 3050 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_D_SHATTERED"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 3050 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_H_DESERT"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 3100 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_H_DESERT"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 3100 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_H_DESERT"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 3100 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_K_ADAPTABLE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 3150 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_K_ADAPTABLE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 3150 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_K_ADAPTABLE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 3150 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_L_MARGINAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 3200 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_L_MARGINAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 3200 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_L_MARGINAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 3200 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_L_TERRAFORMING"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 3250 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_L_TERRAFORMING"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 3250 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_L_TERRAFORMING"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 3250 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_M_ANCIENT"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 3300 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_M_ANCIENT"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 3300 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_M_ANCIENT"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 3300 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_M_ARID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 3350 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_M_ARID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 3350 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_M_ARID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 3350 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_M_ARBOREAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 3400 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_M_ARBOREAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 3400 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_M_ARBOREAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 3400 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_M_DEVASTATED"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 3450 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_M_DEVASTATED"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 3450 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_M_DEVASTATED"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 3450 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_M_FRIGID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 3500 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_M_FRIGID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 3500 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_M_FRIGID"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 3500 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_M_GRASSLAND"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 3550 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_M_GRASSLAND"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 3550 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_M_GRASSLAND"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 3550 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_M_INDUSTRIAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 3600 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_M_INDUSTRIAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 3600 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_M_INDUSTRIAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 3600 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_M_METROPOLIS"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 3650 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_M_METROPOLIS"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 3650 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_M_METROPOLIS"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 3650 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_M_MOUNTAINOUS"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 3700 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_M_MOUNTAINOUS"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 3700 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_M_MOUNTAINOUS"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 3700 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_M_PARADISE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 3750 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_M_PARADISE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 3750 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_M_PARADISE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 3750 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_M_SWAMP"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 3800 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_M_SWAMP"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 3800 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_M_SWAMP"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 3800 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_M_TEMPERATE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 3850 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_M_TEMPERATE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 3850 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_M_TEMPERATE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 3850 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_M_HOMEWORLD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 3900 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_M_HOMEWORLD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 3900 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_M_HOMEWORLD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 3900 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_N_HYDROCARBON"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 3950 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_N_HYDROCARBON"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 3950 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_N_HYDROCARBON"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 3950 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_N_REDUCING"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 4000 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_N_REDUCING"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 4000 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_N_REDUCING"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 4000 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_O_OCEANIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 4050 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_O_OCEANIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 4050 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_O_OCEANIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 4050 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_O_STORM"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 4100 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_O_STORM"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 4100 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_O_STORM"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 4100 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_P_CRYOSTATIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 4150 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_P_CRYOSTATIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 4150 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_P_CRYOSTATIC"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 4150 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_P_GLACIATED"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 4200 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_P_GLACIATED"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 4200 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_P_GLACIATED"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 4200 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_Q_VARIABLE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 4250 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_Q_VARIABLE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 4250 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_Q_VARIABLE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 4250 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_Q_TIDAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 4300 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_Q_TIDAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 4300 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_Q_TIDAL"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 4300 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_X_CTHONIAN"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 4350 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_X_CTHONIAN"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 4350 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_X_CTHONIAN"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 4350 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_X_PLASMA"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 4400 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_X_PLASMA"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 4400 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_X_PLASMA"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 4400 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_CLASS_Y_DEMONWORLD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 4450 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_MOON_UNDETECTED_CLASS_Y_DEMONWORLD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 4450 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_MOON_CLASS_Y_DEMONWORLD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 4450 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_WELL_ICEFIELD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 4500 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_WELL_UNDETECTED_ICEFIELD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 4500 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_WELL_ICEFIELD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 4500 , 22 , 22 ]	
+brush
+	name "TFF_MAINVIEWICON_WELL_ASTEROIDFIELD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 4550 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_WELL_UNDETECTED_ASTEROIDFIELD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 4550 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_WELL_ASTEROIDFIELD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 4550 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_WELL_DUSTCLOUD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 4600 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_WELL_UNDETECTED_DUSTCLOUD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 4600 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_WELL_DUSTCLOUD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 4600 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_WELL_DEBRISFIELD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 4650 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_WELL_UNDETECTED_DEBRISFIELD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 4650 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_WELL_DEBRISFIELD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 4650 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_WELL_DEEPSPACESECTOR"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 4700 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_WELL_UNDETECTED_DEEPSPACESECTOR"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 4700 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_WELL_DEEPSPACESECTOR"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 4700 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_WELL_ABANDONEDSHIPYARD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 4750 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_WELL_UNDETECTED_ABANDONEDSHIPYARD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 4750 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_WELL_ABANDONEDSHIPYARD"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 4800 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_WELL_SITEOFBATTLE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 4800 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_WELL_UNDETECTED_SITEOFBATTLE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 4800 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_WELL_SITEOFBATTLE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 4800 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_WELL_RESEARCHOUTPOST"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 4850 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_WELL_UNDETECTED_RESEARCHOUTPOST"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 4850 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_WELL_RESEARCHOUTPOST"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 4850 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_WELL_MININGSECTOR"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 4900 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_WELL_UNDETECTED_MININGSECTOR"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 4900 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_WELL_MININGSECTOR"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 4900 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_WELL_ECONOMICSECTOR"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 4950 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_WELL_UNDETECTED_ECONOMICSECTOR"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 4950 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_WELL_ECONOMICSECTOR"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 4950 , 22 , 22 ]
+brush
+	name "TFF_MAINVIEWICON_WELL_PIRATEBASE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 0 , 5000 , 50 , 50 ]
+brush
+	name "TFF_MAINVIEWICON_WELL_UNDETECTED_PIRATEBASE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 50 , 5000 , 50 , 50 ]	
+brush
+	name "TFF_HUDICONSMALL_INFO_WELL_PIRATEBASE"
+	content "Simple"
+	fileName "A3_Icons_Planet_TFF"
+	pixelBox [ 100 , 5000 , 22 , 22 ]
+brush
+	name "MAINVIEWICON_PLANET_CLASSM"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 0 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSM"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 0 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSM"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 0 , 22 , 22 ]		
+brush
+	name "MAINVIEWICON_PLANET_CLASSMLARGE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 50 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSMLARGE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 50 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSMLARGE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 50 , 22 , 22 ]	
+brush
+	name "MAINVIEWICON_PLANET_CLASSMJUNGLE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 100 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSMJUNGLE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 100 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSMJUNGLE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 100 , 22 , 22 ]	
+brush
+	name "MAINVIEWICON_PLANET_CLASSB"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 150 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSB"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 150 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSB"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 150 , 22 , 22 ]	
+brush
+	name "MAINVIEWICON_PLANET_CLASSBLARGE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 200 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSBLARGE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 200 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSBLARGE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 200 , 22 , 22 ]	
+brush
+	name "MAINVIEWICON_PLANET_CLASSL"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 250 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSL"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 250 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSL"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 250 , 22 , 22 ]	
+brush
+	name "MAINVIEWICON_PLANET_CLASSLLARGE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 300 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSLLARGE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 300 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSLLARGE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 300 , 22 , 22 ]	
+brush
+	name "MAINVIEWICON_PLANET_CLASSH"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 350 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSH"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 350 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSH"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 350 , 22 , 22 ]	
+brush
+	name "MAINVIEWICON_PLANET_CLASSHLARGE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 400 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSHLARGE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 400 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSHLARGE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 400 , 22 , 22 ]
+brush
+	name "MAINVIEWICON_PLANET_CLASSN"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 450 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSN"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 450 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSN"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 450 , 22 , 22 ]	
+brush
+	name "MAINVIEWICON_PLANET_CLASSNLARGE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 500 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSNLARGE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 500 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSNLARGE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 500 , 22 , 22 ]		
+brush
+	name "MAINVIEWICON_PLANET_CLASSK"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 550 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSK"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 550 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSK"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 550 , 22 , 22 ]	
+brush
+	name "MAINVIEWICON_PLANET_CLASSKLARGE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 600 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSKLARGE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 600 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSKLARGE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 600 , 22 , 22 ]
+brush
+	name "MAINVIEWICON_PLANET_CLASSKIRON"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 650 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSKIRON"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 650 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSKIRON"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 650 , 22 , 22 ]	
+brush
+	name "MAINVIEWICON_PLANET_CLASSAHYDRO"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 700 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSAHYDRO"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 700 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSAHYDRO"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 700 , 22 , 22 ]
+brush
+	name "MAINVIEWICON_PLANET_CLASSJ"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 750 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSJ"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 750 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSJ"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 750 , 22 , 22 ]	
+brush
+	name "MAINVIEWICON_PLANET_CLASSJLARGE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 800 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSJLARGE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 800 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSJLARGE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 800 , 22 , 22 ]
+brush
+	name "MAINVIEWICON_PLANET_CLASSY"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 850 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSY"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 850 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSY"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 850 , 22 , 22 ]
+brush
+	name "MAINVIEWICON_PLANET_CLASSYLARGE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 900 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSYLARGE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 900 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSYLARGE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 900 , 22 , 22 ]	
+brush
+	name "MAINVIEWICON_PLANET_CLASSDMOON"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 950 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSDMOON"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 950 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSDMOON"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 950 , 22 , 22 ]	
+brush
+	name "MAINVIEWICON_PLANET_CLASSDSHATTERD"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 1000 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSDSHATTERD"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 1000 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSDSHATTERD"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 1000 , 22 , 22 ]
+brush
+	name "MAINVIEWICON_PLANET_CLASSDASTEROID"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 1050 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSDASTEROID"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 1050 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSDASTEROID"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 1050 , 22 , 22 ]	
+brush
+	name "MAINVIEWICON_PLANET_CLASSDFERENGI"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 1100 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSDFERENGI"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 1100 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSDFERENGI"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 1100 , 22 , 22 ]		
+brush
+	name "MAINVIEWICON_PLANET_BADLANDS"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 1150 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_BADLANDS"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 1150 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_BADLANDS"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 1150 , 22 , 22 ]		
+brush
+	name "MAINVIEWICON_PLANET_CERULEAN"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 1200 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CERULEAN"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 1200 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CERULEAN"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 1200 , 22 , 22 ]		
+brush
+	name "MAINVIEWICON_PLANET_METAPHASIC"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 1250 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_METAPHASIC"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 1250 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_METAPHASIC"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 1250 , 22 , 22 ]	
+brush
+	name "MAINVIEWICON_PLANET_METREON"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 1300 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_METREON"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 1300 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_METREON"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 1300 , 22 , 22 ]		
+brush
+	name "MAINVIEWICON_PLANET_MUTARA"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 1350 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_MUTARA"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 1350 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_MUTARA"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 1350 , 22 , 22 ]	
+brush
+	name "MAINVIEWICON_PLANET_WORMHOLE2"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 1400 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_WORMHOLE2"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 1400 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_WORMHOLE2"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 1400 , 22 , 22 ]
+brush
+	name "MAINVIEWICON_PLANET_CLASSDASTEROID2"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 1450 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSDASTEROID2"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 1450 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSDASTEROID2"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 1450 , 22 , 22 ]
+brush
+	name "MAINVIEWICON_PLANET_CLASSDMOON2"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 1500 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_PLANET_UNDETECTED_CLASSDMOON2"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 1500 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_PLANET_CLASSDMOON2"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 1500 , 22 , 22 ]
+brush
+	name "MAINVIEWICON_NEBULA_TACHYON"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 1550 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_NEBULA_UNDETECTED_TACHYON"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 1550 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_NEBULA_TACHYON"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 1550 , 22 , 22 ]
+brush
+	name "MAINVIEWICON_NEBULA_DARK"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 1600 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_NEBULA_UNDETECTED_DARK"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 1600 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_NEBULA_DARK"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 1600 , 22 , 22 ]
+brush
+	name "MAINVIEWICON_NEBULA_BASSENRIFT"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 1650 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_NEBULA_UNDETECTED_BASSENRIFT"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 1650 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_NEBULA_BASSENRIFT"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 1650 , 22 , 22 ]	
+brush
+	name "MAINVIEWICON_NEBULA_LATINUM"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 1700 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_NEBULA_UNDETECTED_LATINUM"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 1700 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_NEBULA_LATINUM"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 1700 , 22 , 22 ]	
+brush
+	name "MAINVIEWICON_NEBULA_RADIOACTIVE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 0 , 1750 , 50 , 50 ]
+brush
+	name "MAINVIEWICON_NEBULA_UNDETECTED_RADIOACTIVE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 50 , 1750 , 50 , 50 ]	
+brush
+	name "HUDICONSMALL_INFO_NEBULA_RADIOACTIVE"
+	content "Simple"
+	fileName "A3_Icons_Planet"
+	pixelBox [ 100 , 1750 , 22 , 22 ]	
+

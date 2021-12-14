@@ -1,0 +1,47 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "M_Buff_TargetWeapons_Self"
+effectInfo
+	effectAttachInfo
+		attachType "Above"
+	smallEffectName "F_Ability_ExpertTargeting"
+	mediumEffectName "F_Ability_ExpertTargeting"
+	largeEffectName "F_Ability_ExpertTargeting"
+	soundID "F_Ability_ExpertTargeting"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 65.000000
+	Level:1 65.000000
+	Level:2 65.000000
+	Level:3 65.000000
+cooldownTime
+	Level:0 40.000000
+	Level:1 40.000000
+	Level:2 40.000000
+	Level:3 40.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "M_Assault_Sabotage_NAME"
+descStringID "M_Assault_Sabotage_DESC"
+hudIcon "F_Jamtargetlock"
+smallHudIcon "F_Jamtargetlock"
+infoCardIcon ""

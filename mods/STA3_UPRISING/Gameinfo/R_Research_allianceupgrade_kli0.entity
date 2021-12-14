@@ -1,0 +1,46 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "R_Research_allianceupgrade_kli0"
+smallHudIcon "R_Research_allianceupgrade_kli0"
+infoCardIcon ""
+NameStringID "R_res_allianceupgrade_kli_name"
+DescriptionStringID "R_res_allianceupgrade_kli_desc"
+researchWindowLocation
+	block 0
+	pos [ 4 , 8 ]
+ResearchField "Diplomacy"
+Prerequisites
+	NumResearchPrerequisites 2
+		ResearchPrerequisite
+	Subject "R_research_pact_kli"
+	Level 1
+		ResearchPrerequisite
+	Subject "R_Pact_Kli"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 60.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 1800.000000
+	metal 175.000000
+	crystal 240.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 0.000000
+	crystal 25.000000
+Tier 4
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "ArmorBaseAdjustment"
+	baseValue 0.000000
+	perLevelValue 1.00000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

@@ -1,0 +1,81 @@
+TXT2
+SinsArchiveVersion 193
+entityType "TitanUpgrade"
+stageCount 5
+stage
+	nameStringID "R_Ability_ShinzonTheta_Name"
+	descStringID "R_Ability_ShinzonTheta_Desc"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement -1
+	hudIcon "R_hudicon_shinzontheta"
+	smallHudIcon "R_hudicon_shinzontheta"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "R_Ability_ShinzonTheta_Name"
+	descStringID "R_Ability_ShinzonTheta_Desc"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 0
+	hudIcon "R_hudicon_shinzontheta"
+	smallHudIcon "R_hudicon_shinzontheta"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "AbilityDLevel"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "R_Ability_ShinzonTheta_Name"
+	descStringID "R_Ability_ShinzonTheta_Desc"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 2
+	hudIcon "R_hudicon_shinzontheta"
+	smallHudIcon "R_hudicon_shinzontheta"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "AbilityDLevel"
+		value 2.000000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "R_Ability_ShinzonTheta_Name"
+	descStringID "R_Ability_ShinzonTheta_Desc"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 4
+	hudIcon "R_hudicon_shinzontheta"
+	smallHudIcon "R_hudicon_shinzontheta"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "AbilityDLevel"
+		value 3.000000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "R_Ability_ShinzonTheta_Name"
+	descStringID "R_Ability_ShinzonTheta_Desc"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 6
+	hudIcon "R_hudicon_shinzontheta"
+	smallHudIcon "R_hudicon_shinzontheta"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "AbilityDLevel"
+		value 4.000000
+	upgradeBoolPropertyCount 0

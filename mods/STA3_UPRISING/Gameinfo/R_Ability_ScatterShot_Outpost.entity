@@ -1,0 +1,81 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadius"
+instantActionTriggerType "AlwaysPerform"
+buffType "R_Buff_ScattershotTarget_Outpost"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 6
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "NotInvulnerable"
+range
+	Level:0 6000.000000
+	Level:1 8000.000000
+	Level:2 8000.000000
+	Level:3 8000.000000
+maxTargetCount
+	Level:0 -1.000000
+	Level:1 -1.000000
+	Level:2 -1.000000
+	Level:3 -1.000000
+effectInfo
+	effectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	smallEffectName "K_Ability_FlakBurst"
+	mediumEffectName "K_Ability_FlakBurst"
+	largeEffectName "K_Ability_FlakBurst"
+	soundID "R_FalconBlast"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 2
+levelSourceType "StarBaseUpgradeLevel"
+sourcePropertyType "AbilityDLevel"
+aiUseTime "OnlyWhenManyTargetsInRange"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 3.000000
+	Level:1 6.000000
+	Level:2 6.000000
+	Level:3 6.000000
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 100.000000
+	Level:1 80.000000
+	Level:2 80.000000
+	Level:3 80.000000
+cooldownTime
+	Level:0 120.000000
+	Level:1 80.000000
+	Level:2 60.000000
+	Level:3 60.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+	Subject "R_research_outpost_scattershot"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "M_Buff_ScattershotTarget_Outpost_NAME"
+descStringID "M_Buff_ScattershotTarget_Outpost_DESC"
+hudIcon "R_hudicon_plasmonicburst"
+smallHudIcon "R_hudicon_plasmonicburst"
+infoCardIcon ""

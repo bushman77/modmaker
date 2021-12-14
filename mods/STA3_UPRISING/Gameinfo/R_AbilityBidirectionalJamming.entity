@@ -1,0 +1,64 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "R_BuffBidirectionalJammingSelf"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 4
+	object "Frigate"
+	object "CapitalShip"
+	object "Corvette"
+	object "PlanetModule"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 18000.000000
+	Level:1 2000.000000
+	Level:2 2000.000000
+	Level:3 2000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 100.000000
+	Level:1 50.000000
+	Level:2 55.000000
+	Level:3 60.000000
+cooldownTime
+	Level:0 120.000000
+	Level:1 6.000000
+	Level:2 6.000000
+	Level:3 6.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "R_AbilityBidirectionalJamming_Name"
+descStringID "R_AbilityBidirectionalJamming_desc"
+hudIcon "R_hudicon_warpinhibitor"
+smallHudIcon "R_hudicon_warpinhibitor"
+infoCardIcon ""

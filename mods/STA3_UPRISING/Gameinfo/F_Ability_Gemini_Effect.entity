@@ -1,0 +1,88 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetWithTravel"
+instantActionTriggerType "AlwaysPerform"
+buffType "F_Buff_Gemini_Effect"
+targetFilter
+	numOwnerships 1
+	ownership "Friendly"
+	numObjects 2
+	object "Frigate"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 2
+	constraint "NotFlagship"
+	constraint "NotIsBoarded"
+range
+	Level:0 7000.000000
+	Level:1 7000.000000
+	Level:2 7000.000000
+	Level:3 7000.000000
+travelSpeed 3000.000000
+hasWeaponEffects TRUE
+weaponEffectOriginType "Targetter"
+weaponEffectAttachInfo
+	attachType "Ability"
+	abilityIndex 0
+weaponEffectImpactOffsetType "RandomMesh"
+canWeaponEffectHitHull TRUE
+canWeaponEffectHitShields TRUE
+weaponEffectsDef
+	weaponType "Projectile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "CapitalAbility_IonBlastMuzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "EFFECT_IONBLAST"
+	hitEffectName ""
+	hitHullEffectSounds
+		soundCount 1
+		sound ""
+	hitShieldsEffectSounds
+		soundCount 1
+		sound ""
+	projectileTravelEffectName "F_Ability_Gemini_Effect_Projectile"
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 3.000000
+	Level:1 4.000000
+	Level:2 5.000000
+	Level:3 6.000000
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "IsNotWeaponDisabled"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 85.000000
+	Level:1 85.000000
+	Level:2 85.000000
+	Level:3 85.000000
+cooldownTime
+	Level:0 220.000000
+	Level:1 180.000000
+	Level:2 120.000000
+	Level:3 60.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "F_GEMINI_NAME"
+descStringID "F_GEMINI_DESC"
+hudIcon "F_ability_Geminieffect"
+smallHudIcon "F_ability_Geminieffect"
+infoCardIcon ""

@@ -1,0 +1,37 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "CreateSpaceMine"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	spaceMineType "M_ClusterBomb"
+numMines
+	Level:0 4.000000
+	Level:1 4.000000
+	Level:2 4.000000
+	Level:3 4.000000
+impulse 20000.000000
+angleVariance 180.000000
+expiryTime
+	Level:0 320.000000
+	Level:1 320.000000
+	Level:2 320.000000
+	Level:3 320.000000
+	spawnMineSoundID "EFFECT_LAYMINEPHASE"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"
+	

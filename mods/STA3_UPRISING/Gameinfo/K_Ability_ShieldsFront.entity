@@ -1,0 +1,47 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "K_Buff_ShieldsFront"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyWhenAttackTargetIsInFiringSolutionAndHasAttackOrder"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+		Level:0 85.000000
+		Level:1 15.000000
+		Level:2 15.000000
+		Level:3 15.000000
+cooldownTime
+		Level:0 60.000000
+		Level:1 15.000000
+		Level:2 15.000000
+		Level:3 15.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "K_ability_ImpenetrableFrontDefence_Name"
+descStringID "K_ability_ImpenetrableFrontDefence_Desc"
+hudIcon "K_icon_bastion"
+smallHudIcon "K_icon_bastion"
+infoCardIcon ""

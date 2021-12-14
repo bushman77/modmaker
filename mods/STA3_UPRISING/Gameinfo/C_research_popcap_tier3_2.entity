@@ -1,0 +1,44 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "C_icon_planetdesignatecapitalbutton"
+smallHudIcon "C_icon_planetdesignatecapitalbutton"
+infoCardIcon ""
+NameStringID "C_res_planetcap_tier3_2_name"
+DescriptionStringID "C_res_planetcap_tier3_2_desc"
+researchWindowLocation
+	block 1
+	pos [ 2 , 2 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+	Subject "C_research_popcap_tier3"
+	Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 40.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 1400.000000
+	metal 120.000000
+	crystal 125.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 0.000000
+	crystal 25.000000
+Tier 2
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 2
+priority 3.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "PlanetPopulationCapAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.10000
+	linkedPlanetType "Iron"
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

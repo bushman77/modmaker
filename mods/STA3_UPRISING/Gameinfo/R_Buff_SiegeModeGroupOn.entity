@@ -1,0 +1,55 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "SiegeModeActiveOn"
+		mediumEffectName "SiegeModeActiveOn"
+		largeEffectName "SiegeModeActiveOn"
+		soundID "R_SiegeOn"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 3
+entityModifier
+	buffEntityModifierType "DamageAsDamageDealer"
+	value
+	Level:0 5.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+entityModifier
+	buffEntityModifierType "DamageAsDamageTarget"
+	value
+	Level:0 0.450000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+entityModifier
+	buffEntityModifierType "WeaponCooldown"
+	value
+	Level:0 0.250000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000	
+numEntityBoolModifiers 2
+entityBoolModifier "DisableLinearEngines"
+entityBoolModifier "DisableRegeneration"
+numFinishConditions 2
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "FirstSpawnerNoLongerHasBuff"
+	buffTypeToQuery "R_Buff_SiegeModeGroup"

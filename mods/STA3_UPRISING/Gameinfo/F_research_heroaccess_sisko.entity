@@ -1,0 +1,40 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "F_icon_youbetrayedyouruniform"
+smallHudIcon "F_icon_youbetrayedyouruniform"
+infoCardIcon ""
+NameStringID "F_res_unlock_sisko_name"
+DescriptionStringID "F_res_unlock_sisko_desc"
+researchWindowLocation
+	block 2
+	pos [ 5 , 2 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 55.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1600.000000
+	metal 300.000000
+	crystal 325.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 5
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 2.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "ShipMaxSlots"
+	baseValue 0.000000
+	perLevelValue 10.000000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

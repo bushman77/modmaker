@@ -1,0 +1,73 @@
+TXT2
+SinsArchiveVersion 193
+entityType "PlanetModuleStandard"
+minZoomDistanceMult 3.000000
+ability:0 "R_Ability_Mine_Detonate"
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 "R_Ability_Hide_Mine"
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
+numRandomDebrisLarge 0
+numRandomDebrisSmall 5
+numSpecificDebris 0
+armorType "Module"
+hudIcon "BB_R_MineField"
+smallHudIcon "HUDIconSmallSpaceMineTech"
+infoCardIcon "InfoCardIconSpaceMineTech"
+planetUpgradeSlotType "Tactical"
+planetUpgradeSlotCount 0.000000
+basePrice
+	credits 400.000000
+	metal 100.000000
+	crystal 50.000000
+NameStringID "R_SPACEMINE_FIELD_NAME"
+DescriptionStringID "R_SPACEMINE_FIELD_DESC"
+planetModuleRoleType "SPACEMINE"
+statCountType "Invalid"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MaxHullPoints 25.000000
+HullPointRestoreRate 0.500000
+BaseArmorPoints 0.000000
+MaxShieldPoints 0.000000
+ShieldPointRestoreRate 0.000000
+maxShieldMitigation 0.000000
+ExperiencePointsForDestroying 10.000000
+resourceExtractionType "Invalid"
+cultureSpreadRate 0.000000
+isAffectedBySimilarModuleCostResearch FALSE
+placementRadius 750.000000
+nearPlacementDistOffset 0.000000
+farPlacementDistOffset 0.000000
+spawnCount 10
+swapMineType "R_Station_Spacemine"
+angularSpeed 0.000000
+rotateSoundName ""
+rotateFacingType "None"
+rotateConstantly FALSE
+ShieldMeshName ""
+renderShield FALSE
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 0
+NumSoundsFor:ONSELECTED 1
+SoundID "MINE_TECH_ONSELECTED"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "R_Spacemine"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExplosionName "Explosion_Frigate_Kli"
+mainViewIcon "MainViewIconSpaceMineTech"
+picture "Unit_Picture_Rom"
+minShadow 0.000000
+maxShadow 0.600000
+formationRank 3
+baseBuildTime 4.000000
+buildEffectName ""

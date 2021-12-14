@@ -1,0 +1,36 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "B_Transwarpgate"
+smallHudIcon "B_Transwarpgate"
+infoCardIcon ""
+NameStringID "B_res_planetmoduleaccess_gate_name"
+DescriptionStringID "B_res_planetmoduleaccess_gate_desc"
+researchWindowLocation
+	block 0
+	pos [ 2 , 1 ]
+ResearchField "Defense"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 65.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1800.000000
+	metal 180.000000
+	crystal 180.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 2
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

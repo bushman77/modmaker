@@ -1,0 +1,71 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "C_buff_8472_SingularityGK_activation"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 6
+	object "Titan"	
+	object "CapitalShip"
+	object "Frigate"
+	object "Corvette"
+	object "PlanetModule"
+	object "StarBase"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "NotSelf"
+range
+	Level:0 7500.000000
+	Level:1 8500.000000
+	Level:2 9500.000000
+	Level:3 10500.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 2.000000
+	Level:1 4.000000
+	Level:2 6.000000
+	Level:3 8.000000
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 90.000000
+	Level:1 80.000000
+	Level:2 70.000000
+	Level:3 60.000000
+cooldownTime
+	Level:0 180.000000
+	Level:1 160.000000
+	Level:2 140.000000
+	Level:3 120.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "C_ABILITY_SPECIES8472GK_NAME"
+descStringID "C_ABILITY_SPECIES8472GK_DESC"
+hudIcon "C_hudicon_8472"
+smallHudIcon "C_hudicon_8472"
+infoCardIcon ""

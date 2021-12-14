@@ -1,0 +1,53 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "SpawnShipsAtPlanet"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	spawnShipsLevelCount 1
+	spawnShips
+		minFleetPoints 300.000000
+		maxFleetPoints 300.000000
+		requiredShipCount 5
+		requiredShip
+			type "R_Support_Harpy"
+			minCount 2
+			maxCount 4
+		requiredShip
+			type "R_Support_Griffin"
+			minCount 2
+			maxCount 4
+		requiredShip
+			type "R_Cruiser_Falcon"
+			minCount 4
+			maxCount 6
+		requiredShip
+			type "R_Cap_Battlecruiser"
+			minCount 1
+			maxCount 1
+		requiredShip
+			type "R_Cap_Valdore"
+			minCount 2
+			maxCount 2
+		randomShipCount 0
+	spawnShipsArrivalDelayTime 7.000000
+	spawnShipsHyperspaceSpawnType "FleetBeacon"
+	shouldAdoptFirstSpawnersMinorFactionState TRUE
+	spawnShipsMinStartingHullPerc 1.0
+	spawnShipsMaxStartingHullPerc 1.0
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

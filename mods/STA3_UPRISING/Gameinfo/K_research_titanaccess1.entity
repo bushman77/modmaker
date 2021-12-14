@@ -1,0 +1,44 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "Bb_Kli_Titan"
+smallHudIcon "Bb_Kli_Titan"
+infoCardIcon ""
+NameStringID "IDS_K_research_titanaccess1_name"
+DescriptionStringID "IDS_research_titanaccess1_description"
+researchWindowLocation
+	block 0
+	pos [ 4 , 4 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 40.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 1000.000000
+	metal 100.000000
+	crystal 125.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 0.000000
+	crystal 25.000000
+Tier 4
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "TitanConstructionCap"
+	baseValue 0.000000
+	perLevelValue 0.250000
+researchModifier
+	modifierType "BombingDamageAsDamageDealerAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.050000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

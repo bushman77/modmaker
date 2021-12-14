@@ -1,0 +1,43 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "R_research_pact_kli"
+smallHudIcon "R_research_pact_kli"
+infoCardIcon ""
+NameStringID "R_res_klipact_name"
+DescriptionStringID "R_res_klipact_desc"
+researchWindowLocation
+	block 0
+	pos [ 3 , 8 ]
+ResearchField "Diplomacy"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+	Subject "R_research_allowpacts"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 60.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 1650.000000
+	metal 135.000000
+	crystal 200.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 0.000000
+	crystal 25.000000
+Tier 3
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 1
+researchModifier
+	modifierType "UnlockPact"
+	allianceType "MarketPact"
+	pactUnlockEntityDefName "R_pact_kli"
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

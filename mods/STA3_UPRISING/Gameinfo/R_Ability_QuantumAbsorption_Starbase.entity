@@ -1,0 +1,79 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+instantActionTriggerType "AlwaysPerform"
+buffType "R_Buff_QuantumAbsorption_Starbase"
+targetFilter
+	numOwnerships 1
+	ownership "Friendly"
+	numObjects 6
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 4000.000000
+	Level:1 6000.000000
+	Level:2 6000.000000
+	Level:3 6000.000000
+maxTargetCount
+	Level:0 -1.000000
+	Level:1 -1.000000
+	Level:2 -1.000000
+	Level:3 -1.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "R_Ability_QuantumAbsorbtion_Starbase"
+	mediumEffectName "R_Ability_QuantumAbsorbtion_Starbase"
+	largeEffectName "R_Ability_QuantumAbsorbtion_Starbase"
+	soundID "R_Ability_QuantumAbsorb"
+travelSpeed 1000.000000
+effectStaggerDelay 0.000000
+hasWeaponEffects FALSE
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 2
+levelSourceType "StarBaseUpgradeLevel"
+sourcePropertyType "AbilityCLevel"
+aiUseTime "OnlyWhenManyTargetsHaveShieldDamage"
+aiUseTargetCondition "ShieldDamageExceedsAmount"
+onlyAutoCastWhenTargetShieldDamageExceedsAmount
+	Level:0 400.000000
+	Level:1 400.000000
+	Level:2 400.000000
+	Level:3 400.000000
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 60.000000
+	Level:1 80.000000
+	Level:2 80.000000
+	Level:3 80.000000
+cooldownTime
+	Level:0 110.000000
+	Level:1 95.000000
+	Level:2 95.000000
+	Level:3 95.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "R_Ability_QuantumAbsorptionStarbase_Name"
+descStringID "R_Ability_QuantumAbsorptionStarbase_Desc"
+hudIcon "R_icon_quantumabsorbtion"
+smallHudIcon "R_icon_quantumabsorbtion"
+infoCardIcon ""

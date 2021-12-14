@@ -1,0 +1,97 @@
+TXT2
+SinsArchiveVersion 193
+entityType "PlanetModuleHangarDefense"
+minZoomDistanceMult 2.500000
+ability:0 "F_Ability_DefenceBoost"
+ability:1 "F_Ability_GraviticAnchor"
+ability:2 "F_Ability_HangarExpansionHangar"
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 400.000000
+AntiMatterRestoreRate 0.750000
+numRandomDebrisLarge 5
+numRandomDebrisSmall 16
+numSpecificDebris 0
+armorType "VeryHeavy"
+hudIcon "Bb_Fed_HangarDefense"
+smallHudIcon "Icon_F_Utopia"
+infoCardIcon "Icon_F_Utopia"
+planetUpgradeSlotType "Tactical"
+planetUpgradeSlotCount 4.000000
+basePrice
+	credits 700.000000
+	metal 120.000000
+	crystal 70.000000
+NameStringID "F_HANGARDEFENSE_NAME"
+DescriptionStringID "F_HANGARDEFENSE_DESC"
+planetModuleRoleType "HANGARDEFENSE"
+statCountType "ModuleHangarDefense"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "F_research_HangarDefence_access"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MaxHullPoints 7500.000000
+HullPointRestoreRate 2.000000
+BaseArmorPoints 10.000000
+MaxShieldPoints 7500.000000
+ShieldPointRestoreRate 2.000000
+maxShieldMitigation 0.500000
+ExperiencePointsForDestroying 75.000000
+resourceExtractionType "Invalid"
+cultureSpreadRate 0.000000
+isAffectedBySimilarModuleCostResearch FALSE
+placementRadius 475.000000
+nearPlacementDistOffset 0.000000
+farPlacementDistOffset 9000.000000
+spawnCount 1
+swapMineType ""
+angularSpeed 0.000000
+rotateSoundName ""
+rotateFacingType "None"
+rotateConstantly FALSE
+ShieldMeshName "F_Outpost_Shield"
+renderShield TRUE
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 0
+NumSoundsFor:ONSELECTED 1
+SoundID "F_Station_HangarDefense"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "F_HangarDefense"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExplosionName "Explosion_Station_Fed"
+mainViewIcon "Icon_F_Utopia"
+picture "Unit_Picture_Fed"
+minShadow 0.000000
+maxShadow 0.400000
+formationRank 3
+baseBuildTime 70.000000
+buildEffectName ""
+squadTypeEntityDef:0 "F_Squad_Peregrine"
+squadAntiMatterCost:0 50.000000
+squadTypeEntityDef:1 "F_Squad_Danube"
+squadAntiMatterCost:1 90.000000
+squadTypeEntityDef:2 "F_Squad_ValMK1"
+squadAntiMatterCost:2 90.000000
+squadTypeEntityDef:3 "F_Squad_ValMK2"
+squadAntiMatterCost:3 120.000000
+NumWeapons 0
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 0
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+baseCommandPoints 6
+defaultAutoAttackRange "None"
+defaultAutoAttackOn TRUE
+prefersToFocusFire FALSE
+usesFighterAttack FALSE

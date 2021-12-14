@@ -1,0 +1,65 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Star"
+coronaStartColor ffaeddf5
+coronaEndColor ffbae1f4
+coronaStartColorDistance 0.000000
+coronaEndColorDistance 1.000000
+farIcon "HUDICON_SOLARSYSTEM_YELLOW"
+coloredSkyboxMeshInfoCount 10
+meshInfo
+	meshName "SkyboxBackdrop18"
+	shouldPrefer FALSE
+meshInfo
+	meshName "SkyboxBackdrop10"
+	shouldPrefer FALSE
+meshInfo
+	meshName "SkyboxBackdrop9"
+	shouldPrefer FALSE
+meshInfo
+	meshName "SkyboxBackdrop11"
+	shouldPrefer FALSE
+meshInfo
+	meshName "SkyboxBackdrop12"
+	shouldPrefer FALSE
+meshInfo
+	meshName "SkyboxBackdrop13"
+	shouldPrefer FALSE
+meshInfo
+	meshName "SkyboxBackdrop14"
+	shouldPrefer FALSE
+meshInfo
+	meshName "SkyboxBackdrop15"
+	shouldPrefer FALSE
+meshInfo
+	meshName "SkyboxBackdrop16"
+	shouldPrefer FALSE
+meshInfo
+	meshName "SkyboxBackdrop17"
+	shouldPrefer FALSE
+deepSpaceSkyboxMeshInfoCount 1
+meshInfo
+	meshName "SkyboxBackdrop10"
+	shouldPrefer FALSE
+iconTextureName "starcore-blue"
+dlcID 204880
+ability:0 "AbilitySolarRegeneration"
+ability:1 "AbilitySolarFlares"
+ability:2 "NEM_Ability_StarConduitSpawner"
+ability:3 ""
+ability:4 ""
+hudIcon "HUDICON_STAR_YELLOW"
+smallHudIcon "HUDICONSMALL_STAR_B_BLUE"
+infoCardIcon "INFOCARDICON_STAR_YELLOW"
+minZoomDistanceMult 2.000000
+moveAreaRadius 180000.000000
+hyperspaceExitRadius 160000.000000
+isWormhole FALSE
+maxStarBaseCountPerPlayer 1
+maxSpaceMineCountPerPlayer 500
+mainViewIcon "MAINVIEWICON_STAR_B_BLUE"
+picture "STARPICTURE_YELLOW"
+MeshName "TFF_Star_Main_Blue_B"
+MaxMeshVisibilityDistanceToCamera -1.000000
+minShadow 0.000000
+maxShadow 0.000000

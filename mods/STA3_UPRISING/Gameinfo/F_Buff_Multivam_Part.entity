@@ -1,0 +1,55 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack TRUE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 4
+instantAction
+	buffInstantActionType "ApplyBuffToFirstSpawnerNoFilterNoRange"
+	instantActionTriggerType "OnCondition"
+		instantActionConditionType "IfOwnerHasHullLessThanPerc"
+			hullPerc
+			Level:0 0.050000
+			Level:1 0.050000
+			Level:2 0.050000
+			Level:3 0.050000
+	buffType "F_Buff_Multivam_damage"
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "F_Buff_Multivam_Killparts"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "MakeDead"
+	instantActionTriggerType "OnBuffFinish"
+instantAction
+	buffInstantActionType "ApplyBuffToLastSpawnerNoFilterNoRange"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "F_Buff_Multivam_Remove"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 2
+entityBoolModifier "Boarded"
+entityBoolModifier "DisablePhaseJump"
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 120.000000
+		Level:1 140.000000
+		Level:2 180.000000
+		Level:3 220.000000

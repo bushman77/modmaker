@@ -1,0 +1,43 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "C_res_ion_armour3"
+smallHudIcon "C_res_ion_armour3"
+infoCardIcon ""
+NameStringID "C_res_armourupg1_name"
+DescriptionStringID "C_res_armourupg1_desc"
+researchWindowLocation
+	block 0
+	pos [ 2 , 0 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+	Subject "C_research_hullupgrade0"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 40.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 1000.000000
+	metal 100.000000
+	crystal 100.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 0.000000
+	crystal 25.000000
+Tier 2
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 2
+priority 2.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "ArmorBaseAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.750000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

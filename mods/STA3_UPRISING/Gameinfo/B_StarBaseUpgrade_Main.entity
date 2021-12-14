@@ -1,0 +1,252 @@
+TXT2
+SinsArchiveVersion 193
+entityType "StarBaseUpgrade"
+stageCount 4
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "B_STARBASEUPGRADEBORG_NAME"
+	descStringID "B_STARBASEUPGRADEBORG_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "B_icon_unicomplexupgradeability"
+	smallHudIcon "B_icon_unicomplexupgradeability"
+	infoCardIcon ""
+	upgradePropertyCount 5
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 80000.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 10.000000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 15.000000
+	upgradeProperty
+		propertyType "EnemyCultureRepelRate"
+		value 0.200000	
+	upgradeProperty
+		propertyType "BaseTradeIncomeRate"
+		value 1.000000		
+	upgradeBoolPropertyCount 2
+	upgradeBoolProperty "CanPreventEnemyColonize"
+	upgradeBoolProperty "CanPreventPlanetLossByBombing"
+stage
+	price
+		credits 3000.000000
+		metal 1000.000000
+		crystal 750.000000
+	upgradeTime 300.000000
+	nameStringID "B_STARBASEUPGRADEBORG1_NAME"
+	descStringID "B_STARBASEUPGRADEBORG_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+		Subject "B_research_starbase_ABC"
+		Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "B_icon_unicomplexupgradeability"
+	smallHudIcon "B_icon_unicomplexupgradeability"
+	infoCardIcon ""
+	upgradePropertyCount 15
+	upgradeProperty
+		propertyType "WeaponUpgradeLevel"
+		value 1.000000
+	upgradeProperty
+		propertyType "WeaponDamage"
+		value 0.200000		
+	upgradeProperty
+		propertyType "BaseTradeIncomeRate"
+		value 3.000000
+	upgradeProperty
+		propertyType "TradePortMeshLevel"
+		value 1.000000		
+	upgradeProperty
+		propertyType "Population"
+		value 50.000000
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 100000.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 20.000000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 18.000000
+	upgradeProperty
+		propertyType "CultureSpreadRate"
+		value 1.950000
+	upgradeProperty
+		propertyType "EnemyCultureRepelRate"
+		value 0.600000
+	upgradeProperty
+		propertyType "MaxAntiMatterPoints"
+		value 500.000000
+	upgradeProperty
+		propertyType "AntiMatterRestoreRate"
+		value 5.500000
+	upgradeProperty
+		propertyType "AbilityALevel"
+		value 1.000000
+	upgradeProperty
+		propertyType "AbilityBLevel"
+		value 1.000000	
+	upgradeProperty
+		propertyType "AbilityCLevel"
+		value 1.000000			
+	upgradeBoolPropertyCount 2
+	upgradeBoolProperty "CanPreventEnemyColonize"
+	upgradeBoolProperty "CanPreventPlanetLossByBombing"
+stage
+	price
+		credits 4000.000000
+		metal 2000.000000
+		crystal 1750.000000
+	upgradeTime 300.000000
+	nameStringID "B_STARBASEUPGRADEBORG2_NAME"
+	descStringID "B_STARBASEUPGRADEBORG_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+		Subject "B_research_starbase_ABCD"
+		Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "B_icon_unicomplexupgradeability"
+	smallHudIcon "B_icon_unicomplexupgradeability"
+	infoCardIcon ""
+	upgradePropertyCount 17
+	upgradeProperty
+		propertyType "WeaponUpgradeLevel"
+		value 2.000000
+	upgradeProperty
+		propertyType "WeaponDamage"
+		value 0.300000		
+	upgradeProperty
+		propertyType "BaseTradeIncomeRate"
+		value 4.000000
+	upgradeProperty
+		propertyType "TradePortMeshLevel"
+		value 2.000000	
+	upgradeProperty
+		propertyType "Population"
+		value 90.000000
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 140000.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 32.000000
+	upgradeProperty
+		propertyType "FrigateBuildRate"
+		value 1.000000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 22.000000
+	upgradeProperty
+		propertyType "CultureSpreadRate"
+		value 2.050000
+	upgradeProperty
+		propertyType "EnemyCultureRepelRate"
+		value 0.900000
+	upgradeProperty
+		propertyType "MaxAntiMatterPoints"
+		value 750.000000
+	upgradeProperty
+		propertyType "AntiMatterRestoreRate"
+		value 6.500000
+	upgradeProperty
+		propertyType "AbilityALevel"
+		value 2.000000
+	upgradeProperty
+		propertyType "AbilityBLevel"
+		value 2.000000	
+	upgradeProperty
+		propertyType "AbilityCLevel"
+		value 2.000000			
+	upgradeProperty
+		propertyType "AbilityDLevel"
+		value 1.000000		
+	upgradeBoolPropertyCount 2
+	upgradeBoolProperty "CanPreventEnemyColonize"
+	upgradeBoolProperty "CanPreventPlanetLossByBombing"
+stage
+	price
+		credits 5000.000000
+		metal 2500.000000
+		crystal 2250.000000
+	upgradeTime 600.000000
+	nameStringID "B_STARBASEUPGRADEBORG3_NAME"
+	descStringID "B_STARBASEUPGRADEBORG_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+		Subject "B_research_starbase_ABCD"
+		Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "B_icon_unicomplexupgradeability"
+	smallHudIcon "B_icon_unicomplexupgradeability"
+	infoCardIcon ""
+	upgradePropertyCount 17
+	upgradeProperty
+		propertyType "WeaponUpgradeLevel"
+		value 2.000000
+	upgradeProperty
+		propertyType "WeaponDamage"
+		value 0.400000
+	upgradeProperty
+		propertyType "BaseTradeIncomeRate"
+		value 5.500000
+	upgradeProperty
+		propertyType "TradePortMeshLevel"
+		value 3.000000
+	upgradeProperty
+		propertyType "Population"
+		value 150.000000
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 180000.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 46.000000
+	upgradeProperty
+		propertyType "FrigateBuildRate"
+		value 1.000000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 26.000000
+	upgradeProperty
+		propertyType "CultureSpreadRate"
+		value 2.250000
+	upgradeProperty
+		propertyType "EnemyCultureRepelRate"
+		value 1.200000			
+	upgradeProperty
+		propertyType "MaxAntiMatterPoints"
+		value 1600.000000
+	upgradeProperty
+		propertyType "AntiMatterRestoreRate"
+		value 12.500000
+	upgradeProperty
+		propertyType "AbilityALevel"
+		value 3.000000
+	upgradeProperty
+		propertyType "AbilityBLevel"
+		value 3.000000	
+	upgradeProperty
+		propertyType "AbilityCLevel"
+		value 3.000000
+	upgradeProperty
+		propertyType "AbilityDLevel"
+		value 2.000000		
+	upgradeBoolPropertyCount 2
+	upgradeBoolProperty "CanPreventEnemyColonize"
+	upgradeBoolProperty "CanPreventPlanetLossByBombing"
+xpModifier 4500.000000

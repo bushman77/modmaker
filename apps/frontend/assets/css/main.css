@@ -1,0 +1,17 @@
+body {
+	background-color: black;
+	padding: 0px;
+	margin: 0px;
+	color: white;
+}
+.title {
+	left: 0px;
+	vertical-align: middle;
+}
+.titlebar {
+	width: 100%;
+	height: 100%;
+	background-color: grey;
+	padding: 5px;
+	color: white;
+}

@@ -1,0 +1,44 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "F_hudicon_scientificinterest"
+smallHudIcon "F_hudicon_scientificinterest"
+infoCardIcon ""
+NameStringID "F_res_planetcaptier5_name"
+DescriptionStringID "F_res_planetcaptier5_desc"
+researchWindowLocation
+	block 1
+	pos [ 5 , 1 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+	Subject "F_research_planetaccess_tier5"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 40.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 400.000000
+	metal 0.000000
+	crystal 25.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 0.000000
+	crystal 25.000000
+Tier 5
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 2
+priority 3.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "PlanetPopulationCapAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.075000
+	linkedPlanetType "Oceanic"
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

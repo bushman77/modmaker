@@ -1,0 +1,47 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "F_res_icon_hull_2"
+smallHudIcon "F_res_icon_hull_2"
+infoCardIcon ""
+NameStringID "F_RES_UPGHULL_2_NAME"
+DescriptionStringID "F_RES_UPGHULL_2_DESC"
+researchWindowLocation
+	block 0
+	pos [ 5 , 0 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "F_Research_UpgHull_1"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 40.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 1300.000000
+	metal 150.000000
+	crystal 125.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 0.000000
+	crystal 25.000000
+Tier 5
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 2.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "HullPointsMaxAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.150000
+researchModifier
+	modifierType "HullPointsRegenAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.025000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

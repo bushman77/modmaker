@@ -1,0 +1,50 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "K_Ability_Honour"
+		mediumEffectName "K_Ability_Honour"
+		largeEffectName "K_Ability_Honour"
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 2
+entityModifier
+	buffEntityModifierType "AntimatterRestoreRate"
+	value
+		Level:0 0.200000
+		Level:1 0.300000
+		Level:2 0.350000
+		Level:3 0.400000
+entityModifier
+	buffEntityModifierType "HullPointRestoreRate"
+	value
+		Level:0 0.500000
+		Level:1 0.750000
+		Level:2 0.800000
+		Level:3 0.850000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 40.000000
+		Level:1 45.000000
+		Level:2 45.000000
+		Level:3 50.000000
+finishCondition
+	finishConditionType "OwnerChanged"

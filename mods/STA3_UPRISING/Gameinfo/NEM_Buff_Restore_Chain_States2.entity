@@ -1,0 +1,71 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack TRUE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 5
+instantAction
+	buffInstantActionType "ApplyBuffToFirstSpawnerNoFilterNoRange"
+	instantActionTriggerType "OnDelay"
+	delayTime 1.000000
+	buffType "NEM_Buff_Restore_Chain1"
+instantAction
+	buffInstantActionType "ApplyBuffToFirstSpawnerNoFilterNoRange"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfOwnerHasHullLessThanPerc"
+	hullPerc
+		Level:0 0.500000
+		Level:1 0.500000
+		Level:2 0.500000
+		Level:3 0.500000
+	buffType "NEM_Buff_RepairDrones"
+instantAction
+	buffInstantActionType "ApplyBuffToFirstSpawnerNoFilterNoRange"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfOwnerHasHullLessThanPerc"
+	hullPerc
+		Level:0 0.400000
+		Level:1 0.400000
+		Level:2 0.400000
+		Level:3 0.400000
+	buffType "NEM_Buff_RestoreShields"
+instantAction
+	buffInstantActionType "ApplyBuffToFirstSpawnerNoFilterNoRange"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfOwnerHasHullLessThanPerc"
+	hullPerc
+		Level:0 0.300000
+		Level:1 0.300000
+		Level:2 0.300000
+		Level:3 0.300000
+	buffType "NEM_Buff_RepairDrones"
+instantAction
+	buffInstantActionType "ApplyBuffToFirstSpawnerNoFilterNoRange"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfOwnerHasHullLessThanPerc"
+	hullPerc
+		Level:0 0.200000
+		Level:1 0.200000
+		Level:2 0.200000
+		Level:3 0.200000
+	buffType "NEM_Buff_RestoreShields1"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "TimeElapsed"
+		time
+		Level:0 235.00000
+		Level:1 235.00000
+		Level:2 235.00000
+		Level:3 235.00000
+	

@@ -1,0 +1,35 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "ApplyBuffToFirstSpawnerNoFilterNoRange"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "R_Buff_MirrorDecoy_Follow_Self_Reset"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "LinearThrust"
+	value
+		Level:0 -0.200000
+		Level:1 -0.200000
+		Level:2 -0.200000
+		Level:3 -0.200000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 15.000000
+		Level:1 15.000000
+		Level:2 15.000000
+		Level:3 15.000000

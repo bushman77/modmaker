@@ -1,0 +1,60 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 3
+instantAction
+	buffInstantActionType "ResetPhysicsState"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "R_Ability_PsionicBlast_Target"
+		mediumEffectName "R_Ability_PsionicBlast_Target"
+		largeEffectName "R_Ability_PsionicBlast_Target"
+		soundID ""
+instantAction
+	buffInstantActionType "InitializeRandomMotion"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.100000
+	minRandomAngularSpeed 0.310000
+	maxRandomAngularSpeed 0.8200000
+	minRandomLinearSpeed 0.000000
+	maxRandomLinearSpeed 0.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 2
+entityModifier
+	buffEntityModifierType "ChanceToHitAsDamageDealer"
+	value
+		Level:0 -0.150000
+		Level:1 -0.200000
+		Level:2 -0.220000
+		Level:3 -0.250000
+entityModifier
+	buffEntityModifierType "HullPointRestoreRate"
+	value
+		Level:0 -0.050000
+		Level:1 -0.550000
+		Level:2 -0.600000
+		Level:3 -0.750000
+numEntityBoolModifiers 0
+numFinishConditions 3
+finishCondition
+	finishConditionType "FirstSpawnerNoLongerHasBuff"
+	buffTypeToQuery "R_Buff_Ensnare_Self"
+finishCondition
+	finishConditionType "OutOfRange"
+finishCondition
+	finishConditionType "OwnerChanged"

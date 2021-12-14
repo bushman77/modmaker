@@ -1,0 +1,109 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 3
+frigateRoleType "StarBaseConstructor"
+frigateRoleType "Support"
+frigateRoleType "MineLayer" 
+statCountType "FrigateColony"
+mainViewIcon "Icon_F_Const"
+picture "Unit_Picture_Fed"
+NameStringID "F_C7_NAME"
+DescriptionStringID "F_C7_DESC"
+counterDescriptionStringID "F_ClassSBConst_RangeNA"
+basePrice
+	credits 10.000000
+	metal 10.000000
+	crystal 10.000000
+slotCount 1.000000
+BuildTime 25.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 30.000000
+MaxHullPoints 1500.000000
+MaxShieldPoints 1200.000000
+HullPointRestoreRate 2.000000
+ShieldPointRestoreRate 1.000000
+BaseArmorPoints 3.000000
+maxMitigation 0.600000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+	Subject "F_research_starbaseaccess"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 2
+numRandomDebrisSmall 6
+numSpecificDebris 0
+armorType "Heavy"
+hudIcon "Bb_Fed_C7SB"
+smallHudIcon "Icon_Gen_Frigate"
+infoCardIcon "Icon_Gen_Frigate"
+minZoomDistanceMult 2.500000
+NumWeapons 0
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 0
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1500.000000
+ShieldMeshName ""
+renderShield TRUE
+maxAccelerationLinear 135.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 135.000000
+maxAccelerationAngular 5.650000
+maxDecelerationAngular 5.999996
+maxSpeedLinear 500.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 1
+SoundID "FRIGATE_TECHSTARBASECONSTRUCTOR_ONGENERALORDERISSUED_0"
+NumSoundsFor:ONSELECTED 1
+SoundID "FRIGATE_TECHSTARBASECONSTRUCTOR_ONSELECTED"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "F_Const"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_TechTradeShip"
+ExplosionName "Explosion_Frigate_Fed_Medium"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "Engine_Fed"
+ability:0 "F_Ability_DeploySpacedockAI"
+ability:1 ""
+ability:2 ""
+ability:3 "NEM_AbilityPassiveLowLifeT2"
+ability:4 ""
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 0
+minShadow 0.100000
+maxShadow 0.800000
+allegianceDecreasePerRoundtrip 0.000000

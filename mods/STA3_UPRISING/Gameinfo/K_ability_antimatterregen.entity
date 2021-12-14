@@ -1,0 +1,74 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTarget"
+instantActionTriggerType "AlwaysPerform"
+buffType "K_buff_antimatterregentarget"
+targetFilter
+	numOwnerships 1
+	ownership "Friendly"
+	numObjects 4
+	object "CapitalShip"
+	object "Frigate"
+	object "Titan"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "NotSelf"
+    range
+        Level:0 3000.000000
+		Level:1 3533.000000
+		Level:2 4067.000000
+		Level:3 4600.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "AntimatterExceedsAmount"
+onlyAutoCastWhenTargetAntimatterExceedsAmount
+	Level:0 20.000000
+	Level:1 20.000000
+	Level:2 20.000000
+	Level:3 20.000000  
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 50.000000
+	Level:1 47.000000
+	Level:2 44.000000
+	Level:3 40.000000
+cooldownTime
+	Level:0 60.000000
+	Level:1 58.000000
+	Level:2 55.000000
+	Level:3 52.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "K_ability_antimatterregen_name"
+descStringID "K_ability_antimatterregen_desc"
+hudIcon "K_icon_transferpower"
+smallHudIcon "K_icon_transferpower"
+infoCardIcon ""

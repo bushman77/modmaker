@@ -1,0 +1,71 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "Ability_MassDisorientationSelf"
+		mediumEffectName "Ability_MassDisorientationSelf"
+		largeEffectName "Ability_MassDisorientationSelf"
+		soundID ""
+instantAction
+    buffInstantActionType "ApplyBuffToTargetsAtAdjacentOrbitBodies"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.00000
+	buffType "R_Buff_SpyNet"
+	targetFilter
+		numOwnerships 4
+		ownership "Allied"
+		ownership "Enemy"
+		ownership "Friendly"
+		ownership "NoOwner"		
+		numObjects 7
+		object "Planet"
+		object "Frigate"		
+		object "Corvette"
+		object "CapitalShip"		
+		object "StarBase"
+		object "Titan"		
+		object "PlanetModule"				
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""		
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 1
+entityBoolModifier "ProxySensor"
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 20.000000
+		Level:1 25.000000
+		Level:2 30.000000
+		Level:3 35.000000
+finishCondition
+	finishConditionType "OwnerChanged"

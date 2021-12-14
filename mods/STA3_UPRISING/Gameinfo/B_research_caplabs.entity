@@ -1,0 +1,47 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "B_res_assimilationfield"
+smallHudIcon "B_res_assimilationfield"
+infoCardIcon ""
+NameStringID "B_res_caplabs_name"
+DescriptionStringID "B_res_caplabs_desc"
+researchWindowLocation
+	block 1
+	pos [ 7 , 2 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "B_research_cultureresist1"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 105.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 5000.000000
+	metal 500.000000
+	crystal 500.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 7
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "MilitaryLabsPerCapitalShip"
+	baseValue 0.000000
+	perLevelValue 1.000000
+researchModifier
+	modifierType "CivilianLabsPerCapitalShip"
+	baseValue 0.000000
+	perLevelValue 1.000000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

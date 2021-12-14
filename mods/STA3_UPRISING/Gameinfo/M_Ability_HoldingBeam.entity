@@ -1,0 +1,66 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "M_Buff_HoldingBeam_Self"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 3
+	object "Frigate"
+	object "Corvette"
+	object "CapitalShip"
+	numSpaces 1
+	space "Normal"
+	numConstraints 4
+	constraint "IsControllable"
+	constraint "IsNotStarBaseConstructor"
+	constraint "NotInvulnerable"
+	constraint "NotIsBoarded"
+range
+	Level:0 8000.000000
+	Level:1 8000.000000
+	Level:2 8000.000000
+	Level:3 8000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 40.000000
+	Level:1 40.000000
+	Level:2 40.000000
+	Level:3 40.000000
+cooldownTime
+	Level:0 15.000000
+	Level:1 15.000000
+	Level:2 15.000000
+	Level:3 15.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "B_Ability_HoldingBeam_Name"
+descStringID "B_Ability_HoldingBeam_Desc"
+hudIcon "B_res_holdingbeam"
+smallHudIcon "B_res_holdingbeam"
+infoCardIcon ""

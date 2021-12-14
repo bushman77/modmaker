@@ -1,0 +1,49 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "F_res_icon_torp_3"
+smallHudIcon "F_res_icon_torp_3"
+infoCardIcon ""
+NameStringID "F_RES_PHOTON_UPG_3_NAME"
+DescriptionStringID "F_RES_PHOTON_UPG_3_DESC"
+researchWindowLocation
+	block 1
+	pos [ 7 , 2 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "F_Research_Weaponrange_Photon_2"
+		Level 3
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 90.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1500.000000
+	metal 250.000000
+	crystal 400.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 7
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 2
+priority 2.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "WeaponRateOfFireAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.050000
+	linkedWeaponClass "ION"
+researchModifier
+	modifierType "WeaponRateOfFireAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000	
+	linkedWeaponClass "MISSILE"	
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

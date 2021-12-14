@@ -1,0 +1,206 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "AntiFighter"
+statCountType "FrigateAntiFighter"
+mainViewIcon "Icon_K_K32"
+picture "Unit_Picture_Kli"
+NameStringID "K_K32_NAME"
+DescriptionStringID "K_K32_desc"
+counterDescriptionStringID "K_ClassFlakFrigate_RangeShort"
+basePrice
+	credits 400.000000
+	metal 50.000000
+	crystal 30.000000
+slotCount 5.000000
+BuildTime 35.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 42.500000
+MaxHullPoints 1200.000000
+MaxShieldPoints 1000.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 2.000000
+BaseArmorPoints 6.500000
+maxMitigation 0.600000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+	Subject "K_research_K32access"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 4
+numSpecificDebris 1
+specificDebrisMeshName "K_K32_Debris"
+armorType "Medium"
+hudIcon "Bb_Kli_K32"
+smallHudIcon "Icon_Gen_Frigate"
+infoCardIcon "Icon_Gen_Frigate"
+minZoomDistanceMult 1.000000
+NumWeapons 2
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTIVERYLIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 340.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 3000.000000
+	PreBuffCooldownTime 26.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 1.000000
+	TravelSpeed 1300.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.500000
+		fireDelay 0.000000
+		muzzleEffectName "Kli_Weap_Photon_muzzle"
+		muzzleSoundMinRespawnTime 0.005000
+		muzzleSounds
+			soundCount 1
+			sound "K_PHOTON"
+		hitEffectName "Weapon_Kli_RedTorp_Hit"
+		hitHullEffectSounds
+			soundCount 2
+			sound "Wpn_Imp_Torp_Hull1"
+			sound "Wpn_Imp_Torp_Hull2"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"	
+		missileTravelEffectName "Kli_Weap_Photon_Red"
+		missileStartTurningDistance 250.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 0.010000		
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIVERYLIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "LASERPSI"
+	DamagePerBank:FRONT 80.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 60.000000
+	DamagePerBank:RIGHT 60.000000
+	Range 3000.000000
+	PreBuffCooldownTime 6.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.150000
+	TravelSpeed 6000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.100000
+		fireDelay 0.000000
+		muzzleEffectName "Kli_Weap_Pulse_muzzle"
+		muzzleSoundMinRespawnTime 0.010000
+		muzzleSounds
+			soundCount 1
+			sound "K_PULSE"
+		hitEffectName "Weapon_Kli_Disruptor_Hit_Small"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Wpn_Imp_Pulse_Hull1"
+			sound "Wpn_Imp_Pulse_Hull2"
+			sound "Wpn_Imp_Pulse_Hull3"
+			sound "Wpn_Imp_Pulse_Hull4"			
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"	
+		projectileTravelEffectName "Kli_Weap_Pulsephaser_medium"
+m_weaponIndexForRange 1
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 2
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 2
+TargetCountPerBank:RIGHT 2
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1500.000000
+ShieldMeshName "K_K32_Shield"
+renderShield TRUE
+maxAccelerationLinear 140.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 140.000000
+maxAccelerationAngular 6.150000
+maxDecelerationAngular 6.150000
+maxSpeedLinear 300.000000
+maxRollRate 15.000000
+maxRollAngle 90.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 4
+SoundID "Kli2Attack"
+SoundID "Kli2Attack2"
+SoundID "Kli2Attack3"
+SoundID "Kli2Attack4"
+NumSoundsFor:ONCREATION 1
+SoundID "Kli2Select"
+NumSoundsFor:ONGENERALORDERISSUED 4
+SoundID "Kli2Move"
+SoundID "Kli2Move2"
+SoundID "Kli2Move3"
+SoundID "Kli2Move4"
+NumSoundsFor:ONSELECTED 3
+SoundID "Kli2Select"
+SoundID "Kli2Select2"
+SoundID "Kli2Select3"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "Kli2Move"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "K_K32"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_FrigatePhaseAntiFighter"
+ExplosionName "Explosion_Frigate_Kli_Medium"
+HyperspaceChargingSoundID "KlingonEnterWarp"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "Engine_Klingon"
+ability:0 "K_ability_detectcloakcapitalblast"
+ability:1 "K_Ability_Flak"
+ability:2 ""
+ability:3 ""
+ability:4 "K_Ability_Cloak"
+MaxAntiMatter 100.000000
+AntiMatterRestoreRate 1.00000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 1
+minShadow 0.000000
+maxShadow 1.500000
+allegianceDecreasePerRoundtrip 0.000000

@@ -1,0 +1,70 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "B_Buff_AdaptCollective_Self"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 3
+	object "Frigate"
+	object "Corvette"
+	object "CapitalShip"
+	numSpaces 1
+	space "Normal"
+	numConstraints 3
+	constraint "IsControllable"
+	constraint "IsNotStarBaseConstructor"
+	constraint "NotInvulnerable"
+range
+	Level:0 6000.000000
+	Level:1 6000.000000
+	Level:2 6000.000000
+	Level:3 6000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Above"
+	smallEffectName "B_Ability_Locutus_Adapt"
+	mediumEffectName "B_Ability_Locutus_Adapt"
+	largeEffectName "B_Ability_Locutus_Adapt"
+	soundID "B_Locutus_WeAdapt"
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 1.000000
+	Level:2 2.000000
+	Level:3 3.000000
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 100.000000
+	Level:1 85.000000
+	Level:2 70.000000
+	Level:3 65.000000
+cooldownTime
+	Level:0 50.000000
+	Level:1 50.000000
+	Level:2 50.000000
+	Level:3 50.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "B_Ability_AdaptCollective_Name"
+descStringID "B_Ability_AdaptCollective_Desc"
+hudIcon "B_icon_feedbackpulseability"
+smallHudIcon "B_icon_feedbackpulseability"
+infoCardIcon ""

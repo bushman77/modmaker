@@ -1,0 +1,44 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "B_res_hullregen1"
+smallHudIcon "B_res_hullregen1"
+infoCardIcon ""
+NameStringID "B_res_shieldupgrade0_name"
+DescriptionStringID "B_res_shieldupgrade0_desc"
+researchWindowLocation
+	block 0
+	pos [ 1 , 3 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 30.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 800.000000
+	metal 80.000000
+	crystal 80.000000
+PerLevelCostIncrease
+	credits 800.000000
+	metal 80.000000
+	crystal 80.000000
+Tier 1
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 2
+priority 2.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "HullPointsRegenAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.070000
+researchModifier
+	modifierType "HullPointsMaxAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.025000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

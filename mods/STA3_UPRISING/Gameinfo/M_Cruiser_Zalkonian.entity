@@ -1,0 +1,210 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire FALSE
+usesFighterAttack TRUE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Support"
+statCountType "FrigateUtility0"
+mainViewIcon "Icon_M_zalkonianwarship"
+picture "picture_newt_mostlycomeatnight"
+NameStringID "M_ZALKONIANWARSHIP_NAME"
+DescriptionStringID "M_YEAGER_DESC"
+counterDescriptionStringID "ClassSupport_RangeMedium"
+basePrice
+	credits 425.000000
+	metal 25.000000
+	crystal 60.000000
+slotCount 6.000000
+BuildTime 30.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 80.000000
+MaxHullPoints 4000.000000
+MaxShieldPoints 4000.000000
+HullPointRestoreRate 2.500000
+ShieldPointRestoreRate 2.500000
+BaseArmorPoints 0.000000
+maxMitigation 0.600000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 1
+numRandomDebrisSmall 6
+numSpecificDebris 0
+armorType "CapitalShip"
+hudIcon "Bb_Neutral_Yeager"
+smallHudIcon "Icon_Gen_Cruiser"
+infoCardIcon "Icon_Gen_Cruiser"
+minZoomDistanceMult 1.000000
+NumWeapons 2
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "BEAM"
+	DamagePerBank:FRONT 200.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 200.000000
+	DamagePerBank:RIGHT 200.000000
+	Range 4500.000000
+	PreBuffCooldownTime 6.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 2.00000
+	TravelSpeed 0.000000
+	Duration 1.000000
+	fireConstraintType "CanAlwaysFire"
+    WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Card_Weap_Phaser_ImpactMuzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "C_Phaser_Start"
+		hitEffectName "Card_Weap_Phaser_ImpactMuzzle"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Wpn_Imp_Pulse_Hull1"
+			sound "Wpn_Imp_Pulse_Hull2"
+			sound "Wpn_Imp_Pulse_Hull3"
+			sound "Wpn_Imp_Pulse_Hull4"			
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"	
+		beamEffectSounds
+			soundCount 1
+			sound "C_Phaser_Loop"
+		beamGlowTextureName "CardPhaserBeam_Glow"
+		beamCoreTextureName "CardPhaserBeam_Core"
+		beamWidth 15.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 8.000000
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 550.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4500.000000
+	PreBuffCooldownTime 24.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.330000
+	TravelSpeed 1100.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Kli_Weap_Pulse_muzzle"
+		muzzleSoundMinRespawnTime 0.005000
+		muzzleSounds
+			soundCount 1
+			sound "M_Idryll_Torp"
+		hitEffectName "Weapon_Kli_GreenTorp_Hit"
+		hitHullEffectSounds
+			soundCount 2
+			sound "Wpn_Imp_Torp_Hull1"
+			sound "Wpn_Imp_Torp_Hull2"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"	
+		missileTravelEffectName "Zalkonian_Torp"
+		missileStartTurningDistance 250.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 0.010000	
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1500.000000
+ShieldMeshName "M_Yeager_Shield"
+renderShield FALSE
+maxAccelerationLinear 125.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 125.000000
+maxAccelerationAngular 6.150000
+maxDecelerationAngular 6.150000
+maxSpeedLinear 110.000000
+maxRollRate 4.000000
+maxRollAngle 15.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "Fed4Attack"
+SoundID "Fed4Attack2"
+SoundID "Fed4Attack3"
+NumSoundsFor:ONCREATION 3
+SoundID "Fed4Select"
+SoundID "Fed4Select2"
+SoundID "Fed4Select3"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "Fed4Move"
+SoundID "Fed4Move2"
+SoundID "Fed4Move3"
+NumSoundsFor:ONSELECTED 3
+SoundID "Fed4Select"
+SoundID "Fed4Select2"
+SoundID "Fed4Select3"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "Fed4Move"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "M_Zalkonian"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_FrigateTechUtility0"
+ExplosionName "Explosion_Frigate_Fed_Medium"
+HyperspaceChargingSoundID "F_WARP_VOY"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "Engine_Fed"
+ability:0 "M_Ability_BioelectricZalkon"
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 "G_Ability_UnCap"
+MaxAntiMatter 350.000000
+AntiMatterRestoreRate 1.000000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 1
+minShadow 0.300000
+maxShadow 1.000000
+allegianceDecreasePerRoundtrip 0.000000

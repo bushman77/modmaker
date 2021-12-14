@@ -1,0 +1,36 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "F_buff_HighPriorityTargetSelf"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Passive"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "F_ABILITY_HIGHPRIORITYTARGET_NAME"
+descStringID "F_ABILITY_HIGHPRIORITYTARGET_DESC"
+hudIcon "F_ability_fireatwill"
+smallHudIcon "F_ability_layexplosivemines"
+infoCardIcon "F_ability_layexplosivemines"

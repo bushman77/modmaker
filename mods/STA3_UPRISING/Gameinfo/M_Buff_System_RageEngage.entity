@@ -1,0 +1,58 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 4
+instantAction
+	buffInstantActionType "RemoveBuffOfType"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffTypeToRemove "M_Buff_Rage_Self"
+instantAction
+	buffInstantActionType "RemoveBuffOfType"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffTypeToRemove "M_Buff_System_RageDamageState"
+instantAction
+	buffInstantActionType "ApplyBuffToFirstSpawnerNoFilterNoRange"
+	instantActionTriggerType "OnBuffFinish"
+	buffType "M_Buff_Rage_Self"
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Aura"
+		smallEffectName "CapitalBuff_PowerSurge"
+		mediumEffectName "CapitalBuff_PowerSurge"
+		largeEffectName "CapitalBuff_PowerSurge"
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "DamageAsDamageTarget"
+	value
+		Level:0 -0.500000
+		Level:1 -0.500000
+		Level:2 -0.500000
+		Level:3 -0.500000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "OwnerHullAbovePerc"
+		hullPercent
+			Level:0 0.800000
+			Level:1 0.800000
+			Level:2 0.800000
+			Level:3 0.800000
+	

@@ -1,0 +1,43 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "C_res_icon_threatdetection"
+smallHudIcon "C_res_icon_threatdetection"
+infoCardIcon ""
+NameStringID "C_res_planetmodule_logisticsincrease_name"
+DescriptionStringID "C_res_planetmodule_logisticsincrease_desc"
+researchWindowLocation
+	block 1
+	pos [ 5 , 2 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+    ResearchPrerequisite
+    Subject "C_research_faction_unionist"
+    Level 1	
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 90.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1400.000000
+	metal 250.000000
+	crystal 300.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 5
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 2
+priority 3.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "PlanetSlotsTacticalIncrease"
+	baseValue 0.000000
+	perLevelValue 6.000000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

@@ -1,0 +1,45 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyOrRemoveBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "R_Buff_PerfectCloak"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID "R_Cloak"
+toggleStateOnNameStringID "R_PERFECTCLOAK_OFF_NAME"
+toggleStateOnDescStringID "R_PERFECTCLOAK_OFF_DESC"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility TRUE
+maxNumLevels 4
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityBLevel"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.800000
+useCostType "None"
+cooldownTime
+	Level:0 1.000000
+	Level:1 1.000000
+	Level:2 1.000000
+	Level:3 1.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "R_PERFECTCLOAK_NAME"
+descStringID "R_PERFECTCLOAK_DESC"
+hudIcon "R_hudicon_perfectcloak"
+smallHudIcon "R_hudicon_perfectcloak"
+infoCardIcon ""

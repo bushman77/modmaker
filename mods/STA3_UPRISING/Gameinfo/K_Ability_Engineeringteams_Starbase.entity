@@ -1,0 +1,76 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadius"
+instantActionTriggerType "AlwaysPerform"
+buffType "K_Buff_Engineeringteams_Starbase"
+targetFilter
+	numOwnerships 1
+	ownership "Friendly"
+	numObjects 5
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "Titan"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "HasHullDamage"
+range
+	Level:0 4000.000000
+	Level:1 5000.000000
+	Level:2 5000.000000
+	Level:3 5000.000000
+maxTargetCount
+	Level:0 6.000000
+	Level:1 10.000000
+	Level:2 6.000000
+	Level:3 6.000000
+effectInfo
+	effectAttachInfo
+		attachType "Above"
+	smallEffectName "F_Ability_Engineering_Teams"
+	mediumEffectName "F_Ability_Engineering_Teams"
+	largeEffectName "F_Ability_Engineering_Teams"
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 2
+levelSourceType "StarBaseUpgradeLevel"
+sourcePropertyType "AbilityALevel"
+aiUseTime "OnlyWhenManyTargetsHaveHullDamage"
+onlyAutoCastWhenTotalHullDamageExceedsAmount
+	Level:0 800.000000
+	Level:1 800.000000
+	Level:2 800.000000
+	Level:3 800.000000
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 80.000000
+	Level:1 80.000000
+	Level:2 80.000000
+	Level:3 80.000000
+cooldownTime
+	Level:0 60.000000
+	Level:1 60.000000
+	Level:2 60.000000
+	Level:3 60.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "K_Ability_repairteams_name"
+descStringID "K_Ability_repairteams_desc"
+hudIcon "K_icon_engineeringteams"
+smallHudIcon "K_icon_engineeringteams"
+infoCardIcon ""

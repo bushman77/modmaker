@@ -1,0 +1,71 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadius"
+instantActionTriggerType "AlwaysPerform"
+buffType "B_Buff_AssimField"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 2
+	object "Frigate"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 4
+	constraint "IsControllable"
+	constraint "IsNotStarBaseConstructor"
+	constraint "NotInvulnerable"
+	constraint "NotIsBoarded"
+range
+	Level:0 6000.000000
+	Level:1 7500.000000
+	Level:2 8000.000000
+	Level:3 8000.000000
+maxTargetCount
+	Level:0 4.000000
+	Level:1 4.000000
+	Level:2 6.000000
+	Level:3 8.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "B_Ability_AssimilationField"
+	mediumEffectName "B_Ability_AssimilationField"
+	largeEffectName "B_Ability_AssimilationField"
+	soundID "B_Assimfield"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility TRUE
+maxNumLevels 2
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityDLevel"
+aiUseTime "OnlyWhenEnemyFleetWillPrevail"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 300.000000
+	Level:1 300.000000
+	Level:2 300.000000
+	Level:3 300.000000
+cooldownTime
+	Level:0 300.000000
+	Level:1 300.000000
+	Level:2 300.000000
+	Level:3 300.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "B_Assimilation_Field_name"
+descStringID "B_Assimilation_Field_desc"
+hudIcon "B_res_assimilationfield"
+smallHudIcon "B_res_assimilationfield"
+infoCardIcon ""

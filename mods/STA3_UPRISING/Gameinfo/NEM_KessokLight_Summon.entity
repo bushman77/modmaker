@@ -1,0 +1,68 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanet"
+instantActionTriggerType "AlwaysPerform"
+spawnShipsLevelCount 1
+spawnShips
+	minFleetPoints 15.000000
+	maxFleetPoints 15.000000
+	requiredShipCount 0
+	randomShipCount 1	
+	randomShip
+		type "C_Cruiser_KessokLight"
+		weight 1			
+spawnShipsArrivalDelayTime 19.000000
+spawnShipsHyperspaceSpawnType "FleetBeacon"
+shouldAdoptFirstSpawnersMinorFactionState TRUE
+spawnShipsMinStartingHullPerc 1.0
+spawnShipsMaxStartingHullPerc 1.0
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyWhenEnemyFleetWillPrevail"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveShipSlots"
+creditCost
+	Level:0 550.000000
+	Level:1 550.000000
+	Level:2 550.000000
+	Level:3 550.000000
+metalCost
+	Level:0 100.000000
+	Level:1 100.000000
+	Level:2 100.000000
+	Level:3 100.000000
+crystalCost
+	Level:0 70.000000
+	Level:1 70.000000
+	Level:2 70.000000
+	Level:3 70.000000
+requiredShipSlots
+	Level:0 15.000000
+	Level:1 15.000000
+	Level:2 15.000000
+	Level:3 15.000000
+cooldownTime
+	Level:0 25.000000
+	Level:1 40.000000
+	Level:2 40.000000
+	Level:3 40.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0	
+nameStringID "C_ABILITY_REINFORCEMENTS_NAME"
+descStringID "C_ABILITY_REINFORCEMENTS_DESC"
+hudIcon "C_icon_jemhadarsupportoutpost"
+smallHudIcon "C_icon_jemhadarsupportoutpost"
+infoCardIcon ""

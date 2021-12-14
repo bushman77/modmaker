@@ -1,0 +1,322 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire FALSE
+usesFighterAttack TRUE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 2
+frigateRoleType "Light"
+frigateRoleType "Support"
+statCountType "FrigateUtility0"
+mainViewIcon "Icon_C_Tonga"
+picture "C_Unitpicture_Card"
+NameStringID "C_TONGA_NAME"
+DescriptionStringID "C_TONGA_DESC"
+counterDescriptionStringID "C_ClassSupport3_RangeMedium"
+basePrice
+	credits 425.000000
+	metal 45.000000
+	crystal 60.000000
+slotCount 6.000000
+BuildTime 30.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 33.000000
+MaxHullPoints 2400.000000
+MaxShieldPoints 1800.000000
+HullPointRestoreRate 0.250000
+ShieldPointRestoreRate 0.500000
+BaseArmorPoints 8.000000
+maxMitigation 0.600000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 2
+	ResearchPrerequisite
+	Subject "C_research_shipaccess_Tonga"
+	Level 1
+    ResearchPrerequisite
+    Subject "C_research_faction_unionist"
+    Level 1	
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 1
+numRandomDebrisSmall 6
+numSpecificDebris 1
+specificDebrisMeshName "C_Tonga_Debris"
+armorType "Medium"
+hudIcon "BB_C_Tonga"
+smallHudIcon "Icon_Gen_Cruiser"
+infoCardIcon "Icon_Gen_Cruiser"
+minZoomDistanceMult 1.2500000
+NumWeapons 4
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTIMEDIUM"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "BEAM"
+	DamagePerBank:FRONT 110.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 110.000000
+	DamagePerBank:RIGHT 110.000000
+	Range 4500.000000
+	PreBuffCooldownTime 6.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 2.00000
+	TravelSpeed 0.000000
+	Duration 1.550000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Card_Weap_Phaser_ImpactMuzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "C_Phaser_Start"
+		hitEffectName "Card_Weap_Phaser_ImpactMuzzle"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Wpn_Imp_Pulse_Hull1"
+			sound "Wpn_Imp_Pulse_Hull2"
+			sound "Wpn_Imp_Pulse_Hull3"
+			sound "Wpn_Imp_Pulse_Hull4"			
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"	
+		beamEffectSounds
+			soundCount 1
+			sound "C_Phaser_Loop"
+		beamGlowTextureName "CardPhaserBeam_Glow"
+		beamCoreTextureName "CardPhaserBeam_Core"
+		beamWidth 15.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 8.000000
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTIMEDIUM"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 320.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4500.000000
+	PreBuffCooldownTime 24.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.400000
+	TravelSpeed 1300.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 2
+		burstDelay 0.800000
+		fireDelay 0.000000
+		muzzleEffectName "Fed_Weap_Photon_Muzzle"
+		muzzleSoundMinRespawnTime 0.005000
+		muzzleSounds
+			soundCount 1
+			sound "C_Photon"
+		hitEffectName "Weapon_Fed_Photon_Hit"
+		hitHullEffectSounds
+			soundCount 2
+			sound "Wpn_Imp_Torp_Hull1"
+			sound "Wpn_Imp_Torp_Hull2"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"	
+		missileTravelEffectName "Card_Weap_Photon"
+		missileStartTurningDistance 50.000000
+		missileSlowTurnRate 1.708997
+		missileMaxSlowTurnTime 2.000000	
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "WAVE"
+	DamagePerBank:FRONT 145.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 6000.000000
+	PreBuffCooldownTime 4.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.250000
+	TravelSpeed 4000.000000
+	Duration 0.000000
+	fireConstraintType "Research"
+    researchPrerequisites
+        NumResearchPrerequisites 0
+		RequiredFactionNameID "PLAYER_BORG_NAME"
+		RequiredCompletedResearchSubjects 0	
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.500000
+		fireDelay 0.000000
+		muzzleEffectName "Kli_Weap_Pulse_muzzle"
+		muzzleSoundMinRespawnTime 0.000100
+		muzzleSounds
+			soundCount 1
+			sound "FedPhotonAkiraLower"
+		hitEffectName "Weapon_Kli_Disruptor_Hit"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Wpn_Imp_Pulse_Hull1"
+			sound "Wpn_Imp_Pulse_Hull2"
+			sound "Wpn_Imp_Pulse_Hull3"
+			sound "Wpn_Imp_Pulse_Hull4"			
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"	
+		projectileTravelEffectName "Kli_Weap_Pulsephaser_medium"
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "PULSEWAVE"
+	DamagePerBank:FRONT 300.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4500.000000
+	PreBuffCooldownTime 12.500000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.250000
+	TravelSpeed 1250.000000
+	Duration 0.000000
+	fireConstraintType "Research"
+    researchPrerequisites
+        NumResearchPrerequisites 0
+		RequiredFactionNameID "PLAYER_BORG_NAME"
+		RequiredCompletedResearchSubjects 0	
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Borg_Weap_Torpedo_Muzzle"
+		muzzleSoundMinRespawnTime 0.005000
+		muzzleSounds
+			soundCount 1
+			sound "B_TORP"
+		hitEffectName "Weapon_Tech_MissileFrigate_Hit"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Wpn_Imp_Pulse_Hull1"
+			sound "Wpn_Imp_Pulse_Hull2"
+			sound "Wpn_Imp_Pulse_Hull3"
+			sound "Wpn_Imp_Pulse_Hull4"			
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"	
+		missileTravelEffectName "Borg_Weap_Torpedo"
+		missileStartTurningDistance 250.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 0.010000						
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1500.000000
+ShieldMeshName "C_Tonga_Shield"
+renderShield TRUE
+maxAccelerationLinear 125.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 125.000000
+maxAccelerationAngular 5.150000
+maxDecelerationAngular 5.150000
+maxSpeedLinear 300.000000
+maxRollRate 15.000000
+maxRollAngle 50.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "cardassian_destroyer1_attack1"
+SoundID "cardassian_destroyer1_attack2"
+SoundID "cardassian_destroyer1_attack3"
+NumSoundsFor:ONCREATION 3
+SoundID "cardassian_destroyer1_select1"
+SoundID "cardassian_destroyer1_select2"
+SoundID "cardassian_destroyer1_select3"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "cardassian_destroyer1_move1"
+SoundID "cardassian_destroyer1_move2"
+SoundID "cardassian_destroyer1_move3"
+NumSoundsFor:ONSELECTED 3
+SoundID "cardassian_destroyer1_select1"
+SoundID "cardassian_destroyer1_select1"
+SoundID "cardassian_destroyer1_select3"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "cardassian_destroyer1_warp1"
+MeshNameInfoCount 2
+MeshNameInfo
+	meshName "C_Tonga"
+	criteriaType "None"
+MeshNameInfo
+	meshName "C_Tonga_Assimilated"
+	criteriaType "Research"
+	prerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID "PLAYER_BORG_NAME"
+		RequiredCompletedResearchSubjects 0			
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_FrigateTechUtility0"
+ExplosionName "Explosion_Frigate_Card_Medium"
+HyperspaceChargingSoundID "CardassianEnterWarp"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "Engine_Fed"
+ability:0 "C_ability_detectcloakbeacon"
+ability:1 "C_ability_repairdrones"
+ability:2 "C_Ability_Boarding2"
+ability:3 "C_ability_CaptureDerelict"
+ability:4 ""
+MaxAntiMatter 350.000000
+AntiMatterRestoreRate 1.000000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 1
+minShadow 0.300000
+maxShadow 1.000000
+allegianceDecreasePerRoundtrip 0.000000

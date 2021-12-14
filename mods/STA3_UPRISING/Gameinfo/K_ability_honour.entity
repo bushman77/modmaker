@@ -1,0 +1,89 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+instantActionTriggerType "AlwaysPerform"
+buffType "K_buff_honour"
+targetFilter
+	numOwnerships 1
+	ownership "Friendly"
+	numObjects 6
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "NotSelf"
+range
+	Level:0 10000.000000
+	Level:1 10000.000000
+	Level:2 10000.000000
+	Level:3 10000.000000
+maxTargetCount
+	Level:0 -1.000000
+	Level:1 -1.000000
+	Level:2 -1.000000
+	Level:3 -1.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "K_Ability_Honour_Self"
+	mediumEffectName "K_Ability_Honour_Self"
+	largeEffectName "K_Ability_Honour_Self"
+	soundID "KlingonHonour"
+travelSpeed 1500.000000
+effectStaggerDelay 0.000000
+hasWeaponEffects FALSE
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyWhenManyTargetsHaveHullDamage"
+onlyAutoCastWhenTotalHullDamageExceedsAmount
+	Level:0 650.000000
+	Level:1 650.000000
+	Level:2 650.000000
+	Level:3 650.000000
+aiUseTargetCondition "HullDamageExceedsAmount"
+onlyAutoCastWhenTargetHullDamageExceedsAmount
+	Level:0 350.000000
+	Level:1 350.000000
+	Level:2 350.000000
+	Level:3 350.000000
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 50.000000
+	Level:1 50.000000
+	Level:2 50.000000
+	Level:3 50.000000
+cooldownTime
+	Level:0 60.000000
+	Level:1 60.000000
+	Level:2 60.000000
+	Level:3 60.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "K_ability_honour_name"
+descStringID "K_ability_honour_desc"
+hudIcon "K_icon_inspirehonour"
+smallHudIcon "K_icon_inspirehonour"
+infoCardIcon ""

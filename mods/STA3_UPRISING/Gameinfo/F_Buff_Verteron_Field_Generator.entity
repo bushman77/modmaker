@@ -1,0 +1,42 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "NotExclusive"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "Buff_DominationOnTarget"
+		mediumEffectName "Buff_DominationOnTarget"
+		largeEffectName "Buff_DominationOnTarget"
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+	entityModifier
+		buffEntityModifierType "HyperspaceChargeUpRate"
+		value
+			Level:0 -50.000000
+			Level:1 -50.000000
+			Level:2 -50.000000
+			Level:3 -50.000000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 20.000000
+		Level:1 30.000000
+		Level:2 45.000000
+		Level:3 60.000000
+		

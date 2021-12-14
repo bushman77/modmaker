@@ -1,0 +1,71 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanet"
+instantActionTriggerType "AlwaysPerform"
+spawnShipsLevelCount 1
+spawnShips
+	minFleetPoints 50.000000
+	maxFleetPoints 50.000000
+	requiredShipCount 0
+	randomShipCount 1	
+	randomShip
+		type "C_Cruiser_SonaBattleship"
+		weight 1			
+spawnShipsArrivalDelayTime 19.000000
+spawnShipsHyperspaceSpawnType "FleetBeacon"
+shouldAdoptFirstSpawnersMinorFactionState TRUE
+spawnShipsMinStartingHullPerc 1.0
+spawnShipsMaxStartingHullPerc 1.0
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyWhenEnemyFleetWillPrevail"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveShipSlots"
+creditCost
+	Level:0 2000.000000
+	Level:1 2000.000000
+	Level:2 2000.000000
+	Level:3 2000.000000
+metalCost
+	Level:0 300.000000
+	Level:1 300.000000
+	Level:2 300.000000
+	Level:3 300.000000
+crystalCost
+	Level:0 300.000000
+	Level:1 300.000000
+	Level:2 300.000000
+	Level:3 300.000000
+requiredShipSlots
+	Level:0 30.000000
+	Level:1 30.000000
+	Level:2 30.000000
+	Level:3 30.000000
+cooldownTime
+	Level:0 55.000000
+	Level:1 75.000000
+	Level:2 75.000000
+	Level:3 75.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	 ResearchPrerequisite
+    Subject "C_research_shipaccess_Jelaksu"
+    Level 1	
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0	
+nameStringID "NEM_SonaBattleshipSummon_name"
+descStringID "NEM_SonaBattleshipSummon_desc"
+hudIcon "BB_C_Jalaksu"
+smallHudIcon "BB_C_Jalaksu"
+infoCardIcon "BB_C_Jalaksu"

@@ -1,0 +1,78 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadius"
+instantActionTriggerType "AlwaysPerform"
+buffType "K_Buff_ToTheDeath_Target"
+targetFilter
+	numOwnerships 1
+	ownership "Friendly"
+	numObjects 3
+	object "Frigate"
+	object "CapitalShip"	
+	object "Corvette"	
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 8500.000000
+	Level:1 8500.000000
+	Level:2 8500.000000
+	Level:3 8500.000000
+maxTargetCount
+	Level:0 6.000000
+	Level:1 8.000000
+	Level:2 10.000000
+	Level:3 12.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "Ability_RevengeFromBeyond_Activate"
+	mediumEffectName "Ability_RevengeFromBeyond_Activate"
+	largeEffectName "Ability_RevengeFromBeyond_Activate"
+	soundID "EFFECT_REVENGEFROMBEYOND"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyWhenManyTargetsInCombatDoNotHaveBuff"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 6.000000
+	Level:1 8.000000
+	Level:2 10.000000
+	Level:3 12.000000
+buffType "K_Buff_ToTheDeath_Target"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 150.000000
+	Level:1 150.000000
+	Level:2 150.000000
+	Level:3 150.000000
+cooldownTime
+	Level:0 160.000000
+	Level:1 150.000000
+	Level:2 140.000000
+	Level:3 130.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "K_ABILITY_TOTHEDEATH_NAME"
+descStringID "K_ABILITY_TOTHEDEATH_DESC"
+hudIcon "K_icon_tothedeath"
+smallHudIcon "K_icon_tothedeath"
+infoCardIcon ""

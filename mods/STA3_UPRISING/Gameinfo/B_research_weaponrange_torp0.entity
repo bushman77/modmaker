@@ -1,0 +1,41 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "B_res_torprng1"
+smallHudIcon "B_res_torprng1"
+infoCardIcon ""
+NameStringID "B_res_torprange0_name"
+DescriptionStringID "B_res_torprange0_desc"
+researchWindowLocation
+	block 0
+	pos [ 4 , 2 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 45.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1600.000000
+	metal 160.000000
+	crystal 160.000000
+PerLevelCostIncrease
+	credits 1600.000000
+	metal 160.000000
+	crystal 160.000000
+Tier 4
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 2
+priority 2.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "WeaponRangeAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.150000
+	linkedWeaponClass "PULSEWAVE"	
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

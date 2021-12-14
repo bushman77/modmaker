@@ -1,0 +1,55 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetNoRange"
+instantActionTriggerType "AlwaysPerform"
+buffType "R_Buff_Spynet"
+targetFilter
+	numOwnerships 3
+	ownership "NoOwner"
+	ownership "Enemy"
+	ownership "Allied"
+	numObjects 1
+	object "Planet"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID "EFFECT_FRACTURE"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "None"
+cooldownTime
+	Level:0 345.000000
+	Level:1 345.000000
+	Level:2 345.000000
+	Level:3 345.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+    Subject "C_research_faction_unionist"
+    Level 1	
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "C_ABILITY_SPYNETSTATION_NAME"
+descStringID "C_ABILITY_SPYNETSTATION_DESC"
+hudIcon "C_icon_obsidianorder"
+smallHudIcon "C_icon_obsidianorder"
+infoCardIcon ""

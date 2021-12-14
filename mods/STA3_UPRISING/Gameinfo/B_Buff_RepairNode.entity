@@ -1,0 +1,77 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantBeamEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Ability"
+		abilityIndex 1
+	weaponEffectImpactOffsetType "Center"
+	canWeaponEffectHitHull FALSE
+	canWeaponEffectHitShields FALSE
+	weaponEffectsDef
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 1.000000
+		fireDelay 0.000000
+		muzzleEffectName "Borg_Weap_Beam_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "B_CUTTER_START"
+		hitEffectName "Weapon_Borg_Cutter_Impact"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound ""
+		beamGlowTextureName "B_Cuttingbeam_Glow"
+		beamCoreTextureName "B_Cuttingbeam_Core"
+		beamWidth 6.000000
+		beamGlowColor ff2c2c2c
+		beamCoreColor ffffffff
+		beamTilingRate 12.000000
+numPeriodicActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "RestoreHull"
+	hullRestoreRate
+		Level:0 60.000000
+		Level:1 60.000000
+		Level:2 60.000000
+		Level:3 60.000000
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "HullPointRestoreRate"
+	value
+		Level:0 0.500000
+		Level:1 0.500000
+		Level:2 0.500000
+		Level:3 0.500000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 20.000000
+		Level:1 20.000000
+		Level:2 20.000000
+		Level:3 20.000000
+finishCondition
+	finishConditionType "OwnerChanged"

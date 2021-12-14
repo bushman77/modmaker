@@ -1,0 +1,65 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "C_Buff_PlasmaCannonCharging"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 1
+	object "Planet"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 6600.000000
+	Level:1 6600.000000
+	Level:2 0.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility TRUE
+maxNumLevels 2
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 3.000000
+	Level:1 5.000000
+	Level:2 0.000000
+	Level:3 0.000000
+aiUseTime "OnlyWhenBombing"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 150.000000
+	Level:1 150.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 180.000000
+	Level:1 180.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "C_ABILITY_PLASMACANNON_NAME"
+descStringID "C_ABILITY_PLASMACANNON_DESCRIPTION"
+hudIcon "C_hudicon_plasmacannon"
+smallHudIcon "C_hudicon_plasmacannon"
+infoCardIcon ""

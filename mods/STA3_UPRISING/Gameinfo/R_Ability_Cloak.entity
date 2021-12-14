@@ -1,0 +1,49 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyOrRemoveBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "R_Buff_Cloak"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID "R_Cloak"
+toggleStateOnNameStringID "R_ability_cloakon_name"
+toggleStateOnDescStringID "R_ability_cloakoff_name"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.800000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 1.000000
+	Level:1 1.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "R_ability_cloak_name"
+descStringID "R_ability_cloak_desc"
+hudIcon "R_hudicon_battlecloak"
+smallHudIcon "R_hudicon_battlecloak"
+infoCardIcon ""

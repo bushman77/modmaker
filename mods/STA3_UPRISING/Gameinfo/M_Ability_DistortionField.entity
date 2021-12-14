@@ -1,0 +1,78 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+instantActionTriggerType "AlwaysPerform"
+buffType "R_Buff_DistortionField"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 6
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 3000.000000
+	Level:1 4380.000000
+	Level:2 4760.000000
+	Level:3 5140.000000
+maxTargetCount
+	Level:0 -1.000000
+	Level:1 -1.000000
+	Level:2 -1.000000
+	Level:3 -1.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "R_Ability_DistortionField"
+	mediumEffectName "R_Ability_DistortionField"
+	largeEffectName "R_Ability_DistortionField"
+	soundID "R_Ability_DistortionField"
+travelSpeed 1000.000000
+effectStaggerDelay 0.000000
+hasWeaponEffects FALSE
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyWhenManyTargetsInRange"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 10.000000
+	Level:1 10.000000
+	Level:2 10.000000
+	Level:3 10.000000
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 100.000000
+	Level:1 110.000000
+	Level:2 120.000000
+	Level:3 130.000000
+cooldownTime
+	Level:0 20.000000
+	Level:1 25.000000
+	Level:2 30.000000
+	Level:3 35.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "R_DISTORTIONFIELD_NAME"
+descStringID "R_DISTORTIONFIELD_DESC"
+hudIcon "R_icon_distortionfield"
+smallHudIcon "R_icon_distortionfield"
+infoCardIcon ""

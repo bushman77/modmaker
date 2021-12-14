@@ -1,0 +1,50 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "K_fpack3"
+smallHudIcon "K_fpack3"
+infoCardIcon ""
+NameStringID "K_res_allianceupgrade_fed2_name"
+DescriptionStringID "K_res_allianceupgrade_fed2_desc"
+researchWindowLocation
+	block 0
+	pos [ 7 , 4 ]
+ResearchField "Diplomacy"
+Prerequisites
+	NumResearchPrerequisites 2
+		ResearchPrerequisite
+	Subject "K_research_allianceupgrade_fed1"
+	Level 1
+		ResearchPrerequisite
+	Subject "F_pact_kli"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 090.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 2850.000000
+	metal 225.000000
+	crystal 300.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 0.000000
+	crystal 25.000000
+Tier 7
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "ShieldMaxMitigationAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.020000
+researchModifier
+	modifierType "ShieldPointsMaxAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.1000000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

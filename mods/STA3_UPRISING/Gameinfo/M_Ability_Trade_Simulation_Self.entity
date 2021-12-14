@@ -1,0 +1,50 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
+instantActionTriggerType "AlwaysPerform"
+buffType "M_Buff_Trade_Simulation"
+targetFilter
+	numOwnerships 1
+	ownership "Friendly"
+	numObjects 1
+	object "PlanetModule"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+	maxTargetCount
+	Level:0 3.000000
+	Level:1 3.000000
+	Level:2 3.000000
+	Level:3 3.000000
+effectInfo
+	effectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID "Engine_Fed"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Passive"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "C_ABILITY_REPAIRSTATION_NAME"
+descStringID "C_ABILITY_REPAIRSTATION_DESC"
+hudIcon "C_hudicon_pointdefensesystem"
+smallHudIcon "C_hudicon_pointdefensesystem"
+infoCardIcon ""

@@ -1,0 +1,83 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+instantActionTriggerType "AlwaysPerform"
+buffType "C_Buff_DistortionWave"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 6
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 3000.000000
+	Level:1 3500.000000
+	Level:2 4000.000000
+	Level:3 5000.000000
+maxTargetCount
+	Level:0 -1.000000
+	Level:1 -1.000000
+	Level:2 -1.000000
+	Level:3 -1.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "C_Ability_DistortionField"
+	mediumEffectName "C_Ability_DistortionField"
+	largeEffectName "C_Ability_DistortionField"
+	soundID "R_Ability_EnergytoShields"
+travelSpeed 1000.000000
+effectStaggerDelay 0.000000
+hasWeaponEffects FALSE
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyWhenManyTargetsInRange"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 10.000000
+	Level:1 10.000000
+	Level:2 10.000000
+	Level:3 10.000000
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 100.000000
+	Level:1 90.000000
+	Level:2 80.000000
+	Level:3 70.000000
+cooldownTime
+	Level:0 40.000000
+	Level:1 40.000000
+	Level:2 40.000000
+	Level:3 40.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "C_Ability_DrainingWave_Name"
+descStringID "C_Ability_DrainingWave_Desc"
+hudIcon "C_icon_disfortionwavethotgor"
+smallHudIcon "C_icon_disfortionwavethotgor"
+infoCardIcon ""

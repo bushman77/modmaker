@@ -1,0 +1,182 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 45.000000
+basePopulationKilled 3.700000
+bombingFreqTime 10.000000
+baseRange 9000.000000
+bombTransitTime 3.000000
+bombEffectCount 3
+bombEffectAngleVariance 15.500000
+bombEffectsDef
+	weaponType "Beam"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Min_Weap_Phaser_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "M_BEAM"
+	hitEffectName "Min_Weap_Phaser_Muzzle"
+	hitHullEffectSounds
+		soundCount 1
+		sound ""
+	hitShieldsEffectSounds
+		soundCount 1
+		sound ""
+	beamEffectSounds
+		soundCount 1
+		sound ""
+		beamGlowTextureName "CrystBeam_Core"
+		beamCoreTextureName "CrystBeam_Core"
+	beamWidth 40.000000
+	beamGlowColor ffffffff
+	beamCoreColor ffffffff
+	beamTilingRate 3.000000
+typeCount 1
+frigateRoleType "Siege"
+statCountType "Titan"
+mainViewIcon "Icon_G_Crystal"
+picture "picture_newt_mostlycomeatnight"
+NameStringID "E_CRYSTL_NAME"
+DescriptionStringID "E_CRYSTL_DESC"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_HEAVY"
+basePrice
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+slotCount 10.000000
+BuildTime 0.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 5000.000000
+MaxHullPoints 40000.000000
+MaxShieldPoints 10000.000000
+HullPointRestoreRate 40.000000
+ShieldPointRestoreRate 10.000000
+BaseArmorPoints 25.000000
+maxMitigation 0.700000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0	
+numRandomDebrisLarge 1
+numRandomDebrisSmall 10
+numSpecificDebris 0
+armorType "Module"
+hudIcon "Bb_Neutral_Crystalline"
+smallHudIcon "Icon_G_Crystal"
+infoCardIcon "Icon_G_Crystal"
+minZoomDistanceMult 3.500000
+NumWeapons 1
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "RAILGUN"
+	DamagePerBank:FRONT 250.000000
+	DamagePerBank:BACK 250.000000
+	DamagePerBank:LEFT 250.000000
+	DamagePerBank:RIGHT 250.000000
+	Range 9000.000000
+	PreBuffCooldownTime 6.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 2.00000
+	TravelSpeed 0.000000
+	Duration 1.750000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Min_Weap_Phaser_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "M_BEAM"
+		hitEffectName "Min_Weap_Phaser_Muzzle"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound ""
+		beamGlowTextureName "CrystBeam_Core"
+		beamCoreTextureName "CrystBeam_Core"
+		beamWidth 15.000000
+		beamGlowColor ffffffff
+		beamCoreColor ff000000
+		beamTilingRate 8.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 4
+TargetCountPerBank:BACK 4
+TargetCountPerBank:LEFT 4
+TargetCountPerBank:RIGHT 4
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 6000.000000
+ShieldMeshName "E_Crystalline_Shield"
+renderShield FALSE
+maxAccelerationLinear 80.000000
+maxAccelerationStrafe 80.000000
+maxDecelerationLinear 80.000000
+maxAccelerationAngular 2.200000
+maxDecelerationAngular 9.999996
+maxSpeedLinear 100.000000
+maxRollRate 0.000000
+maxRollAngle 0.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 0
+NumSoundsFor:ONSELECTED 0
+NumSoundsFor:ONSTARTPHASEJUMP 0
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "E_Crystalline"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName ""
+ExplosionName "Explosion_Station_Fed"
+HyperspaceChargingSoundID ""
+HyperspaceTravelSoundID ""
+EngineSoundID ""
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 "G_Ability_UnCap"
+ability:4 ""
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 0
+minShadow 0.000000
+maxShadow 0.600000
+allegianceDecreasePerRoundtrip 0.000000

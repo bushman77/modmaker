@@ -1,0 +1,46 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "F_hudicon_carddip1"
+smallHudIcon "F_hudicon_carddip1"
+infoCardIcon ""
+NameStringID "F_res_allianceupgrade_card0_name"
+DescriptionStringID "F_res_allianceupgrade_card0_desc"
+researchWindowLocation
+	block 0
+	pos [ 4 , 6 ]
+ResearchField "Diplomacy"
+Prerequisites
+	NumResearchPrerequisites 2
+		ResearchPrerequisite
+	Subject "F_research_pact_card"
+	Level 1
+		ResearchPrerequisite
+	Subject "F_pact_card"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 60.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 1800.000000
+	metal 175.000000
+	crystal 240.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 0.000000
+	crystal 25.000000
+Tier 4
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "ModuleBuildRateAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.150000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

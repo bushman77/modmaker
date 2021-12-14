@@ -1,0 +1,210 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Light"
+statCountType "FrigateLight"
+mainViewIcon "Icon_C_Rasilak"
+picture "C_Unitpicture_Card"
+NameStringID "C_RASILAK_NAME"
+DescriptionStringID "C_Rasilak_Desc"
+counterDescriptionStringID "C_ClassFrigate_RangeShort"
+basePrice
+	credits 360.000000
+	metal 60.000000
+	crystal 0.000000
+slotCount 4.000000
+BuildTime 24.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 40.000000
+MaxHullPoints 1600.000000
+MaxShieldPoints 1000.000000
+HullPointRestoreRate 0.250000
+ShieldPointRestoreRate 1.000000
+BaseArmorPoints 3.000000
+maxMitigation 0.600000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 5
+numSpecificDebris 0
+armorType "Light"
+hudIcon "BB_C_Rasilak"
+smallHudIcon "Icon_Gen_Frigate"
+infoCardIcon "Icon_Gen_Frigate"
+minZoomDistanceMult 0.650000
+NumWeapons 2
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTIMEDIUM"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "BEAM"
+	DamagePerBank:FRONT 105.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 3000.000000
+	PreBuffCooldownTime 6.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 2.00000
+	TravelSpeed 0.000000
+	Duration 1.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Card_Weap_Phaser_ImpactMuzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "C_Phaser_Start"
+		hitEffectName "Card_Weap_Phaser_ImpactMuzzle"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Wpn_Imp_Pulse_Hull1"
+			sound "Wpn_Imp_Pulse_Hull2"
+			sound "Wpn_Imp_Pulse_Hull3"
+			sound "Wpn_Imp_Pulse_Hull4"			
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"	
+		beamEffectSounds
+			soundCount 1
+			sound "C_Phaser_Loop"
+		beamGlowTextureName "FedPhaserBeam_Glow"
+		beamCoreTextureName "CardPhaserBeam_Core"
+		beamWidth 15.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 8.000000
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTIMEDIUM"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 330.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 3000.000000
+	PreBuffCooldownTime 22.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.300000
+	TravelSpeed 1300.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Fed_Weap_Photon_Muzzle"
+		muzzleSoundMinRespawnTime 0.005000
+		muzzleSounds
+			soundCount 1
+			sound "C_Photon"
+		hitEffectName "Weapon_Fed_Photon_Hit"
+		hitHullEffectSounds
+			soundCount 2
+			sound "Wpn_Imp_Torp_Hull1"
+			sound "Wpn_Imp_Torp_Hull2"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"	
+		missileTravelEffectName "Card_Weap_Photon"
+		missileStartTurningDistance 50.000000
+		missileSlowTurnRate 1.708997
+		missileMaxSlowTurnTime 2.000000	
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1500.000000
+ShieldMeshName "C_Rasilak_Shield"
+renderShield TRUE
+maxAccelerationLinear 135.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 135.000000
+maxAccelerationAngular 7.100000
+maxDecelerationAngular 7.100000
+maxSpeedLinear 450.000000
+maxRollRate 16.000000
+maxRollAngle 60.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "cardassian_destroyer1_attack1"
+SoundID "cardassian_destroyer1_attack2"
+SoundID "cardassian_destroyer1_attack3"
+NumSoundsFor:ONCREATION 3
+SoundID "cardassian_destroyer1_select1"
+SoundID "cardassian_destroyer1_select2"
+SoundID "cardassian_destroyer1_select3"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "cardassian_destroyer1_move1"
+SoundID "cardassian_destroyer1_move2"
+SoundID "cardassian_destroyer1_move3"
+NumSoundsFor:ONSELECTED 3
+SoundID "cardassian_destroyer1_select1"
+SoundID "cardassian_destroyer1_select2"
+SoundID "cardassian_destroyer1_select3"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "cardassian_destroyer1_move1"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "C_Rasilak"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName ""
+ExplosionName "Explosion_Frigate_Card_Medium"
+HyperspaceChargingSoundID "CardassianEnterWarp"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "Engine_Fed"
+ability:0 "C_ability_Micro_Organisms"
+ability:1 ""
+ability:2 ""
+ability:3 "NEM_Ability_PassiveLowLifeT1"
+ability:4 ""
+MaxAntiMatter 200.000000
+AntiMatterRestoreRate 0.500000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 0
+minShadow 0.000000
+maxShadow 1.000000
+allegianceDecreasePerRoundtrip 0.000000

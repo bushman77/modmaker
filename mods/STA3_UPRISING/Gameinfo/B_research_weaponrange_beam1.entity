@@ -1,0 +1,49 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "B_res_weaponrng2"
+smallHudIcon "B_res_weaponrng2"
+infoCardIcon ""
+NameStringID "B_res_beamrange1_name"
+DescriptionStringID "B_res_beamrange1_desc"
+researchWindowLocation
+	block 0
+	pos [ 6 , 1 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "B_research_weaponrange_beam0"
+		Level 3
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 60.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 2000.000000
+	metal 200.000000
+	crystal 200.000000
+PerLevelCostIncrease
+	credits 2000.000000
+	metal 200.000000
+	crystal 200.000000
+Tier 6
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 3
+priority 2.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "WeaponRangeAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.150000
+	linkedWeaponClass "RAILGUN"	
+researchModifier
+	modifierType "WeaponRangeAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.150000
+	linkedWeaponClass "WAVE"		
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

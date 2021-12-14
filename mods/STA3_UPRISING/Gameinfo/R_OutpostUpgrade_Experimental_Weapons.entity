@@ -1,0 +1,89 @@
+TXT2
+SinsArchiveVersion 193
+entityType "StarBaseUpgrade"
+stageCount 3
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "R_STARBASEUPGRADEEXPERIMENTALWEAPONS_NAME"
+	descStringID "R_STARBASEUPGRADEEXPERIMENTALWEAPONS_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+		Subject "R_research_outpost_experimentalweapons"
+		Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "R_hudicon_exweaponary"
+	smallHudIcon "R_hudicon_exweaponary"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1800.000000
+		metal 275.000000
+		crystal 150.000000
+	upgradeTime 30.000000
+	nameStringID "R_STARBASEUPGRADEEXPERIMENTALWEAPONS_NAME"
+	descStringID "R_STARBASEUPGRADEEXPERIMENTALWEAPONS_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+		Subject "R_research_outpost_experimentalweapons"
+		Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "R_hudicon_exweaponary"
+	smallHudIcon "R_hudicon_exweaponary"
+	infoCardIcon ""
+	upgradePropertyCount 4
+	upgradeProperty
+		propertyType "MaxAntiMatterPoints"
+		value 250.000000
+	upgradeProperty
+		propertyType "AntiMatterRestoreRate"
+		value 2.500000
+	upgradeProperty
+		propertyType "AbilityBLevel"
+		value 1.000000
+	upgradeProperty
+		propertyType "AbilityCLevel"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1800.000000
+		metal 275.000000
+		crystal 150.000000
+	upgradeTime 45.000000
+	nameStringID "R_STARBASEUPGRADEEXPERIMENTALWEAPONS_NAME"
+	descStringID "R_STARBASEUPGRADEEXPERIMENTALWEAPONS_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+		Subject "R_research_outpost_experimentalweapons"
+		Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "R_hudicon_exweaponary"
+	smallHudIcon "R_hudicon_exweaponary"
+	infoCardIcon ""
+	upgradePropertyCount 4
+	upgradeProperty
+		propertyType "MaxAntiMatterPoints"
+		value 400.000000
+	upgradeProperty
+		propertyType "AntiMatterRestoreRate"
+		value 3.500000
+	upgradeProperty
+		propertyType "AbilityBLevel"
+		value 2.000000
+	upgradeProperty
+		propertyType "AbilityCLevel"
+		value 2.000000
+	upgradeBoolPropertyCount 0
+xpModifier 30.000000

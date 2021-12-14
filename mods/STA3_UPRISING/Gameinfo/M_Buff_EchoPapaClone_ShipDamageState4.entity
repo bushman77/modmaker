@@ -1,0 +1,42 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack TRUE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "CreateFrigate"
+instantActionTriggerType "OnDelay"
+	delayTime 2.000000
+	frigateType "M_Frigate_EchoPapa_stage4"
+	numFrigates
+		Level:0 2.000000
+		Level:1 2.000000
+		Level:2 2.000000
+		Level:3 2.000000
+	matchOwnerDamageState TRUE
+	impulse 35000.000000
+	expiryTime
+		Level:0 900.000000
+		Level:1 900.000000
+		Level:2 900.000000
+		Level:3 900.000000
+	spawnFrigateSoundID "EFFECT_DEPLOYCOMBATTURRET"
+	postSpawnBuff "M_Buff_FirstSpawner_EchoPapaClone"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "OwnerHullAbovePerc"
+	hullPercent
+		Level:0 0.200000
+		Level:1 0.200000
+		Level:2 0.200000
+		Level:3 0.200000

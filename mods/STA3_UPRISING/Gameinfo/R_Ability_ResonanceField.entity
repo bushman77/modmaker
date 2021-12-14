@@ -1,0 +1,66 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToIncomingHyperspacers"
+instantActionTriggerType "AlwaysPerform"
+buffType "R_Buff_ResonanceField"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 6
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	object "Corvette"
+	numSpaces 2
+	space "Normal"
+	space "Phase"	
+	numConstraints 0
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "F_Ability_NavInterferance"
+	mediumEffectName "F_Ability_NavInterferance"
+	largeEffectName "F_Ability_NavInterferance"
+	soundID "R_Ability_ResonanceField"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyWhenManyTargetsHyperspacingTowardsMyGravityWell"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 65.000000
+	Level:1 65.000000
+	Level:2 65.000000
+	Level:3 65.000000
+cooldownTime
+	Level:0 175.000000
+	Level:1 170.000000
+	Level:2 165.000000
+	Level:3 160.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "R_ABILITY_RESONANCEFIELD_NAME"
+descStringID "R_ABILITY_RESONANCEFIELD_DESC"
+hudIcon "R_icon_psionicblast"
+smallHudIcon "R_icon_psionicblast"
+infoCardIcon ""

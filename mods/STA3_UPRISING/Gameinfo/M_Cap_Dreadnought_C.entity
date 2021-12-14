@@ -1,0 +1,115 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Heavy"
+statCountType "FrigateHeavy"
+mainViewIcon "Icon_M_dreadnaughtmissile"
+picture "C_Unitpicture_Card"
+NameStringID "M_DREADMISSILE_NAME"
+DescriptionStringID "M_DREADMISSILE_DESC"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_HEAVY"
+basePrice
+	credits 450.000000
+	metal 95.000000
+	crystal 65.000000
+slotCount 30.000000
+BuildTime 55.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 150.000000
+MaxHullPoints 35000.000000
+MaxShieldPoints 3000.000000
+HullPointRestoreRate 12.500000
+ShieldPointRestoreRate 3.200000
+BaseArmorPoints 25.000000
+maxMitigation 0.600000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0	
+numRandomDebrisLarge 5
+numRandomDebrisSmall 16
+numSpecificDebris 0
+armorType "CapitalShip"
+hudIcon "BB_C_Kulinor"
+smallHudIcon "Icon_M_dreadnaughtmissile"
+infoCardIcon "Icon_M_dreadnaughtmissile"
+minZoomDistanceMult 1.250000
+NumWeapons 0
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 1
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1500.000000
+ShieldMeshName "G_Dreadnaught_Shield"
+renderShield TRUE
+maxAccelerationLinear 25.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 25.000000
+maxAccelerationAngular 4.250000
+maxDecelerationAngular 4.250000
+maxSpeedLinear 70.000000
+maxRollRate 15.000000
+maxRollAngle 15.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "cardassian_destroyer3_attack1"
+SoundID "cardassian_destroyer3_attack2"
+SoundID "cardassian_destroyer3_attack3"
+NumSoundsFor:ONCREATION 3
+SoundID "cardassian_destroyer3_select1"
+SoundID "cardassian_destroyer3_select2"
+SoundID "cardassian_destroyer3_select3"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "cardassian_destroyer3_move1"
+SoundID "cardassian_destroyer3_move2"
+SoundID "cardassian_destroyer3_move3"
+NumSoundsFor:ONSELECTED 3
+SoundID "cardassian_destroyer3_select1"
+SoundID "cardassian_destroyer3_select2"
+SoundID "cardassian_destroyer3_select3"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "cardassian_destroyer3_warp1"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "C_DNM"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName ""
+ExplosionName "Explosion_Capital_Card"
+HyperspaceChargingSoundID "CardassianEnterWarp"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "Engine_Fed"
+ability:0 "M_Ability_ThoronShock"
+ability:1 "M_Ability_DNM"
+ability:2 "M_Ability_Planet_Detonate"
+ability:3 ""
+ability:4 "G_Ability_UnCap"
+MaxAntiMatter 400.000000
+AntiMatterRestoreRate 3.500000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 0
+minShadow 0.000000
+maxShadow 0.400000
+allegianceDecreasePerRoundtrip 0.000000

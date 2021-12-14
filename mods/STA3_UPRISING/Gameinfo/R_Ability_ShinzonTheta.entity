@@ -1,0 +1,43 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "R_Buff_ShinzonTheta_Self"
+effectInfo
+	effectAttachInfo
+		attachType "Above"
+	smallEffectName "R_Ability_ShinzonTheta"
+	mediumEffectName "R_Ability_ShinzonTheta"
+	largeEffectName "R_Ability_ShinzonTheta"
+	soundID "R_Ability_ShinzonTheta"
+needsToFaceTarget FALSE
+canCollideWithTarget FALSE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityDLevel"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "None"
+cooldownTime
+	Level:0 70.000000
+	Level:1 65.000000
+	Level:2 60.000000
+	Level:3 55.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "R_Ability_ShinzonTheta_Name"
+descStringID "R_Ability_ShinzonTheta_Desc"
+hudIcon "R_hudicon_shinzontheta"
+smallHudIcon "R_hudicon_shinzontheta"
+infoCardIcon ""

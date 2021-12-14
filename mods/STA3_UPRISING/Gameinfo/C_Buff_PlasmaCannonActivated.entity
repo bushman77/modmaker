@@ -1,0 +1,77 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling TRUE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantBeamEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	weaponEffectImpactOffsetType "CenterOffsetBySpatialRadius"
+	canWeaponEffectHitHull TRUE
+	canWeaponEffectHitShields FALSE
+	weaponEffectsDef
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Card_Weap_Kulinor_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "K_IonBeam"
+		hitEffectName "C_Weap_Kulinor_Beam"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "EFFECT_RESOURCEDRAIN_LOOP"
+		beamGlowTextureName "K_Ionbeam"
+		beamCoreTextureName "CardPhaserKulinorBomb_Core"
+		beamWidth 80.000000
+		beamGlowColor ff000000
+		beamCoreColor ffffffff
+		beamTilingRate 35.000000
+numPeriodicActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "DoDamageToPlanet"
+	damageRate
+		Level:0 350.000000
+		Level:1 400.000000
+		Level:2 500.000000
+		Level:3 650.000000
+	populationKillRate
+		Level:0 7.000000
+		Level:1 8.500000
+		Level:2 9.000000
+		Level:3 10.000000
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 3
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 3.000000
+		Level:1 3.000000
+		Level:2 3.000000
+		Level:3 3.000000
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "TargetOwnerIsFriendly"

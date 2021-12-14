@@ -1,0 +1,62 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "F_Buff_Deploy_Defiant_Mines"
+effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyWithNoOrder"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Resources"
+creditCost
+	Level:0 870.000000
+	Level:1 870.000000
+	Level:2 870.000000
+	Level:3 870.000000
+metalCost
+	Level:0 315.000000
+	Level:1 315.000000
+	Level:2 315.000000
+	Level:3 315.000000
+crystalCost
+	Level:0 250.000000
+	Level:1 250.000000
+	Level:2 250.000000
+	Level:3 250.000000
+cooldownTime
+	Level:0 180.000000
+	Level:1 140.000000
+	Level:2 120.000000
+	Level:3 90.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "F_ABILITY_DEPLOYS_DEFIANT_MINES_NAME"
+descStringID "F_ABILITY_DEPLOYS_DEFIANT_MINES_DESC"
+hudIcon "F_ability_layexplosivemines"
+smallHudIcon "F_ability_layexplosivemines"
+infoCardIcon ""

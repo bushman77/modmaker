@@ -1,0 +1,212 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Light"
+statCountType "FrigateLight"
+mainViewIcon "Icon_F_Saber"
+picture "Unit_Picture_Fed"
+NameStringID "F_SABER_NAME"
+DescriptionStringID "F_saber_desc"
+counterDescriptionStringID "ClassFrigate_RangeMedium"
+basePrice
+	credits 380.000000
+	metal 55.000000
+	crystal 0.000000
+slotCount 0.000000
+BuildTime 24.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 40.000000
+MaxHullPoints 1200.000000
+MaxShieldPoints 1300.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 1.000000
+BaseArmorPoints 2.000000
+maxMitigation 0.600000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 0
+numSpecificDebris 0
+armorType "Light"
+hudIcon "Bb_Fed_Saber"
+smallHudIcon "Icon_Gen_Frigate"
+infoCardIcon "Icon_Gen_Frigate"
+minZoomDistanceMult 1.000000
+NumWeapons 2
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTILIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "BEAM"
+	DamagePerBank:FRONT 0.010000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.010000
+	DamagePerBank:RIGHT 0.010000
+	Range 4500.000000
+	PreBuffCooldownTime 7.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 1.50000
+	TravelSpeed 0.000000
+	Duration 1.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.450000
+		muzzleEffectName "Fed_Weap_Phaser_Muzzle_Frigates"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "FedPhaserLight_Start"
+			sound "FedPhaserLight_Start2"
+			sound "FedPhaserLight_Start3"			
+		hitEffectName "Fed_Weap_Phaser_Impact_Frigates"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Wpn_Imp_Pulse_Hull1"
+			sound "Wpn_Imp_Pulse_Hull2"
+			sound "Wpn_Imp_Pulse_Hull3"
+			sound "Wpn_Imp_Pulse_Hull4"			
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"		
+		beamEffectSounds
+			soundCount 1
+			sound "FedPhaserLight_Loop"
+		beamGlowTextureName "FedPhaserBeam_Glow"
+		beamCoreTextureName "FedPhaserBeam_Core"
+		beamWidth 6.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 10.00000
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTIMEDIUM"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 0.010000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4500.000000
+	PreBuffCooldownTime 24.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 1.000000
+	TravelSpeed 1300.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 2
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Fed_Weap_Photon_Muzzle"
+		muzzleSoundMinRespawnTime 0.005000
+		muzzleSounds
+			soundCount 1
+			sound "FedPhotonSaber"
+		hitEffectName "Weapon_Fed_Photon_Hit"
+		hitHullEffectSounds
+			soundCount 2
+			sound "Wpn_Imp_Torp_Hull1"
+			sound "Wpn_Imp_Torp_Hull2"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"	
+		missileTravelEffectName "Fed_Weap_Photon_Orange"
+		missileStartTurningDistance 250.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 0.010000		
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1500.000000
+ShieldMeshName "F_Saber_Shield"
+renderShield TRUE
+maxAccelerationLinear 135.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 135.000000
+maxAccelerationAngular 6.100000
+maxDecelerationAngular 6.100000
+maxSpeedLinear 500.000000
+maxRollRate 16.000000
+maxRollAngle 50.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "Fed1Attack"
+SoundID "Fed1Attack2"
+SoundID "Fed1Attack3"
+NumSoundsFor:ONCREATION 3
+SoundID "Fed1Select"
+SoundID "Fed1Select2"
+SoundID "Fed1Select3"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "Fed1Move"
+SoundID "Fed1Move2"
+SoundID "Fed1Move3"
+NumSoundsFor:ONSELECTED 3
+SoundID "Fed1Select"
+SoundID "Fed1Select2"
+SoundID "Fed1Select3"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "Fed1Move"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "F_Saber"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName ""
+ExplosionName "Explosion_Empty"
+HyperspaceChargingSoundID "FederationEnterWarp"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "Engine_Fed"
+ability:0 "F_Ability_Decoy"
+ability:1 ""
+ability:2 ""
+ability:3 "G_Ability_UnCap"
+ability:4 ""
+MaxAntiMatter 200.000000
+AntiMatterRestoreRate 0.500000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 0
+minShadow 0.000000
+maxShadow 1.000000
+allegianceDecreasePerRoundtrip 0.000000

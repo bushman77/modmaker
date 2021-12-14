@@ -1,0 +1,74 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "DoInterrupt"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "C_Ability_Polarize_RadiusFx"
+		mediumEffectName "C_Ability_Polarize_RadiusFx"
+		largeEffectName "C_Ability_Polarize_RadiusFx"
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "Magnetize"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 1
+		object "Fighter"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	range
+		Level:0 5000.000000
+		Level:1 6000.000000
+		Level:2 7000.000000
+		Level:3 8000.000000
+	maxNumTargets
+		Level:0 8.000000
+		Level:1 11.000000
+		Level:2 15.000000
+		Level:3 18.000000
+	damagePerImpact
+		Level:0 25.000000
+		Level:1 25.000000
+		Level:2 25.000000
+		Level:3 25.000000
+	pullForceMagnitude 450000.000000
+numEntityModifiers 0
+numEntityBoolModifiers 1
+entityBoolModifier "DisableAbilities"
+numFinishConditions 3
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 10.000000
+		Level:1 12.000000
+		Level:2 15.000000
+		Level:3 17.000000
+finishCondition
+	finishConditionType "FightersKilled"
+	fightersKilled
+		Level:0 10.000000
+		Level:1 15.000000
+		Level:2 20.000000
+		Level:3 25.000000
+finishCondition
+	finishConditionType "OwnerChanged"

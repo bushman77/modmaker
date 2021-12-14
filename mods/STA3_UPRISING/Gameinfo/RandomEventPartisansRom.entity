@@ -1,0 +1,65 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "SpawnShipsAtPlanet"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	spawnShipsLevelCount 1
+	spawnShips
+		minFleetPoints 150.000000
+		maxFleetPoints 350.000000
+		requiredShipCount 5
+		requiredShip
+			type "R_Flak_Lanora"
+			minCount 2
+			maxCount 3
+		requiredShip
+			type "R_Frigate_Hawk"
+			minCount 2
+			maxCount 2
+		requiredShip
+			type "R_Support_Griffin"
+			minCount 3
+			maxCount 7
+		requiredShip
+			type "R_Cruiser_HeavyDefender"
+			minCount 3
+			maxCount 6
+		requiredShip
+			type "R_AntiStation_WhiteWing"
+			minCount 3
+			maxCount 6
+		randomShipCount 4
+		randomShip
+			type "R_Cap_Warbird"
+			weight 1
+		randomShip
+			type "R_Cap_Vengeance"
+			weight 1
+		randomShip
+			type "R_Cap_Valdore"
+			weight 1
+		randomShip
+			type "R_Cap_Shadow"
+			weight 1
+	spawnShipsArrivalDelayTime 7.000000
+	spawnShipsHyperspaceSpawnType "FleetBeacon"
+	shouldAdoptFirstSpawnersMinorFactionState TRUE
+	spawnShipsMinStartingHullPerc 1.0
+	spawnShipsMaxStartingHullPerc 1.0
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

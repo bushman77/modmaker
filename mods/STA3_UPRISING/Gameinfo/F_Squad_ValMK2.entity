@@ -1,0 +1,46 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Squad"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+hudIcon "F_hudicon_valk2"
+smallHudIcon "Icon_Gen_Fighter"
+infoCardIcon "Icon_Gen_Fighter"
+fighterEntityDef "F_Fighter_ValMK2"
+fighterIllusionEntityDef "F_Fighter_ValMK2"
+scuttleTime 10.000000
+fighterConstructionTime 20.000000
+decayWithoutOwnerRate 0.010000
+baseMaxNumFighters 2
+role "Bomber"
+statCountType "SquadBomber"
+mainViewIcon "Icon_F_Valk2"
+picture "Unit_Picture_Fed"
+launchIcon "HUDICONLAUNCH_SQUADTECHCOMBAT"
+dockIcon "HUDICONDOCK_SQUADTECHCOMBAT"
+nameStringID "F_VALMK2SQUAD_NAME"
+descriptionStringID "F_VALMK2SQUAD_DESC"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+	Subject "F_Research_Acces_Typhon"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+NumSoundsFor:ONATTACKORDERISSUED 1
+SoundID "F_Fighter_Com"
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 1
+SoundID "F_Fighter_Com"
+NumSoundsFor:ONSELECTED 1
+SoundID "F_Fighter_Select"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+minShadow 0.000000
+maxShadow 0.000000
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""

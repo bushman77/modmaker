@@ -1,0 +1,61 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "PerPlayer"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusivePerPlayer"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 4
+entityModifier
+	buffEntityModifierType "CultureSpreadRateForOwner"
+	value
+		Level:0 -0.500000
+		Level:1 -0.700000
+		Level:2 -0.700000
+		Level:3 -0.700000
+entityModifier
+	buffEntityModifierType "TradeIncome"
+	value
+		Level:0 0.100000
+		Level:1 0.100000
+		Level:2 0.100000
+		Level:3 0.100000
+entityModifier
+	buffEntityModifierType "PlanetTaxRate"
+	value
+		Level:0 0.300000
+		Level:1 0.500000
+		Level:2 0.500000
+		Level:3 0.500000
+entityModifier
+	buffEntityModifierType "PlanetMaxPopulation"
+	value
+		Level:0 -0.100000
+		Level:1 -0.150000
+		Level:2 -0.150000
+		Level:3 -0.150000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "LastSpawnerNoLongerHasBuff"
+		buffTypeToQuery "C_Buff_EnslavePopulace_Self"
+

@@ -1,0 +1,39 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "Bb_Rom_Harpy"
+smallHudIcon "Bb_Rom_Harpy"
+infoCardIcon ""
+NameStringID "R_res_harpyaccess_name"
+DescriptionStringID "R_res_harpyaccess_desc"
+researchWindowLocation
+	block 0
+	pos [ 5 , 3 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+		ResearchPrerequisite
+	Subject "R_research_shipaccess_heavydefender"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 45.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 1000.000000
+	metal 145.000000
+	crystal 150.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 5
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

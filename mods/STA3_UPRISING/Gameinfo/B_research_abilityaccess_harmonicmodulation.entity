@@ -1,0 +1,39 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "B_icon_harmonicmodulationdefence"
+smallHudIcon "B_icon_harmonicmodulationdefence"
+infoCardIcon ""
+NameStringID "B_res_abilityaccess_harmonicmodulation_name"
+DescriptionStringID "B_res_abilityaccess_harmonicmodulation_desc"
+researchWindowLocation
+	block 0
+	pos [ 2 , 3 ]
+ResearchField "Defense"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+	Subject "B_research_turretunlock"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 35.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 800.000000
+	metal 80.000000
+	crystal 80.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 2
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

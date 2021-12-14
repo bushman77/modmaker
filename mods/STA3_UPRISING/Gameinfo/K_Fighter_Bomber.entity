@@ -1,0 +1,93 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Fighter"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+numRandomDebrisLarge 0
+numRandomDebrisSmall 0
+numSpecificDebris 0
+armorType "VeryLight"
+hudIcon "K_icon_gorothbomberBB"
+smallHudIcon "Icon_Gen_Fighter"
+infoCardIcon "Icon_Gen_Fighter"
+minZoomDistanceMult 8.000000
+nameStringID "K_BOMBER_NAME"
+counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_BOMBER"
+statCountType "FighterBomber"
+formationOffsetDistance 50.000000
+mass 150.000000
+maxAccelerationLinear 100.000000
+maxAccelerationStrafe 15.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 25.000000
+maxDecelerationAngular 50.000000
+maxSpeedLinear 650.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+NumWeapons 1
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "COMPOSITE"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 45.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 1500.000000
+	PreBuffCooldownTime 7.500000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 1.000000
+	TravelSpeed 1500.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 1.000000
+		fireDelay 0.000000
+		muzzleEffectName "Kli_Weap_Photon_muzzle"
+		muzzleSoundMinRespawnTime 0.005000
+		muzzleSounds
+			soundCount 1
+			sound "K_PHOTON"
+		hitEffectName "Weapon_Kli_RedTorp_Hit"
+		hitHullEffectSounds
+			soundCount 2
+			sound "Wpn_Imp_Torp_Hull1"
+			sound "Wpn_Imp_Torp_Hull2"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"		
+		missileTravelEffectName "Kli_Weap_Photon_Red_Small"
+		missileStartTurningDistance 250.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 0.010000				
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+meshName "K_Bomber"
+exhaustParticleSystemName ""
+ExplosionName "Fighter0"
+exhaustTrailTextureName ""
+exhaustTrailWidth 0.000001
+engineSoundID "ENGINE_PHASESUPPORTSHIP"
+maxHullPoints 110.000000
+hullPointRestoreRate 0.680000
+armorPoints 4.000000
+maxMitigation 0.600000
+experiencePointsForDestroying 6.000000
+minShadow 0.200000
+maxShadow 0.500000

@@ -1,0 +1,44 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "R_research_researchincrease"
+smallHudIcon "R_research_researchincrease"
+infoCardIcon ""
+NameStringID "R_res_researchincrease_name"
+DescriptionStringID "R_res_researchincrease_desc"
+researchWindowLocation
+	block 0
+	pos [ 0 , 3 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 50.000000
+PerLevelUpgradeTime 20.000000
+BaseCost
+	credits 500.000000
+	metal 100.000000
+	crystal 100.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 20.000000
+	crystal 20.000000
+Tier 0
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 4
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "ResearchBuildRateAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.200000
+researchModifier
+	modifierType "ResearchCostAdjustment"
+	baseValue 0.000000
+	perLevelValue -0.0500000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

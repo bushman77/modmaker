@@ -1,0 +1,47 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "R_Res_Cargoshipcount"
+smallHudIcon "R_Res_Cargoshipcount"
+infoCardIcon ""
+NameStringID "R_RESEARCHSUBJECT_CARGOSHIPCOUNT_NAME"
+DescriptionStringID "R_RESEARCHSUBJECT_CARGOSHIPCOUNT_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 6 , 1 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "R_Res_RefineryAcces"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 105.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1600.000000
+	metal 300.000000
+	crystal 475.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 6
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 3.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "CargoShipCapacityAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.050000
+researchModifier
+	modifierType "ExtractionRateFromResourceFocus"
+	baseValue 0.000000
+	perLevelValue 0.080000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

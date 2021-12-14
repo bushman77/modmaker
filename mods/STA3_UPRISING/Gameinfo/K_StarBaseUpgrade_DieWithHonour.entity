@@ -1,0 +1,54 @@
+TXT2
+SinsArchiveVersion 193
+entityType "StarBaseUpgrade"
+stageCount 2
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "K_STARBASEUPGRADEDIEWITHHONOUR_NAME"
+	descStringID "K_STARBASEUPGRADEDIEWITHHONOUR_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+		Subject "K_research_abilityaccess_shockwave"
+		Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "K_icon_tothedeath"
+	smallHudIcon "K_icon_tothedeath"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 3000.000000
+		metal 450.000000
+		crystal 350.000000
+	upgradeTime 30.000000
+	nameStringID "K_STARBASEUPGRADEDIEWITHHONOUR_NAME"
+	descStringID "K_STARBASEUPGRADEDIEWITHHONOUR_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+		Subject "K_research_abilityaccess_shockwave"
+		Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "K_icon_tothedeath"
+	smallHudIcon "K_icon_tothedeath"
+	infoCardIcon ""
+	upgradePropertyCount 3
+	upgradeProperty
+		propertyType "MaxAntiMatterPoints"
+		value 150.000000
+	upgradeProperty
+		propertyType "AntiMatterRestoreRate"
+		value 2.500000
+	upgradeProperty
+		propertyType "AbilityDLevel"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+xpModifier 80.000000

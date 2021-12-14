@@ -1,0 +1,44 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "K_research_defencemandate"
+smallHudIcon "K_research_defencemandate"
+infoCardIcon ""
+NameStringID "K_res_tacticaldefences_name"
+DescriptionStringID "K_res_tacticaldefences_desc"
+researchWindowLocation
+	block 0
+	pos [ 4 , 0 ]
+ResearchField "Defense"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 90.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1400.000000
+	metal 250.000000
+	crystal 200.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 4
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 3
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "TacticalStructureArmorAdjustment"
+	baseValue 0.000000
+	perLevelValue 1.250000
+researchModifier
+	modifierType "TacticalStructureHullPointsMaxAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.150000
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

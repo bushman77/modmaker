@@ -1,0 +1,173 @@
+﻿TXT2
+SinsArchiveVersion 193
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn FALSE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+autoJoinFleetDefault FALSE
+canBomb FALSE
+typeCount 2
+frigateRoleType "Envoy"
+frigateRoleType "MinorFactionCapturer"
+statCountType "FrigateEnvoy"
+mainViewIcon "Icon_F_Challenger"
+picture "Unit_Picture_Fed"
+NameStringID "F_CHALLENGER_NAME"
+DescriptionStringID "IDS_FRIGATE_TECHENVOY_DESCRIPTION"
+counterDescriptionStringID "F_ClassEnvoy_RangeShort"
+basePrice
+	credits 550.000000
+	metal 70.000000
+	crystal 10.000000
+slotCount 4.000000
+BuildTime 63.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 4.000000
+MaxHullPoints 1900.000000
+MaxShieldPoints 2000.000000
+HullPointRestoreRate 0.250000
+ShieldPointRestoreRate 1.000000
+BaseArmorPoints 1.000000
+maxMitigation 0.600000
+relationshipChangeRate 0.000700
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+	Subject "F_research_access_challenger"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 4
+numSpecificDebris 1
+specificDebrisMeshName "F_Challenger_Debris"
+armorType "Medium"
+hudIcon "F_hudicon_surakclass"
+smallHudIcon "Icon_Gen_Cruiser"
+infoCardIcon "Icon_Gen_Cruiser"
+minZoomDistanceMult 1.500000
+NumWeapons 1
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTIMEDIUM"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "BEAM"
+	DamagePerBank:FRONT 120.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 3750.000000
+	PreBuffCooldownTime 6.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 3.50000
+	TravelSpeed 0.000000
+	Duration 1.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.300000
+		muzzleEffectName "Fed_Weap_Phaser_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "FedPhaserLight_Start"
+			sound "FedPhaserLight_Start2"
+			sound "FedPhaserLight_Start3"
+		hitEffectName "Fed_Weap_Phaser_Impact"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Wpn_Imp_Pulse_Hull1"
+			sound "Wpn_Imp_Pulse_Hull2"
+			sound "Wpn_Imp_Pulse_Hull3"
+			sound "Wpn_Imp_Pulse_Hull4"			
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"		
+		beamEffectSounds
+			soundCount 1
+			sound "FedPhaserLight_Loop"
+		beamGlowTextureName "FedPhaserBeam_Glow"
+		beamCoreTextureName "FedPhaserBeam_Core"
+		beamWidth 10.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 25.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1500.000000
+ShieldMeshName "F_Challenger_Shield"
+renderShield TRUE
+maxAccelerationLinear 115.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 115.000000
+maxAccelerationAngular 5.000000
+maxDecelerationAngular 5.000000
+maxSpeedLinear 400.000000
+maxRollRate 12.000000
+maxRollAngle 65.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "Fed8Attack"
+SoundID "Fed8Attack2"
+SoundID "Fed8Attack3"
+NumSoundsFor:ONCREATION 3
+SoundID "Fed8Select"
+SoundID "Fed8Select2"
+SoundID "Fed8Select2"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "Fed8Move"
+SoundID "Fed8Move2"
+SoundID "Fed8Move3"
+NumSoundsFor:ONSELECTED 3
+SoundID "Fed8Select"
+SoundID "Fed8Select2"
+SoundID "Fed8Select2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "Fed8Move"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "F_Challenger"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName ""
+ExplosionName "Explosion_Frigate_Fed_Medium"
+HyperspaceChargingSoundID "FederationEnterWarp"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "Engine_Fed"
+ability:0 "F_Ability_DiplomaticImmunity"
+ability:1 "F_Ability_Envoy_Goodwill"
+ability:2 "F_ability_outreach"
+ability:3 "F_Ability_ArbitrateTariff"
+ability:4 "F_Ability_Settlers"
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 2
+minShadow 0.000000
+maxShadow 0.600000
+allegianceDecreasePerRoundtrip 0.050000

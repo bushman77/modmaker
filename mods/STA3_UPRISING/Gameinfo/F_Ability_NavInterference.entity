@@ -1,0 +1,54 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToIncomingHyperspacers"
+instantActionTriggerType "AlwaysPerform"
+buffType "F_Buff_NavInterference"
+targetFilter
+	numOwnerships 1
+		ownership "Enemy"
+	numObjects 4
+		object "Titan"
+		object "CapitalShip"
+		object "Frigate"
+		object "Corvette"
+	numSpaces 2
+		space "Phase"
+		space "Normal"
+	numConstraints 0
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "F_Ability_NavInterferance"
+	mediumEffectName "F_Ability_NavInterferance"
+	largeEffectName "F_Ability_NavInterferance"
+	soundID "F_Ability_NavInterferance"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyWhenManyTargetsHyperspacingTowardsMyGravityWell"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "None"
+	cooldownTime
+		Level:0 330.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+	orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "F_Ability_NavInterference_name"
+descStringID "F_Ability_NavInterference_desc"
+hudIcon "Bb_Fed_Comm"
+smallHudIcon "Icon_F_Comm"
+infoCardIcon ""

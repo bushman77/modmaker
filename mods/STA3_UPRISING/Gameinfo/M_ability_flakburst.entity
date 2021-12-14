@@ -1,0 +1,73 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+instantActionTriggerType "AlwaysPerform"
+buffType "M_buff_flakburst"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 1
+	object "Fighter"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 13500.000000
+	Level:1 13380.000000
+	Level:2 13760.000000
+	Level:3 14140.000000
+maxTargetCount
+	Level:0 -1.000000
+	Level:1 -1.000000
+	Level:2 -1.000000
+	Level:3 -1.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "M_Ability_BajFlakBurst"
+	mediumEffectName "M_Ability_BajFlakBurst"
+	largeEffectName "M_Ability_BajFlakBurst"
+	soundID "C_Ability_Flakburst"
+travelSpeed 1000.000000
+effectStaggerDelay 0.000000
+hasWeaponEffects FALSE
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyWhenManyTargetsInRange"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 5.000000
+	Level:1 9.000000
+	Level:2 13.000000
+	Level:3 13.000000
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 8.000000
+	Level:1 8.000000
+	Level:2 8.000000
+	Level:3 8.000000
+cooldownTime
+	Level:0 20.000000
+	Level:1 20.000000
+	Level:2 20.000000
+	Level:3 20.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "C_Ability_flakburst_name"
+descStringID "C_Ability_flakburst_desc"
+hudIcon "C_hudicon_flackburst"
+smallHudIcon "C_hudicon_flackburst"
+infoCardIcon ""

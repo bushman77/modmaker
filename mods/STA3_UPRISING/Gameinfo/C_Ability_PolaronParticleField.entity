@@ -1,0 +1,71 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTarget"
+instantActionTriggerType "AlwaysPerform"
+buffType "C_Buff_PolaronParticleFieldSpawn"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 6
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 8000.000000
+	Level:1 8000.000000
+	Level:2 8000.000000
+	Level:3 8000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	smallEffectName "C_Ability_PolaronPField"
+	mediumEffectName "C_Ability_PolaronPField"
+	largeEffectName "C_Ability_PolaronPField"
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 50.000000
+	Level:1 50.000000
+	Level:2 50.000000
+	Level:3 50.000000
+cooldownTime
+	Level:0 10.000000
+	Level:1 10.000000
+	Level:2 10.000000
+	Level:3 10.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "C_ABILITY_POLARONPARTICLEFIELD_NAME"
+descStringID "C_ABILITY_POLARONPARTICLEFIELD_DESC"
+hudIcon "C_icon_particleweyoun"
+smallHudIcon "C_icon_particleweyoun"
+infoCardIcon ""

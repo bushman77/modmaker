@@ -1,0 +1,43 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Squad"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+hudIcon "R_icon_gladuisbomberBBicon"
+smallHudIcon "Icon_Gen_Fighter"
+infoCardIcon "Icon_Gen_Fighter"
+fighterEntityDef "R_Shuttle_elite"
+fighterIllusionEntityDef "R_Shuttle_elite"
+scuttleTime 9.000000
+fighterConstructionTime 19.799999
+decayWithoutOwnerRate 0.010000
+baseMaxNumFighters 2
+role "Bomber"
+statCountType "SquadBomber"
+mainViewIcon "Icon_R_Gladius"
+picture "Unit_Picture_Rom"
+launchIcon "HUDICONLAUNCH_SQUADPSIBOMBER"
+dockIcon "HUDICONDOCK_SQUADPSIBOMBER"
+nameStringID "R_SQUADELITE_NAME"
+descriptionStringID "R_SQUADELITE_DESC"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+NumSoundsFor:ONATTACKORDERISSUED 1
+SoundID "R_Fighter_Com"
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 1
+SoundID "R_Fighter_Com"
+NumSoundsFor:ONSELECTED 1
+SoundID "R_Fighter_Select"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+minShadow 0.000000
+maxShadow 0.000000
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""

@@ -1,0 +1,152 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn FALSE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault FALSE
+canBomb FALSE
+typeCount 2
+frigateRoleType "Scout"
+frigateRoleType "AntiMine"
+statCountType "FrigateScout"
+mainViewIcon "Icon_R_Talon"
+picture "Unit_Picture_Rom"
+NameStringID "R_TALON_NAME"
+DescriptionStringID "R_talon_desc"
+counterDescriptionStringID "R_ClassScout_RangeShort"
+basePrice
+	credits 300.000000
+	metal 0.000000
+	crystal 0.000000
+slotCount 2.000000
+BuildTime 15.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 8.000000
+MaxHullPoints 800.000000
+MaxShieldPoints 1100.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 1.000000
+BaseArmorPoints 2.000000
+maxMitigation 0.550000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 3
+numSpecificDebris 0
+armorType "Light"
+hudIcon "Bb_Rom_Talon"
+smallHudIcon "Icon_Gen_Frigate"
+infoCardIcon "Icon_Gen_Frigate"
+minZoomDistanceMult 5.500000
+NumWeapons 1
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTILIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "LASERPSI"
+	DamagePerBank:FRONT 60.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 3000.000000
+	PreBuffCooldownTime 8.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.000000
+	TravelSpeed 4000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 4
+		burstDelay 0.200000
+		fireDelay 0.000000
+		muzzleEffectName "Rom_Weap_Pulse_muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "R_Pulse"
+		hitEffectName "Weapon_Rom_Disruptor_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Rom_Weap_Pulsephaser_medium"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1500.000000
+ShieldMeshName "R_Talon_Shield"
+renderShield TRUE
+maxAccelerationLinear 195.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 195.000000
+maxAccelerationAngular 14.950000
+maxDecelerationAngular 19.999996
+maxSpeedLinear 700.000000
+maxRollRate 10.000000
+maxRollAngle 65.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "romulan_scout1_attack1"
+SoundID "romulan_scout1_attack2"
+SoundID "romulan_scout1_attack3"
+NumSoundsFor:ONCREATION 1
+SoundID "romulan_scout1_select1"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "romulan_scout1_move1"
+SoundID "romulan_scout1_move2"
+SoundID "romulan_scout1_move3"
+NumSoundsFor:ONSELECTED 3
+SoundID "romulan_scout1_select1"
+SoundID "romulan_scout1_select2"
+SoundID "romulan_scout1_select3"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "romulan_scout1_move3"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "R_Talon"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName ""
+ExplosionName "Explosion_Frigate_Rom_Medium"
+HyperspaceChargingSoundID "RomulanEnterWarp"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "Engine_Romulan"
+ability:0 "R_Ability_Explore"
+ability:1 "R_ability_detectcloakfrigateblast"
+ability:2 "R_ability_detectminesscout"
+ability:3 "NEM_Ability_PassiveLowLifeT1"
+ability:4 ""
+MaxAntiMatter 200.000000
+AntiMatterRestoreRate 1.000000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 1
+minShadow 0.000000
+maxShadow 0.600000
+allegianceDecreasePerRoundtrip 0.000000

@@ -1,0 +1,73 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "F_Buff_Surgical_Strike_Activated"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 4
+	object "Frigate"
+	object "Corvette"
+	object "CapitalShip"
+	object "Titan"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 6000.000000
+	Level:1 7000.000000
+	Level:2 8000.000000
+	Level:3 9000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility TRUE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 2.000000
+	Level:1 4.000000
+	Level:2 6.000000
+	Level:3 8.000000
+aiUseTime "OnlyWhenManyTargetsInRange"
+    onlyAutoCastWhenTargetCountExceedsAmount 
+    Level:0 4.000000
+	Level:1 4.000000
+	Level:2 5.000000
+	Level:3 6.000000
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 60.000000
+	Level:1 60.000000
+	Level:2 60.000000
+	Level:3 60.000000
+cooldownTime
+	Level:0 40.000000
+	Level:1 40.000000
+	Level:2 40.000000
+	Level:3 40.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "F_TARGETANTIMATTER_NAME"
+descStringID "F_TARGETANTIMATTER_DESC"
+hudIcon "F_ability_Antimatterspread"
+smallHudIcon "F_ability_Antimatterspread"
+infoCardIcon ""

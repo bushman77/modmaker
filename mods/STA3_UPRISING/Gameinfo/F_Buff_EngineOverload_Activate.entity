@@ -1,0 +1,66 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayPersistantBeamEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Ability"
+		abilityIndex 0		
+	weaponEffectImpactOffsetType "RandomMesh"
+	canWeaponEffectHitHull TRUE
+	canWeaponEffectHitShields FALSE
+	weaponEffectsDef
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Min_Weap_Phaser_Impact"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Min_Weap_Phaser_Impact"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "EFFECT_SHIELDRESTORE_BEAM"
+		beamGlowTextureName "FedPhaserBeam_Glow"
+		beamCoreTextureName "F_Ability_EngineOverload_Beam"
+		beamWidth 25.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 15.000000
+instantAction
+	buffInstantActionType "ApplyBuffToTargetNoFilterNoRange"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "F_Buff_EngineOverload_Target"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 2.000000
+		Level:1 2.000000
+		Level:2 2.000000
+		Level:3 2.000000

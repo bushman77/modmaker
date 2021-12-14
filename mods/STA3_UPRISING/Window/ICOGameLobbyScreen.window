@@ -1,0 +1,81 @@
+TXT2
+SinsArchiveVersion 193
+backdrop "ICOGameLobbyScreenBackdrop"
+textEntryDef
+	labelFontId "Label"
+	textEntryFontId "ChatTextEntry"
+backButton
+	area [59, 651, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	icon "ScreenBackButton"
+	text "IDSICOGameLobbyScreenBackButton"
+startGameButton
+	area [749, 654, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	icon "ICOGameLobbyScreenStartGameButton"
+	text "IDSICOGameLobbyScreenStartGameButton"
+openInviteOverlayButton
+	area [649, 55, 133 , 38]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft -5
+	textOffsetFromLeft 43
+	underlay "ScreenButtonUnderlayMedium"
+	overlay "ScreenButtonOverlayMedium"			
+	icon "PlayerStatusAvailableForFriend"
+	text "IDSGalaxySetupWindowInviteViaOverlayTitle"
+openGameOptionsDialogButton
+	area [288, 651, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	icon "OpenGameOptionsDialog"
+	text "IDSGalaxySetupWindowOpenGameOptionsDialog"
+openVictoryOptionsDialogButton
+	area [518, 651, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	icon "OpenGameOptionsDialog"
+	text "IDSGalaxySetupWindowOpenVictoryOptionsDialog"		
+chatReceivedTextList
+	area [650, 230, 320, 370]
+	itemGap 3
+chatEntry
+	area [650, 608, 320, 36]
+	labelWidth 0
+	labelText ""
+playerSetupWindow
+	area [60, 230, 600, 500]
+galaxyInfoWindow
+	area [60, 62, 500, 500]
+channelNameWindow
+	area [650, 100, 220, 60]
+	labelArea [0, 0, 80, 60]
+	valueArea [90, 0, 220, 60]
+	labelFontId "WindowSubTitle"
+	valueFontId "TabbedScreenTitle"
+	labelStringId "IDSICOLobbyScreenChatChannelName"
+changeChannelButton
+	area [649, 165, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 27
+	textOffsetFromLeft 65
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"				
+	icon "ICOLobbyScreenChangeChannelButton"
+	text "IDSICOLobbyScreenChangeChannelButton"
+victoryInfoFont "ButtonLabel"
+victoryInfoPosition [445,200]
+spaceBetweenVictoryInfo -25

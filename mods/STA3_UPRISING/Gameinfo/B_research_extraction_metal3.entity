@@ -1,0 +1,43 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "B_res_tritanium4"
+smallHudIcon "B_res_tritanium4"
+infoCardIcon ""
+NameStringID "B_res_extraction_crystal3_name"
+DescriptionStringID "B_res_extraction_crystal3_desc"
+researchWindowLocation
+	block 0
+	pos [ 7 , 1 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+	Subject "B_research_extraction_metal2"
+	Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 80.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 950.000000
+	metal 95.000000
+	crystal 95.000000
+PerLevelCostIncrease
+	credits 950.000000
+	metal 95.000000
+	crystal 95.000000
+Tier 7
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 2
+priority 3.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "ExtractionRateMetalAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.075000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

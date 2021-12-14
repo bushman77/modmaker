@@ -1,0 +1,78 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadius"
+instantActionTriggerType "AlwaysPerform"
+buffType "M_Buff_ThoronShock"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 6
+	object "CapitalShip"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	object "Corvette"
+	object "Frigate"
+	numSpaces 1
+	space "Normal"
+	numConstraints 2
+	constraint "NotSelf"
+	constraint "NotInvulnerable"
+range
+	Level:0 8000.000000
+	Level:1 8000.000000
+	Level:2 8000.000000
+	Level:3 8000.000000
+maxTargetCount
+	Level:0 -1.00000000
+	Level:1 -1.00000000
+	Level:2 -1.00000000
+	Level:3 -1.00000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "M_Ability_DN_ThoronShockwave"
+	mediumEffectName "M_Ability_DN_ThoronShockwave"
+	largeEffectName "M_Ability_DN_ThoronShockwave"
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyWhenManyTargetsInRange"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 5.000000
+	Level:1 5.000000
+	Level:2 5.000000
+	Level:3 5.000000
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 10.000000
+	Level:1 10.000000
+	Level:2 10.000000
+	Level:3 10.000000
+cooldownTime
+	Level:0 60.000000
+	Level:1 60.000000
+	Level:2 60.000000
+	Level:3 60.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"	
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "C_AUTODEFENCE_NAME"
+descStringID "DNMTHORONSHOCK_DESC"
+hudIcon "C_hudicon_polarontorpmantis"
+smallHudIcon "C_hudicon_polarontorpmantis"
+infoCardIcon "C_hudicon_polarontorpmantis"
+

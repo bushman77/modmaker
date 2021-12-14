@@ -1,0 +1,64 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "F_Ability_EvasiveManeuvers_Centaur_Self"
+		mediumEffectName "F_Ability_EvasiveManeuvers_Centaur_Self"
+		largeEffectName "F_Ability_EvasiveManeuvers_Centaur_Self"
+		soundID "EFFECT_POWERSURGE"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 4
+entityModifier
+	buffEntityModifierType "AngularThrust"
+	value
+		Level:0 0.250000
+		Level:1 0.450000
+		Level:2 0.660000
+		Level:3 0.860000
+entityModifier
+	buffEntityModifierType "LinearMaxSpeed"
+	value
+		Level:0 0.250000
+		Level:1 0.450000
+		Level:2 0.660000
+		Level:3 0.860000
+		entityModifier
+	buffEntityModifierType "LinearThrust"
+	value
+		Level:0 0.250000
+		Level:1 0.450000
+		Level:2 0.660000
+		Level:3 0.860000
+	entityModifier
+	buffEntityModifierType "ChanceToHitAsDamageTarget"
+	value
+		Level:0 -0.200000
+		Level:1 -0.450000
+		Level:2 -0.660000
+		Level:3 -0.860000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 30.000000
+		Level:1 30.000000
+		Level:2 30.000000
+		Level:3 30.000000
+finishCondition
+	finishConditionType "OwnerChanged"

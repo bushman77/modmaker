@@ -1,0 +1,42 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "R_BuffSoak"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "R_Ability_Rotateshields"
+	mediumEffectName "R_Ability_Rotateshields"
+	largeEffectName "R_Ability_Rotateshields"
+	soundID "R_Ability_ShieldRestore_Hit"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget FALSE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "None"
+cooldownTime
+	Level:0 120.000000
+	Level:1 80.000000
+	Level:2 80.000000
+	Level:3 80.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "R_AbilitySoak_Name"
+descStringID "R_AbilitySoak_desc"
+hudIcon "R_hudicon_shieldrotation"
+smallHudIcon "R_hudicon_shieldrotation"
+infoCardIcon ""

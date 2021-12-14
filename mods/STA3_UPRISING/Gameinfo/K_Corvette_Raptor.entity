@@ -1,0 +1,162 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Corvette"
+statCountType "FrigateCorvette"
+mainViewIcon "Icon_K_Raptor"
+picture "Unit_Picture_Kli"
+NameStringID "K_RAPTOR_NAME"
+DescriptionStringID "K_Raptor_desc"
+counterDescriptionStringID "K_ClassCorvette_RangeShort"
+basePrice
+	credits 220.000000
+	metal 20.000000
+	crystal 25.000000
+slotCount 3.000000
+BuildTime 15.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 12.000000
+MaxHullPoints 1100.000000
+MaxShieldPoints 900.000000
+HullPointRestoreRate 0.250000
+ShieldPointRestoreRate 0.600000
+BaseArmorPoints 3.000000
+maxMitigation 0.600000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+	Subject "K_research_raptoraccess"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 1
+numRandomDebrisSmall 10
+numSpecificDebris 1
+specificDebrisMeshName "K_Raptor_Debris"
+armorType "Light"
+hudIcon "Bb_Kli_Raptor"
+smallHudIcon "Icon_Gen_Corvette"
+infoCardIcon "Icon_Gen_Corvette"
+minZoomDistanceMult 1.000000
+NumWeapons 1
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CORVETTE"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "LASERPSI"
+	DamagePerBank:FRONT 80.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 3000.000000
+	PreBuffCooldownTime 3.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.000000
+	TravelSpeed 4000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.250000
+		fireDelay 0.000000
+		muzzleEffectName "Kli_Weap_Pulse_muzzle"
+		muzzleSoundMinRespawnTime 0.000100
+		muzzleSounds
+			soundCount 1
+			sound "K_PULSE"
+		hitEffectName "Weapon_Kli_Disruptor_Hit_Small"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Wpn_Imp_Pulse_Hull1"
+			sound "Wpn_Imp_Pulse_Hull2"
+			sound "Wpn_Imp_Pulse_Hull3"
+			sound "Wpn_Imp_Pulse_Hull4"			
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"	
+		projectileTravelEffectName "Kli_Weap_Pulsephaser_medium"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1500.000000
+ShieldMeshName "K_Brell_Shield"
+renderShield TRUE
+maxAccelerationLinear 140.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 140.000000
+maxAccelerationAngular 9.550000
+maxDecelerationAngular 9.550000
+maxSpeedLinear 550.000000
+maxRollRate 15.000000
+maxRollAngle 40.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "Kli10Attack"
+SoundID "Kli10Attack2"
+SoundID "Kli10Attack3"
+NumSoundsFor:ONCREATION 3
+SoundID "Kli10Select"
+SoundID "Kli10Select2"
+SoundID "Kli10Select3"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "Kli10Move"
+SoundID "Kli10Move2"
+SoundID "Kli10Move3"
+NumSoundsFor:ONSELECTED 3
+SoundID "Kli10Select"
+SoundID "Kli10Select2"
+SoundID "Kli10Select3"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "Kli10Move3"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "K_Raptor"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName ""
+ExplosionName "Explosion_Frigate_Kli_Medium"
+HyperspaceChargingSoundID "KlingonEnterWarp"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "Engine_Klingon"
+ability:0 "K_Ability_ThirstForBattle"
+ability:1 ""
+ability:2 ""
+ability:3 "K_Ability_KlingonCloak"
+ability:4 "K_Ability_Cloak"
+MaxAntiMatter 100.00000
+AntiMatterRestoreRate 1.000000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 0
+minShadow 0.100000
+maxShadow 0.800000
+allegianceDecreasePerRoundtrip 0.000000

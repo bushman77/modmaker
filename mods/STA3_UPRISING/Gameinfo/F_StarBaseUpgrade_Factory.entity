@@ -1,0 +1,62 @@
+TXT2
+SinsArchiveVersion 193
+entityType "StarBaseUpgrade"
+stageCount 3
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "F_SPACEDOCK_UPGRADEFACTORY0_NAME"
+	descStringID "F_SPACEDOCK_UPGRADEFACTORY0_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "Bb_Fed_Akira"
+	smallHudIcon "Bb_Fed_Akira"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1800.000000
+		metal 275.000000
+		crystal 150.000000
+	upgradeTime 30.000000
+	nameStringID "F_SPACEDOCK_UPGRADEFACTORY1_NAME"
+	descStringID "F_SPACEDOCK_UPGRADEFACTORY1_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "Bb_Fed_Akira"
+	smallHudIcon "Bb_Fed_Akira"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "FrigateBuildRate"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 2700.000000
+		metal 425.000000
+		crystal 225.000000
+	upgradeTime 45.000000
+	nameStringID "F_SPACEDOCK_UPGRADEFACTORY2_NAME"
+	descStringID "F_SPACEDOCK_UPGRADEFACTORY2_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "Bb_Fed_Akira"
+	smallHudIcon "Bb_Fed_Akira"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "FrigateBuildRate"
+		value 2.000000
+	upgradeBoolPropertyCount 0
+xpModifier 50.000000

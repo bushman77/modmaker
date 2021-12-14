@@ -1,0 +1,71 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadius"
+instantActionTriggerType "AlwaysPerform"
+buffType "C_Buff_Founder"
+targetFilter
+	numOwnerships 1
+	ownership "Friendly"
+	numObjects 5
+	object "PlanetModule"
+	object "CapitalShip"
+	object "Frigate"
+	object "Titan"
+	object "Corvette"	
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 30000.000000
+	Level:1 40000.000000
+	Level:2 50000.000000
+	Level:3 60000.000000
+maxTargetCount
+	Level:0 -1.000000
+	Level:1 -1.000000
+	Level:2 -1.000000
+	Level:3 -1.000000	
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "C_Ability_Founders"
+	mediumEffectName "C_Ability_Founders"
+	largeEffectName "C_Ability_Founders"
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityDLevel"
+aiUseTime "OnlyWhenManyTargetsInCombatDoNotHaveBuff"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 10.000000
+	Level:1 10.000000
+	Level:2 10.000000
+	Level:3 10.000000
+buffType "C_Buff_Founder"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "None"
+cooldownTime
+	Level:0 240.000000
+	Level:1 240.000000
+	Level:2 240.000000
+	Level:3 240.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "C_Ability_Founder_Name"
+descStringID "C_Ability_Founder_Desc"
+hudIcon "C_icon_thefounderschim"
+smallHudIcon "C_icon_thefounderschim"
+infoCardIcon ""

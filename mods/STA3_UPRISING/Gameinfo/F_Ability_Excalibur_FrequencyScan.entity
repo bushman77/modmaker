@@ -1,0 +1,49 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "F_Buff_Excalibur_FrequencyScan_Self"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "F_Ability_Excalibur_FrequencyScan_Ring"
+	mediumEffectName "F_Ability_Excalibur_FrequencyScan_Ring"
+	largeEffectName "F_Ability_Excalibur_FrequencyScan_Ring"
+	soundID "EFFECT_TELEKINETICPUSH"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityALevel"
+aiUseTime "OnlyWhenManyTargetsInCombatDoNotHaveBuff"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 10.000000
+	Level:1 10.000000
+	Level:2 10.000000
+	Level:3 10.000000
+buffType "F_Buff_Excalibur_FrequencyScan_Target"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget FALSE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "None"
+cooldownTime
+	Level:0 90.000000
+	Level:1 70.000000
+	Level:2 60.000000
+	Level:3 50.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "F_Ability_FrequenyScan_Name"
+descStringID "F_Ability_FrequenyScan_Desc"
+hudIcon "F_ability_Strategiccommand"
+smallHudIcon "F_ability_Strategiccommand"
+infoCardIcon ""

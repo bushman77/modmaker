@@ -1,0 +1,87 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetWithTravel"
+instantActionTriggerType "AlwaysPerform"
+buffType "B_BuffSlowPopulationGrowthTarget"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 1
+	object "Planet"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 4000.000000
+	Level:1 4000.000000
+	Level:2 4000.000000
+	Level:3 4000.000000
+travelSpeed 500.000000
+hasWeaponEffects TRUE
+weaponEffectOriginType "Targetter"
+weaponEffectAttachInfo
+	attachType "Ability"
+	abilityIndex 0
+weaponEffectImpactOffsetType "CenterOffsetBySpatialRadius"
+canWeaponEffectHitHull TRUE
+canWeaponEffectHitShields TRUE
+weaponEffectsDef
+	weaponType "Projectile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Borg_Weap_Torpedo_muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "B_TORP_2"
+	hitEffectName "Explosion_Frigate_Borg"
+	hitHullEffectSounds
+		soundCount 3
+		sound "Explosion_Frigate_1"
+		sound "Explosion_Frigate_2"
+		sound "Explosion_Frigate_3"
+	hitShieldsEffectSounds
+		soundCount 3
+		sound "Explosion_Frigate_1"
+		sound "Explosion_Frigate_2"
+		sound "Explosion_Frigate_3"
+	projectileTravelEffectName "B_Ability_SlowPopGrowth_Travel"
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyWhenBombing"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 100.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 15.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+	Subject "B_research_abilityunlock_heavyfallout"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "B_Ability_SlowPopGrowth_Name"
+descStringID "B_Ability_SlowPopGrowth_Desc"
+hudIcon "B_res_heavyfallout"
+smallHudIcon "B_res_heavyfallout"
+infoCardIcon ""

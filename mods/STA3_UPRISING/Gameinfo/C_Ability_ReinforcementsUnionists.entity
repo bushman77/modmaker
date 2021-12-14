@@ -1,0 +1,132 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanet"
+instantActionTriggerType "AlwaysPerform"
+spawnShipsLevelCount 4
+spawnShips
+	minFleetPoints 90.000000
+	maxFleetPoints 90.000000
+	requiredShipCount 0
+	randomShipCount 2
+	randomShip
+		type "C_Corvette_Conservator"
+		weight 5
+	randomShip
+		type "C_Support_Tonga"
+		weight 1		
+spawnShips
+	minFleetPoints 120.000000
+	maxFleetPoints 120.000000
+	requiredShipCount 0
+	randomShipCount 3
+	randomShip
+		type "C_Corvette_Conservator"
+		weight 5
+	randomShip
+		type "C_Support_Tonga"
+		weight 2	
+	randomShip
+		type "C_Siege_Korinas"
+		weight 1		
+spawnShips
+	minFleetPoints 160.000000
+	maxFleetPoints 160.000000
+	requiredShipCount 0
+	randomShipCount 6
+	randomShip
+		type "C_Corvette_Conservator"
+		weight 7
+	randomShip
+		type "C_Support_Tonga"
+		weight 3
+	randomShip
+		type "C_Siege_Korinas"
+		weight 2
+	randomShip
+		type "C_Cruiser_KessokHybrid"
+		weight 2	
+	randomShip
+		type "C_Cruiser_KessokLight"
+		weight 1		
+	randomShip
+		type "C_Cruiser_KessokHeavy"
+		weight 1			
+spawnShips
+	minFleetPoints 210.000000
+	maxFleetPoints 210.000000
+	requiredShipCount 0
+	randomShipCount 6
+	randomShip
+		type "C_Cruiser_KessokHybrid"
+		weight 2
+	randomShip
+		type "C_Support_Tonga"
+		weight 4	
+	randomShip
+		type "C_Siege_Korinas"
+		weight 3	
+	randomShip
+		type "C_Support_Norin"
+		weight 2		
+	randomShip
+		type "C_Cruiser_KessokLight"
+		weight 1	
+	randomShip
+		type "C_Cruiser_KessokHeavy"
+		weight 1		
+spawnShipsArrivalDelayTime 4.000000
+spawnShipsHyperspaceSpawnType "FleetBeacon"
+shouldAdoptFirstSpawnersMinorFactionState TRUE
+spawnShipsMinStartingHullPerc 1.0
+spawnShipsMaxStartingHullPerc 1.0
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "StarBaseUpgradeLevel"
+sourcePropertyType "AbilityCLevel"
+aiUseTime "OnlyWhenEnemyFleetWillPrevail"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveShipSlots"
+creditCost
+	Level:0 5000.000000
+	Level:1 5000.000000
+	Level:2 5000.000000
+	Level:3 5000.000000
+metalCost
+	Level:0 700.000000
+	Level:1 700.000000
+	Level:2 700.000000
+	Level:3 700.000000
+crystalCost
+	Level:0 650.000000
+	Level:1 650.000000
+	Level:2 650.000000
+	Level:3 650.000000
+requiredShipSlots
+	Level:0 90.000000
+	Level:1 120.000000
+	Level:2 160.000000
+	Level:3 210.000000
+cooldownTime
+	Level:0 240.000000
+	Level:1 240.000000
+	Level:2 240.000000
+	Level:3 240.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0	
+nameStringID "C_ABILITY_REINFORCEMENTS_NAME"
+descStringID "C_ABILITY_REINFORCEMENTS_DESC"
+hudIcon "C_icon_jemhadarsupportoutpost"
+smallHudIcon "C_icon_jemhadarsupportoutpost"
+infoCardIcon ""

@@ -1,0 +1,53 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack "FALSE"
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "DoDamage"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	damage
+		Level:0 100.000000
+		Level:1 200.000000
+		Level:2 300.000000
+		Level:3 400.000000
+	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
+	damageType "PHYSICAL"
+	isDamageShared FALSE
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "Weapon_Fed_Quantum_Hit"
+		mediumEffectName "Weapon_Fed_Quantum_Hit"
+		largeEffectName "Weapon_Fed_Quantum_Hit"
+		soundID "Wpn_Imp_Torp_Hull1"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "ShieldMitigation"
+	value
+		Level:0 -0.020000
+		Level:1 -0.040000
+		Level:2 -0.060000
+		Level:3 -0.080000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 10.000000
+		Level:1 12.000000
+		Level:2 14.000000
+		Level:3 18.000000

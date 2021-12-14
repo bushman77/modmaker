@@ -1,0 +1,48 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Aura"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 2
+entityModifier
+	buffEntityModifierType "EnergyWeaponCooldown"
+	value
+		Level:0 -0.600000
+		Level:1 -0.700000
+		Level:2 -0.800000
+		Level:3 -0.900000
+entityModifier
+	buffEntityModifierType "DamageAsDamageDealer"
+	value
+		Level:0 0.400000
+		Level:1 0.500000
+		Level:2 0.600000
+		Level:3 0.700000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 30.000000
+		Level:1 35.000000
+		Level:2 45.000000
+		Level:3 55.000000

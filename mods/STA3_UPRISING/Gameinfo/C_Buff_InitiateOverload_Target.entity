@@ -1,0 +1,59 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack TRUE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "C_Ability_InitiateOverload"
+		mediumEffectName "C_Ability_InitiateOverload"
+		largeEffectName "C_Ability_InitiateOverload"
+		soundID ""
+instantAction
+	buffInstantActionType "InitializeRandomMotion"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	minRandomAngularSpeed 0.200000
+	maxRandomAngularSpeed 0.300000
+	minRandomLinearSpeed -0.200000
+	maxRandomLinearSpeed -0.300000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 2
+entityModifier
+	buffEntityModifierType "ChanceToHitAsDamageDealer"
+	value
+		Level:0 -0.100000
+		Level:1 -0.150000
+		Level:2 -0.200000
+		Level:3 -0.250000
+entityModifier
+	buffEntityModifierType "HullPointRestoreRate"
+	value
+		Level:0 -0.150000
+		Level:1 -0.200000
+		Level:2 -0.250000
+		Level:3 -0.300000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 20.000000
+		Level:1 25.000000
+		Level:2 30.000000
+		Level:3 35.000000
+
+
+

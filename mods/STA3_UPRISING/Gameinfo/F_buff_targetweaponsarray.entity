@@ -1,0 +1,50 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "F_Ability_TargetWeapons_Target"
+		mediumEffectName "F_Ability_TargetWeapons_Target"
+		largeEffectName "F_Ability_TargetWeapons_Target"
+		soundID "F_Ability_TargetWeapons_Target"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 2
+entityModifier
+	buffEntityModifierType "ChanceToHitAsDamageDealer"
+	value
+		Level:0 -0.250000
+		Level:1 -0.450000
+		Level:2 -0.660000
+		Level:3 -0.860000
+entityModifier
+	buffEntityModifierType "EnergyWeaponCooldown"
+	value
+		Level:0 0.350000
+		Level:1 0.450000
+		Level:2 0.660000
+		Level:3 0.860000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 20.000000
+		Level:1 30.000000
+		Level:2 30.000000
+		Level:3 30.000000
+finishCondition
+	finishConditionType "OwnerChanged"

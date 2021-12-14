@@ -1,0 +1,92 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "ApplyBuffToTargetWithTravelNoFilterNoRange"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "R_Buff_Singularity_Quantum_Burst_Target"
+	travelSpeed 4000.000000
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+	attachType "Ability"
+	abilityIndex 0
+	weaponEffectImpactOffsetType "RandomMesh"
+	canWeaponEffectHitHull TRUE
+	canWeaponEffectHitShields TRUE
+	weaponEffectsDef
+	weaponType "Projectile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.500000
+	muzzleEffectName "Rom_Weap_Pulse_muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "R_Ability_HeavyPlasma"
+	hitEffectName "R_Ability_HeavyPlasma_Impact"
+	hitHullEffectSounds
+		soundCount 4
+		sound "Wpn_Imp_Pulse_Hull1"
+		sound "Wpn_Imp_Pulse_Hull2"
+		sound "Wpn_Imp_Pulse_Hull3"
+		sound "Wpn_Imp_Pulse_Hull4"			
+	hitShieldsEffectSounds
+		soundCount 3
+		sound "Wpn_Imp_Shield1"
+		sound "Wpn_Imp_Shield2"
+		sound "Wpn_Imp_Shield3"
+	projectileTravelEffectName "R_Ability_HeavyPlasma_Travel"
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsInColumn"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "R_buff_Singularity_Quantum_Burst_TargetColumn"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 6
+		object "Titan"
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "StarBase"
+		object "Corvette"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	columnRadius
+		Level:0 200.000000
+		Level:1 200.000000
+		Level:2 200.000000
+		Level:3 200.000000
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"
+finishCondition
+	finishConditionType "OwnerChanged"

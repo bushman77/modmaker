@@ -1,0 +1,71 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanet"
+instantActionTriggerType "AlwaysPerform"
+spawnShipsLevelCount 1
+spawnShips
+	minFleetPoints 12.000000
+	maxFleetPoints 12.000000
+	requiredShipCount 0
+	randomShipCount 1
+	randomShip
+		type "C_Siege_BreenScout"
+		weight 5		
+spawnShipsArrivalDelayTime 52.000000
+spawnShipsHyperspaceSpawnType "FleetBeacon"
+shouldAdoptFirstSpawnersMinorFactionState TRUE
+spawnShipsMinStartingHullPerc 1.0
+spawnShipsMaxStartingHullPerc 1.0
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveShipSlots"
+creditCost
+	Level:0 620.000000
+	Level:1 620.000000
+	Level:2 620.000000
+	Level:3 620.000000
+metalCost
+	Level:0 80.000000
+	Level:1 80.000000
+	Level:2 80.000000
+	Level:3 80.000000
+crystalCost
+	Level:0 65.000000
+	Level:1 65.000000
+	Level:2 65.000000
+	Level:3 65.000000
+requiredShipSlots
+	Level:0 12.000000
+	Level:1 12.000000
+	Level:2 12.000000
+	Level:3 12.000000
+cooldownTime
+	Level:0 52.000000
+	Level:1 52.000000
+	Level:2 52.000000
+	Level:3 52.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+	Subject "C_research_shipaccess_Treshghar"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "C_ability_calltreshgar_name"
+descStringID "C_ability_calltreshgar_desc"
+hudIcon "HUDICON_ABILITY_DARKCOMBATFLEET"
+smallHudIcon "HUDICON_ABILITY_DARKCOMBATFLEET"
+infoCardIcon ""

@@ -1,0 +1,1484 @@
+TXT2
+SinsArchiveVersion 193
+onlyLoadOnDemand FALSE
+brushCount 296
+brush
+	name "Icon_R_Singularity"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 128 , 903 , 64 , 63 ]
+brush
+	name "Icon_K_TyGokor"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 257 , 573 , 30 , 26 ]
+brush
+	name "Icon_Gen_Fighter"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 358 , 350 , 22 , 22 ]
+brush
+	name "Icon_Gen_Titan"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 336 , 351 , 22 , 22 ]
+brush
+	name "Icon_Gen_Corvette"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 311 , 351 , 22 , 22 ]
+brush
+	name "Icon_Gen_HeroShip"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 383 , 320 , 22 , 22 ]
+brush
+	name "Icon_Gen_CapShip"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 359 , 320 , 22 , 22 ]
+brush
+	name "Icon_Gen_Cruiser"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 336 , 320 , 22 , 22 ]
+brush
+	name "Icon_Gen_Frigate"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 311 , 320 , 22 , 22 ]
+brush
+	name "Icon_M_hirogenholoarray"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 67 , 955 , 28 , 24 ]
+brush
+	name "Icon_M_hirogencommsarray"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 34 , 960 , 29 , 17 ]
+brush
+	name "Icon_M_genericstation"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 2 , 955 , 29 , 26 ]
+brush
+	name "Icon_M_SFCpiratefrigate"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 445 , 841 , 29 , 25 ]
+brush
+	name "Icon_M_SFCpiratecruiser"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 414 , 843 , 28 , 20 ]
+brush
+	name "Icon_M_dreadnaughtmissile"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 383 , 848 , 28 , 10 ]
+brush
+	name "Icon_M_zalkonianwarship"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 350 , 846 , 31 , 13 ]
+brush
+	name "Icon_M_plagueship"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 319 , 846 , 29 , 13 ]
+brush
+	name "Icon_M_idryll"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 288 , 845 , 29 , 15 ]
+brush
+	name "Icon_M_hirogenvenatic"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 255 , 843 , 30 , 18 ]
+brush
+	name "Icon_M_hirogenhunter"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 224 , 845 , 29 , 14 ]
+brush
+	name "Icon_M_turdship"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 193 , 847 , 28 , 11 ]
+brush
+	name "Icon_M_kessokheavy"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 161 , 839 , 29 , 28 ]
+brush
+	name "Icon_M_kessoklight"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 128 , 843 , 30 , 20 ]
+brush
+	name "Icon_M_kessokhybrid"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 97 , 842 , 29 , 21 ]
+brush
+	name "Icon_M_echopapa"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 834 , 32 , 35 ]
+brush
+	name "Icon_M_husnock"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 35 , 841 , 28 , 22 ]
+brush
+	name "Icon_M_sheliak"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 3 , 844 , 28 , 16 ]
+brush
+	name "Icon_C_CombatResearch"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 320 , 190 , 32 , 32 ]
+brush
+	name "Icon_C_CivResearch"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 288 , 190 , 32 , 32 ]
+brush
+	name "Icon_C_CommandCen"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 256 , 190 , 32 , 32 ]
+brush
+	name "Icon_D_Hydra"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 196 , 222 , 32 , 32 ]
+brush
+	name "Icon_B_ScoutCube"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 454 , 64 , 32 , 32 ]
+brush
+	name "Icon_K_Kahless"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 422 , 99 , 64 , 64 ]
+brush
+	name "Icon_F_Polaris"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 227 , 342 , 64 , 64 ]
+brush
+	name "Icon_G_Whaleprobe"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 294 , 410 , 64 , 32 ]
+brush
+	name "Icon_G_Bajraider"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 388 , 442 , 32 , 32 ]
+brush
+	name "Icon_G_Bajjanit"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 356 , 442 , 32 , 32 ]
+brush
+	name "Icon_G_Bajflak"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 326 , 442 , 32 , 32 ]
+brush
+	name "Icon_G_Bajdest"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 288 , 442 , 32 , 32 ]
+brush
+	name "Icon_G_Bajbattle"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 256 , 442 , 32 , 32 ]
+brush
+	name "Icon_G_Acetone"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 224 , 442 , 32 , 32 ]
+brush
+	name "Icon_G_TholFrig"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 192 , 442 , 32 , 32 ]
+brush
+	name "Icon_G_Ruffle"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 160 , 442 , 32 , 32 ]
+brush
+	name "Icon_G_DoomsDay"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 360 , 474 , 64 , 32 ]
+brush
+	name "Icon_G_Crystal"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 326 , 474 , 32 , 32 ]
+brush
+	name "Icon_G_Bioship"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 290 , 474 , 32 , 32 ]
+brush
+	name "Icon_G_Marauder"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 292 , 504 , 32 , 32 ]
+brush
+	name "Icon_G_Oberth"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 290 , 540 , 32 , 32 ]
+brush
+	name "Icon_G_SonaBship"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 324 , 540 , 32 , 32 ]
+brush
+	name "Icon_G_TamaCap"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 429 , 540 , 32 , 32 ]
+brush
+	name "Icon_G_Thocruis"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 429 , 506 , 32 , 32 ]
+brush
+	name "Icon_G_TalCruiser"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 396 , 540 , 32 , 32 ]
+brush
+	name "Icon_G_Talkat"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 362 , 540 , 32 , 32 ]
+brush
+	name "Icon_G_Jentak"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 362 , 540 , 32 , 32 ]
+brush
+	name "Icon_G_Yeager"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 395 , 506 , 32 , 32 ]
+brush
+	name "Icon_G_Condor"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 360 , 506 , 32 , 32 ]
+brush
+	name "Icon_G_Krabby"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 324 , 506 , 32 , 32 ]
+brush
+	name "Icon_B_Wedge"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 422 , 64 , 32 , 32 ]
+brush
+	name "Icon_C_Fleetcommand"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 288 , 158 , 32 , 32 ]
+brush
+	name "Unit_Picture_ThotGor"
+	content "Simple"
+	fileName "Unit_Picture_ThotGor"
+	pixelBox [ 0 , 0 , 170 , 74 ]
+brush
+	name "Unit_Picture_Madred"
+	content "Simple"
+	fileName "Unit_Picture_Madred"
+	pixelBox [ 0 , 0 , 170 , 74 ]
+brush
+	name "Icon_G_Baselisk"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 442 , 32 , 32 ]
+brush
+	name "Icon_G_Uracentron"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 32 , 442 , 32 , 32 ]
+brush
+	name "Icon_G_Varanus"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 442 , 32 , 32 ]
+brush
+	name "Icon_N_Frigate"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 96 , 442 , 32 , 32 ]
+brush
+	name "Icon_N_SiegeFrig"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 128 , 442 , 32 , 32 ]
+brush
+	name "Unit_Picture_Weyoun"
+	content "Simple"
+	fileName "Unit_Picture_Weyoun"
+	pixelBox [ 0 , 0 , 170 , 74 ]
+brush
+	name "Unit_Picture_Dukat"
+	content "Simple"
+	fileName "Unit_Picture_Dukat"
+	pixelBox [ 0 , 0 , 170 , 74 ]
+brush
+	name "Icon_C_Galor"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 32 , 160 , 32 , 32 ]
+brush
+	name "Icon_C_Keldon"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 160 , 160 , 32 , 32 ]
+brush
+	name "Icon_C_Hideki"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 96 , 158 , 32 , 32 ]
+brush
+	name "Icon_D_Warship"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 160 , 220 , 32 , 32 ]
+brush
+	name "Icon_D_Chimera"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 352 , 98 , 64 , 64 ]
+brush
+	name "Icon_D_Bugship"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 32 , 219 , 32 , 32 ]
+brush
+	name "Icon_C_Tonga"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 224 , 160 , 32 , 32 ]
+brush
+	name "Icon_C_TerokNor"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 288 , 98 , 64 , 64 ]
+brush
+	name "Icon_C_Rasilak"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 192 , 190 , 32 , 32 ]
+brush
+	name "Icon_C_Norin"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 128 , 190 , 32 , 32 ]
+brush
+	name "Icon_R_Battlecruiser"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 128 , 601 , 32 , 32 ]
+brush
+	name "Icon_R_Colony"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 224 , 601 , 32 , 32 ]
+brush
+	name "Icon_R_DDeridex"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 634 , 32 , 32 ]
+brush
+	name "Icon_R_Dominus"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 96 , 634 , 32 , 32 ]
+brush
+	name "Icon_R_Falcon"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 158 , 634 , 32 , 32 ]
+brush
+	name "Icon_R_Flak"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 190 , 634 , 32 , 32 ]
+brush
+	name "Icon_R_Griffin"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 32 , 666 , 32 , 32 ]
+brush
+	name "Icon_R_Harpy"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 664 , 32 , 32 ]
+brush
+	name "Icon_R_HeavyCruiser"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 94 , 666 , 32 , 32 ]
+brush
+	name "Icon_R_HeavyDefender"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 128 , 664 , 32 , 32 ]
+brush
+	name "Icon_R_Raptor"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 160 , 664 , 32 , 32 ]
+brush
+	name "Icon_R_Scimitar"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 32 , 698 , 32 , 32 ]
+brush
+	name "Icon_R_Shadow"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 698 , 32 , 32 ]
+brush
+	name "Icon_R_Shrike"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 96 , 697 , 32 , 32 ]
+brush
+	name "Icon_R_Talon"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 160 , 697 , 32 , 32 ]
+brush
+	name "Icon_R_Tliss"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 728 , 32 , 32 ]
+brush
+	name "Icon_R_Valdore"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 128 , 730 , 32 , 32 ]
+brush
+	name "Icon_R_Vengeance"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 602 , 32 , 32 ]
+brush
+	name "Icon_R_Whitewing"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 600 , 32 , 32 ]
+brush
+	name "Icon_R_WingedDefender"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 96 , 600 , 32 , 32 ]
+brush
+	name "Icon_F_Springfield"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 192 , 251 , 32 , 30 ]
+brush
+	name "Icon_F_Cheyenne"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 224 , 250 , 32 , 32 ]
+brush
+	name "Icon_F_Challenger"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 192 , 252 , 32 , 32 ]
+brush
+	name "Icon_K_AsteroidMine"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 224 , 478 , 32 , 32 ]
+brush
+	name "Icon_F_Antares"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 250 , 32 , 32 ]
+brush
+	name "Icon_F_Ambassador"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 32 , 250 , 32 , 32 ]
+brush
+	name "Icon_F_Galaxy"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 314 , 32 , 32 ]
+brush
+	name "Icon_F_Nebula"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 346 , 32 , 32 ]
+brush
+	name "Icon_F_Phoenix"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 346 , 32 , 32 ]
+brush
+	name "Icon_F_Sovereign"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 192 , 378 , 32 , 32 ]
+brush
+	name "Icon_F_Curry"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 96 , 282 , 32 , 32 ]
+brush
+	name "Icon_F_Colony"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 256 , 250 , 32 , 32 ]
+brush
+	name "Icon_F_Defiant"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 160 , 282 , 32 , 32 ]
+brush
+	name "Icon_F_Miranda"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 256 , 316 , 32 , 32 ]
+brush
+	name "Icon_F_Akira"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 250 , 32 , 32 ]
+brush
+	name "Icon_F_Excelsior"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 256 , 282 , 32 , 32 ]
+brush
+	name "Icon_F_Constitution"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 290 , 282 , 32 , 32 ]
+brush
+	name "Icon_F_FighterSquad"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 314 , 32 , 32 ]
+brush
+	name "Icon_F_Neworleans"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 32 , 346 , 32 , 32 ]
+brush
+	name "Icon_F_Centaur"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 160 , 252 , 32 , 32 ]
+brush
+	name "Icon_F_CargoFreighter"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 128 , 251 , 32 , 32 ]
+brush
+	name "Icon_F_Tradeship"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 160 , 410 , 32 , 32 ]
+brush
+	name "Icon_F_Saber"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 160 , 378 , 32 , 32 ]
+brush
+	name "Icon_F_Steamrunner"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 32 , 410 , 32 , 32 ]
+brush
+	name "Icon_F_Const"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 32 , 282 , 32 , 32 ]
+brush
+	name "Icon_F_Nova"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 96 , 348 , 32 , 32 ]
+brush
+	name "Icon_F_Norway"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 346 , 32 , 32 ]
+brush
+	name "Icon_F_Outpost"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 128 , 346 , 32 , 32 ]
+brush
+	name "Icon_F_Spacedock"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 256 , 412 , 32 , 32 ]
+brush
+	name "Icon_F_Capdock"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 96 , 248 , 32 , 32 ]
+brush
+	name "Icon_F_Comm"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 282 , 32 , 32 ]
+brush
+	name "Icon_F_Drydock"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 192 , 282 , 32 , 32 ]
+brush
+	name "Icon_F_Jupiter"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 191 , 315 , 32 , 32 ]
+brush
+	name "Icon_F_Mining"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 224 , 315 , 32 , 32 ]
+brush
+	name "Icon_F_Phaserturret"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 159 , 346 , 32 , 32 ]
+brush
+	name "Icon_F_Repairyard"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 410 , 32 , 32 ]
+brush
+	name "Icon_F_Titanyard"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 128 , 380 , 32 , 32 ]
+brush
+	name "Icon_F_Torpturret"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 95 , 410 , 32 , 32 ]
+brush
+	name "Icon_F_Tradeport"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 128 , 410 , 32 , 32 ]
+brush
+	name "Icon_F_Utopia"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 224 , 410 , 32 , 32 ]
+brush
+	name "Icon_F_Constellation"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 282 , 32 , 32 ]
+brush
+	name "Icon_F_Intrepid"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 160 , 315 , 32 , 32 ]
+brush
+	name "Icon_F_Excalibur"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 224 , 284 , 32 , 32 ]
+brush
+	name "Icon_K_Predator"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 570 , 32 , 32 ]
+brush
+	name "ICON_K_BOP"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 256 , 474 , 32 , 32 ]
+brush
+	name "Icon_K_Colony"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 506 , 32 , 32 ]
+brush
+	name "Icon_K_Construct"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 128 , 506 , 32 , 32 ]
+brush
+	name "Icon_K_D3"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 160 , 506 , 32 , 32 ]
+brush
+	name "Icon_K_D12"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 192 , 505 , 32 , 32 ]
+brush
+	name "Icon_K_Deathrite"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 224 , 507 , 32 , 32 ]
+brush
+	name "Icon_K_K32"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 96 , 538 , 32 , 32 ]
+brush
+	name "Icon_K_Ktinga"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 128 , 538 , 32 , 32 ]
+brush
+	name "Icon_K_Kvek"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 160 , 537 , 32 , 32 ]
+brush
+	name "Icon_K_Kvort"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 192 , 537 , 32 , 32 ]
+brush
+	name "Icon_K_Scout"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 474 , 32 , 32 ]
+brush
+	name "Icon_K_Stalker"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 474 , 32 , 32 ]
+brush
+	name "Icon_K_Freighter"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 32 , 538 , 32 , 32 ]
+brush
+	name "Icon_K_Carrier"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 32 , 506 , 32 , 32 ]
+brush
+	name "Icon_K_Feklhr"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 256 , 506 , 32 , 32 ]
+brush
+	name "Icon_K_Neghvar"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 224 , 538 , 32 , 32 ]
+brush
+	name "Icon_K_Qehrall"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 32 , 570 , 32 , 32 ]
+brush
+	name "Icon_K_Ravenous"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 96 , 570 , 32 , 32 ]
+brush
+	name "Icon_K_Vorcha"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 192 , 474 , 32 , 32 ]
+brush
+	name "Icon_K_Raptor"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 570 , 32 , 32 ]
+brush
+	name "Icon_K_Research"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 192 , 570 , 32 , 32 ]
+brush
+	name "Icon_K_Research2"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 224 , 570 , 32 , 32 ]
+brush
+	name "Icon_K_Comarray"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 256 , 538 , 32 , 32 ]
+brush
+	name "Icon_K_CapitalYard"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 506 , 32 , 32 ]
+brush
+	name "Icon_K_Frigateyard"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 540 , 32 , 32 ]
+brush
+	name "Icon_K_Tradeport"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 128 , 474 , 32 , 32 ]
+brush
+	name "Icon_K_Turret"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 160 , 474 , 32 , 32 ]
+brush
+	name "Icon_K_Starbase"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 96 , 474 , 32 , 32 ]
+brush
+	name "Unit_Picture_Fed"
+	content "Simple"
+	fileName "Unit_Picture_Fed"
+	pixelBox [ 4 , 5 , 167 , 77 ]
+brush
+	name "Icon_R_Titanyard"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 224 , 698 , 32 , 32 ]
+brush
+	name "Icon_R_WarbirdYard"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 32 , 604 , 32 , 32 ]
+brush
+	name "Icon_R_Turret2"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 96 , 732 , 32 , 32 ]
+brush
+	name "Icon_R_Turret"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 732 , 32 , 32 ]
+brush
+	name "Icon_R_Starbase"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 192 , 602 , 32 , 32 ]
+brush
+	name "Icon_R_DampeningStation"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 32 , 634 , 32 , 32 ]
+brush
+	name "Icon_R_Research2"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 223 , 666 , 32 , 32 ]
+brush
+	name "Icon_R_Research"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 698 , 32 , 32 ]
+brush
+	name "Icon_R_Repairyard"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 192 , 666 , 32 , 32 ]
+brush
+	name "Icon_R_Freighter"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 668 , 32 , 32 ]
+brush
+	name "Icon_R_Construct"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 160 , 604 , 32 , 32 ]
+brush
+	name "Icon_R_Drydock"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 128 , 634 , 32 , 32 ]
+brush
+	name "Icon_R_Command"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 224 , 634 , 32 , 32 ]
+brush
+	name "Icons_B_Research1"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 384 , 64 , 32 , 32 ]
+brush
+	name "Icon_B_Adaptor"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 96 , 64 , 32 , 32 ]
+brush
+	name "Icon_B_Research2"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 0 , 32 , 32 ]
+brush
+	name "Icon_B_Assimilator"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 128 , 64 , 32 , 32 ]
+brush
+	name "Icon_B_Asteroidmine"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 160 , 64 , 32 , 32 ]
+brush
+	name "Icon_B_Trapezoid"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 32 , 64 , 32 , 32 ]
+brush
+	name "Icon_B_Cubeyard"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 224 , 64 , 32 , 32 ]
+brush
+	name "Icon_B_Culturestation"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 256 , 64 , 32 , 32 ]
+brush
+	name "Icon_B_ConstructionShip"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 192 , 64 , 32 , 32 ]
+brush
+	name "Icon_B_Cube"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 320 , 0 , 64 , 64 ]
+brush
+	name "Icon_B_Cylinder"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 96 , 32 , 32 ]
+brush
+	name "Icon_B_Diamond"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 320 , 64 , 32 , 32 ]
+brush
+	name "Icon_B_Dodecadakka"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 352 , 64 , 32 , 32 ]
+brush
+	name "Icon_B_Freighter"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 96 , 32 , 32 ]
+brush
+	name "Icon_B_Turret"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 64 , 32 , 32 ]
+brush
+	name "Icon_B_Repairyard"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 32 , 0 , 32 , 32 ]
+brush
+	name "Icon_B_Interceptor"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 32 , 96 , 32 , 32 ]
+brush
+	name "Icon_B_Pyramid"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 0 , 32 , 32 ]
+brush
+	name "Icon_B_Tradestation"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 96 , 32 , 32 , 32 ]
+brush
+	name "Icon_B_Scout"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 96 , 0 , 32 , 32 ]
+brush
+	name "Icon_B_Shipyard"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 32 , 32 , 32 ]
+brush
+	name "Icon_B_Sphere"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 32 , 32 , 32 , 32 ]
+brush
+	name "Icon_B_TacCube"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 192 , 0 , 64 , 64 ]
+brush
+	name "Icon_B_Titan"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 256 , 0 , 64 , 64 ]
+brush
+	name "Icon_B_Titanyard"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 32 , 32 , 32 ]
+brush
+	name "Icon_B_TranswarpGate"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 64 , 32 , 32 ]
+brush
+	name "Icon_B_Starbase"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 128 , 0 , 64 , 64 ]
+brush
+	name "Unit_Picture_Kli"
+	content "Simple"
+	fileName "Unit_Picture_Kli"
+	pixelBox [ 0 , 19 , 167 , 77 ]
+brush
+	name "Unit_Picture_Rom"
+	content "Simple"
+	fileName "Unit_Picture_Rom"
+	pixelBox [ 0 , 0 , 169 , 74 ]
+brush
+	name "Unit_Picture_Bor"
+	content "Simple"
+	fileName "Unit_Picture_Bor"
+	pixelBox [ 0 , 4 , 175 , 74 ]
+brush
+	name "Unit_Picture_Gowron"
+	content "Simple"
+	fileName "Unit_Picture_Gowron"
+	pixelBox [ 0 , 12 , 175 , 74 ]
+brush
+	name "Unit_Picture_Martok"
+	content "Simple"
+	fileName "Unit_Picture_Martok"
+	pixelBox [ 0 , 12 , 175 , 74 ]
+brush
+	name "Unit_Picture_Kurn"
+	content "Simple"
+	fileName "Unit_Picture_Kurn"
+	pixelBox [ 0 , 12 , 175 , 74 ]
+brush
+	name "Unit_Picture_Picard"
+	content "Simple"
+	fileName "Unit_Picture_Picard"
+	pixelBox [ 0 , 0 , 170 , 74 ]
+brush
+	name "Unit_Picture_Janeway"
+	content "Simple"
+	fileName "Unit_Picture_Janeway"
+	pixelBox [ 0 , 6 , 170 , 74 ]
+brush
+	name "Unit_Picture_Sisko"
+	content "Simple"
+	fileName "Unit_Picture_Sisko"
+	pixelBox [ 0 , 6 , 170 , 74 ]
+brush
+	name "Icon_K_Refinery"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 128 , 570 , 32 , 32 ]
+brush
+	name "Icon_K_OrbitalCommand"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 256 , 538 , 32 , 32 ]
+brush
+	name "Icon_K_FleetCommand"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 540 , 32 , 32 ]
+brush
+	name "Icon_B_FleetCommand"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 384 , 0 , 64 , 64 ]
+brush
+	name "Icon_R_Culture"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 634 , 32 , 32 ]
+brush
+	name "Icon_R_Trade"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 32 , 730 , 32 , 32 ]
+brush
+	name "Icon_R_FleetCommand"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 224 , 634 , 32 , 32 ]
+brush
+	name "Icon_F_FleetCommand"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 31 , 314 , 32 , 32 ]
+brush
+	name "Icon_K_Repairyard"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 160 , 570 , 32 , 32 ]
+brush
+	name "Icon_K_Shockwaveyard"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 32 , 472 , 32 , 32 ]
+brush
+	name "C_Unitpicture_Card"
+	content "Simple"
+	fileName "C_Unitpicture_Card"
+	pixelBox [ 3 , 3 , 167 , 79 ]
+brush
+	name "C_Unitpicture_Dom"
+	content "Simple"
+	fileName "C_Unitpicture_Dom"
+	pixelBox [ 4 , 5 , 167 , 77 ]
+brush
+	name "Icon_C_Capshipyard"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 128 , 32 , 32 ]
+brush
+	name "Icon_C_Culture"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 32 , 128 , 32 , 32 ]
+brush
+	name "Icon_C_Darheel"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 126 , 32 , 32 ]
+brush
+	name "Icon_C_Eaves"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 96 , 96 , 64 , 64 ]
+brush
+	name "Icon_C_Frigyard"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 158 , 32 , 32 ]
+brush
+	name "Icon_C_Groumalll"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 158 , 32 , 32 ]
+brush
+	name "Icon_C_Hutet"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 160 , 96 , 64 , 64 ]
+brush
+	name "Icon_C_Janissary"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 128 , 158 , 32 , 32 ]
+brush
+	name "Icon_C_Korinas"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 192 , 158 , 32 , 32 ]
+brush
+	name "Icon_C_Krenar"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 190 , 32 , 32 ]
+brush
+	name "Icon_C_Kulinor"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 32 , 190 , 32 , 32 ]
+brush
+	name "Icon_C_Legate"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 190 , 32 , 32 ]
+brush
+	name "Icon_C_Monac"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 224 , 96 , 64 , 64 ]
+brush
+	name "Icon_C_Moset"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 96 , 189 , 32 , 32 ]
+brush
+	name "Icon_C_Ocett"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 160 , 190 , 32 , 32 ]
+brush
+	name "Icon_C_Trade"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 315 , 158 , 32 , 32 ]
+brush
+	name "Icon_C_Turret"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 226 , 190 , 32 , 32 ]
+brush
+	name "Icon_C_Vasad"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 256 , 159 , 32 , 32 ]
+brush
+	name "Icon_D_BreenScout"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 218 , 32 , 32 ]
+brush
+	name "Icon_D_GorTaan"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 218 , 32 , 32 ]
+brush
+	name "Icon_D_Manticore"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 96 , 218 , 32 , 32 ]
+brush
+	name "Icon_D_StrikeCruiser"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 128 , 220 , 32 , 32 ]
+brush
+	name "Icon_F_Galaxy_Engineering"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 96 , 315 , 32 , 32 ]
+brush
+	name "Icon_F_Galaxy_Saucer"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 128 , 315 , 32 , 32 ]
+brush
+	name "Icon_F_Prometheus"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 380 , 32 , 32 ]
+brush
+	name "Icon_F_Prometheus_Lower"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 32 , 378 , 32 , 32 ]
+brush
+	name "Icon_F_Prometheus_Saucer"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 376 , 32 , 32 ]
+brush
+	name "Icon_F_Prometheus_Upper"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 96 , 378 , 32 , 32 ]
+brush
+	name "Icon_F_Typhon"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 192 , 410 , 32 , 32 ]
+brush
+	name "Icon_R_Tavara"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 192 , 698 , 32 , 32 ]
+brush
+	name "Icon_K_Dagger"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 769 , 20 , 20 ]
+brush
+	name "Icon_K_Goroth"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 20 , 769 , 20 , 20 ]
+brush
+	name "Icon_R_Javelin"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 40 , 769 , 20 , 20 ]
+brush
+	name "Icon_R_Gladius"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 60 , 769 , 20 , 20 ]
+brush
+	name "Icon_D_Hornet"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 80 , 769 , 20 , 20 ]
+brush
+	name "Icon_D_Widow"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 100 , 769 , 20 , 20 ]
+brush
+	name "Icon_C_Trelkor"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 120 , 769 , 20 , 20 ]
+brush
+	name "Icon_C_Bentar"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 140 , 769 , 20 , 20 ]
+brush
+	name "Icon_F_Valk1"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 160 , 769 , 20 , 20 ]
+brush
+	name "Icon_F_Valk2"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 180 , 769 , 20 , 20 ]
+brush
+	name "Icon_C_Constructor"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 789 , 32 , 32 ]
+brush
+	name "Icon_C_Gunboat"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 200 , 769 , 20 , 20 ]
+brush
+	name "Icon_F_Perigrinenew"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 220 , 769 , 20 , 20 ]
+brush
+	name "Icon_F_Danubenew"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 240 , 769 , 20 , 20 ]
+brush
+	name "Icon_F_Excaliburnew"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 30 , 800 , 125 , 25 ]
+brush
+	name "Icon_F_janewayhero"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 870 , 32 , 32 ]
+brush
+	name "Icon_F_siskohero"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 32 , 870 , 32 , 32 ]
+brush
+	name "Icon_F_picardhero"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 64 , 870 , 32 , 32 ]
+brush
+	name "Icon_K_kurnhero"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 96 , 870 , 32 , 32 ]
+brush
+	name "Icon_K_gowronhero"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 128 , 870 , 32 , 32 ]
+brush
+	name "Icon_F_martokhero"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 160 , 870 , 32 , 32 ]
+brush
+	name "Icon_R_selatomoalokhero"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 192 , 870 , 32 , 32 ]
+brush
+	name "Icon_R_donatrahero"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 224 , 870 , 32 , 32 ]
+brush
+	name "Icon_C_dukathero"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 256 , 870 , 32 , 32 ]
+brush
+	name "Icon_C_kentarhero"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 288 , 870 , 32 , 32 ]
+brush
+	name "Icon_C_madredhero"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 320 , 870 , 32 , 32 ]
+brush
+	name "Icon_B_sevenhero"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 352 , 870 , 32 , 32 ]
+brush
+	name "Icon_B_queenhero"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 384 , 870 , 32 , 32 ]
+brush
+	name "Icon_F_locutushero"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 416 , 870 , 32 , 32 ]
+brush
+	name "Icon_K_shockwave"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 0 , 903 , 64 , 53 ]
+brush
+	name "Icon_C_colony"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 63 , 903 , 32 , 32 ]
+brush
+	name "Icon_D_thorgorhero"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 448 , 870 , 32 , 32 ]
+brush
+	name "Icon_D_weyounhero"
+	content "Simple"
+	fileName "Icons_Allfactions"
+	pixelBox [ 480 , 870 , 32 , 32 ]
+brush
+	name "picture_newt_mostlycomeatnight"
+	content "Simple"
+	fileName "A3_AllButtons2"
+	pixelBox [ 916 , 1856 , 1 , 1 ]

@@ -1,0 +1,46 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "ApplyBuffToTargetOnWeaponFired"
+	instantActionTriggerType "OnWeaponFired"
+	numWeaponClasses 1
+	weaponClassForWeaponPassive "PLASMA"
+	passiveWeaponEffectChance
+		Level:0 0.250000
+		Level:1 0.200000
+		Level:2 0.350000
+		Level:3 0.400000
+	buffType "R_BuffPlasmaTurretBurnTarget"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 4
+		object "CapitalShip"
+		object "Frigate"
+		object "Titan"
+		object "Corvette"
+		numSpaces 1
+		space "Normal"
+		numConstraints 1
+		constraint "HasWeapons"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 15.000000
+		Level:1 20.000000
+		Level:2 35.000000
+		Level:3 55.000000

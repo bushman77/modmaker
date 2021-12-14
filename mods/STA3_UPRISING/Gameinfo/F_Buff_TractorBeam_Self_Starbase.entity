@@ -1,0 +1,93 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling FALSE
+numInstantActions 4
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "F_Buff_TractorBeam_Beam2"	
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""	
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "F_Buff_TractorBeam_Beam3"	
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""	
+instantAction
+	buffInstantActionType "PlayPersistantBeamEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	weaponEffectImpactOffsetType "Center"
+	canWeaponEffectHitHull FALSE
+	canWeaponEffectHitShields FALSE
+	weaponEffectsDef
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Borg_Weap_HoldingBeam_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName ""
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "G_TractorBeam"
+		beamGlowTextureName "B_Assimilationbeam_Glow"
+		beamCoreTextureName "B_Assimilationbeam_Core"
+	    beamWidth 45.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 4.000000
+instantAction
+	buffInstantActionType "ApplyBuffToTargetNoFilterNoRange"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "F_Buff_TractorBeam_Target_Starbase"		
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 10.000000
+		Level:1 10.000000
+		Level:2 10.000000
+		Level:3 10.000000
+finishCondition
+	finishConditionType "OwnerChanged"		
+	

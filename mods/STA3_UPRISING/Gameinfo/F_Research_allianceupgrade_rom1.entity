@@ -1,0 +1,46 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "F_rpack2"
+smallHudIcon "F_rpack2"
+infoCardIcon ""
+NameStringID "F_res_allianceupgrade_rom1_name"
+DescriptionStringID "F_res_allianceupgrade_rom1_desc"
+researchWindowLocation
+	block 0
+	pos [ 6 , 7 ]
+ResearchField "Diplomacy"
+Prerequisites
+	NumResearchPrerequisites 2
+		ResearchPrerequisite
+	Subject "F_research_allianceupgrade_rom0"
+	Level 1
+		ResearchPrerequisite
+	Subject "F_pact_rom"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 090.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 2250.000000
+	metal 210.000000
+	crystal 260.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 0.000000
+	crystal 25.000000
+Tier 6
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "StarBaseShieldPointsMaxAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.1000000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

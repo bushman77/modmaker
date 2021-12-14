@@ -1,0 +1,93 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Fighter"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+numRandomDebrisLarge 0
+numRandomDebrisSmall 0
+numSpecificDebris 0
+armorType "VeryLight"
+hudIcon "Bb_Fed_FighterSquad"
+smallHudIcon "Icon_Gen_Fighter"
+infoCardIcon "Icon_Gen_Fighter"
+minZoomDistanceMult 3.000000
+nameStringID "F_VALMK2_NAME"
+counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_COMBAT"
+statCountType "FighterBomber"
+formationOffsetDistance 50.000000
+mass 100.000000
+maxAccelerationLinear 250.000000
+maxAccelerationStrafe 15.000000
+maxDecelerationLinear 750.000000
+maxAccelerationAngular 30.000000
+maxDecelerationAngular 75.000000
+maxSpeedLinear 750.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+NumWeapons 1
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "COMPOSITE"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "ION"
+	DamagePerBank:FRONT 58.500000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 1500.000000
+	PreBuffCooldownTime 6.500000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.100000
+	TravelSpeed 1300.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Fed_Weap_Quantum_Muzzle_Small"
+		muzzleSoundMinRespawnTime 0.005000
+		muzzleSounds
+			soundCount 1
+			sound "FedQuantum"
+		hitEffectName "Weapon_Fed_Quantum_Hit"
+		hitHullEffectSounds
+			soundCount 2
+			sound "Wpn_Imp_Torp_Hull1"
+			sound "Wpn_Imp_Torp_Hull2"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"	
+		missileTravelEffectName "Fed_Weap_Quantum_Small"
+		missileStartTurningDistance 250.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 0.010000	
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+meshName "F_ValMK2"
+exhaustParticleSystemName ""
+ExplosionName "Fighter0"
+exhaustTrailTextureName ""
+exhaustTrailWidth 0.000001
+engineSoundID "ENGINE_TECHSUPPORTSHIP"
+maxHullPoints 120.000000
+hullPointRestoreRate 0.400000
+armorPoints 4.000000
+maxMitigation 0.600000
+experiencePointsForDestroying 12.500000
+minShadow 0.000000
+maxShadow 0.500000

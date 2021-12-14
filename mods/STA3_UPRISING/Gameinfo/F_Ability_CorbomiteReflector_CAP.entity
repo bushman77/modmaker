@@ -1,0 +1,57 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "F_Buff_CorbomiteReflector_CAP"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyWhenTakingDamage"
+aiUseTargetCondition "ShieldDamageExceedsAmount"
+onlyAutoCastWhenTargetShieldDamageExceedsAmount
+	Level:0 400.000000
+	Level:1 400.000000
+	Level:2 400.000000
+	Level:3 400.000000
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 40.000000
+	Level:1 40.000000
+	Level:2 40.000000
+	Level:3 40.000000
+cooldownTime
+	Level:0 85.000000
+	Level:1 85.000000
+	Level:2 85.000000
+	Level:3 85.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_CORBOMITEREFLECTOR_NAME"
+descStringID "IDS_ABILITY_CORBOMITEREFLECTOR_DESC"
+hudIcon "F_ability_corbomiterefelctor"
+smallHudIcon "F_ability_corbomiterefelctor"
+infoCardIcon ""

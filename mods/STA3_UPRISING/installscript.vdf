@@ -1,0 +1,76 @@
+"InstallScript"
+{
+	"Registry"
+	{
+		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Stardock\\Drengin.net\\sinsrebellion"
+		{
+			"string"
+			{
+				"EXE"		"Sins of a Solar Empire Rebellion.exe"
+				"Language"		"English"
+				"Path"		"%INSTALLDIR%"
+				"Type"		"production"
+			}
+			"dword"
+			{
+				"Digital"		"2"
+				"english"
+				{
+					"InstallLanguage"		"1033"
+				}
+				"russian"
+				{
+					"InstallLanguage"		"1049"
+				}
+				"french"
+				{
+					"InstallLanguage"		"1036"
+				}
+				"german"
+				{
+					"InstallLanguage"		"1031"
+				}
+				"italian"
+				{
+					"InstallLanguage"		"1040"
+				}
+				"spanish"
+				{
+					"InstallLanguage"		"3082"
+				}
+				"japanese"
+				{
+					"InstallLanguage"		"1041"
+				}
+			}
+		}
+	}
+	"Run Process"
+	{
+		"DirectX"
+		{
+			"HasRunKey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\204880"
+			"process 1"		"%INSTALLDIR%\\Redist\\DXSETUP.exe"
+			"command 1"		"/silent"
+			"NoCleanUp"		"1"
+		}
+		"VCRedist"
+		{
+			"HasRunKey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\204880"
+			"process 1"		"%INSTALLDIR%\\Redist\\vcredist_2005sp1_x86.exe"
+			"command 1"		"/q"
+			"NoCleanUp"		"1"
+		}
+		"FirewallInstall"
+		{
+			"HasRunKey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\204880"
+			"process 1"		"%INSTALLDIR%\\FirewallInstall.exe"
+			"command 1"		"/s /exeName \"Sins of a Solar Empire Rebellion.exe\" /installDir \"%INSTALLDIR%\" /displayName \"Sins of a Solar Empire - Rebellion\""
+			"NoCleanUp"		"1"
+		}
+	}
+}
+"kvsignatures"
+{
+	"InstallScript"		"6c989f1e6bb822bb06c3656586e2a527127cffad285dc71f8a67ddc0602636f64264a9f06c47610bba815218d64f86fe1aa1fb2ce8ed0a63b2efa230390beba24c542330e9066034e4d142dfb89866760cf7413ec7a88f91e08df51208e6808d870d3c01f228fb933581efe2020c3480cdc0aa534f6246a9612c9c61a54a2b9e"
+}

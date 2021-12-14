@@ -1,0 +1,8 @@
+TXT2
+SinsArchiveVersion 193
+textureFileName "LightningHusnock.tga"
+numFrames 4
+numFramesPerRow 2
+startTopLeft [0, 0]
+frameSize [512, 512]
+frameStride [0, 512]

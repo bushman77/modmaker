@@ -1,0 +1,66 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "F_Buff_TractorBeam_Self_Starbase"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 3
+	object "Frigate"
+	object "Corvette"
+	object "CapitalShip"
+	numSpaces 1
+	space "Normal"
+	numConstraints 3
+	constraint "IsControllable"
+	constraint "IsNotStarBaseConstructor"
+	constraint "NotInvulnerable"
+range
+	Level:0 6000.000000
+	Level:1 7000.000000
+	Level:2 5000.000000
+	Level:3 5000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 2
+levelSourceType "StarBaseUpgradeLevel"
+sourcePropertyType "AbilityBLevel"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 15.000000
+	Level:1 10.000000
+	Level:2 10.000000
+	Level:3 10.000000
+cooldownTime
+	Level:0 15.000000
+	Level:1 10.000000
+	Level:2 10.000000
+	Level:3 10.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "F_Ability_TractorBeam_Name"
+descStringID "F_Ability_TractorBeam_Desc"
+hudIcon "F_Jamtargetlock"
+smallHudIcon "F_Jamtargetlock"
+infoCardIcon ""

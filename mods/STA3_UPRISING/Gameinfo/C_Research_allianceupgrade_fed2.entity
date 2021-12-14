@@ -1,0 +1,50 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "C_icon_diplofedalliance4"
+smallHudIcon "C_icon_diplofedalliance4"
+infoCardIcon ""
+NameStringID "C_res_allianceupgrade_fed2_name"
+DescriptionStringID "C_res_allianceupgrade_fed2_desc"
+researchWindowLocation
+	block 0
+	pos [ 7 , 7 ]
+ResearchField "Diplomacy"
+Prerequisites
+	NumResearchPrerequisites 2
+		ResearchPrerequisite
+	Subject "C_Research_allianceupgrade_fed1"
+	Level 1
+		ResearchPrerequisite
+	Subject "C_pact_card"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 090.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 3200.000000
+	metal 290.000000
+	crystal 350.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 0.000000
+	crystal 25.000000
+Tier 7
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "ShieldMaxMitigationAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.020000
+researchModifier
+	modifierType "ShieldPointsMaxAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

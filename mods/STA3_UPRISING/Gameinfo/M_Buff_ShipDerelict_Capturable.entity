@@ -1,0 +1,34 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "InitializeRandomMotion"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	minRandomAngularSpeed 0.110000
+	maxRandomAngularSpeed 0.3200000
+	minRandomLinearSpeed 0.000000
+	maxRandomLinearSpeed 0.000000
+numPeriodicActions 0			
+numOverTimeActions 0
+numEntityModifiers 0			
+numEntityBoolModifiers 8
+	entityBoolModifier "CanBeCaptured"
+	entityBoolModifier "CannotBeDamaged"
+    entityBoolModifier "DisableWeapons"
+    entityBoolModifier "DisableWeaponsUltimate"	
+	entityBoolModifier "DisableAbilities"
+    entityBoolModifier "DisableAbilitiesUltimate"
+	entityBoolModifier "DisableLinearEngines"
+	entityBoolModifier "DisableFighterLaunch"
+numFinishConditions 1
+	finishCondition
+		finishConditionType "OwnerChanged"

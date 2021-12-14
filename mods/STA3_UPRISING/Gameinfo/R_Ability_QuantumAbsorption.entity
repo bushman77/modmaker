@@ -1,0 +1,57 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "R_Buff_QuantumAbsorption"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyWhenTakingDamage"
+aiUseTargetCondition "ShieldDamageExceedsAmount"
+onlyAutoCastWhenTargetShieldDamageExceedsAmount
+	Level:0 500.000000
+	Level:1 600.000000
+	Level:2 800.000000
+	Level:3 1000.000000
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 60.000000
+	Level:1 85.000000
+	Level:2 105.000000
+	Level:3 120.000000
+cooldownTime
+	Level:0 40.000000
+	Level:1 38.000000
+	Level:2 36.000000
+	Level:3 32.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "R_Ability_QuantumAbsorption_Name"
+descStringID "R_Ability_QuantumAbsorption_Desc"
+hudIcon "R_icon_quantumabsorbtion"
+smallHudIcon "R_icon_quantumabsorbtion"
+infoCardIcon ""

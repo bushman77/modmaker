@@ -1,0 +1,52 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "R_Buff_AssaultMode"
+effectInfo
+	effectAttachInfo
+		attachType "Above"
+	smallEffectName "R_Ability_AssaultMode"
+	mediumEffectName "R_Ability_AssaultMode"
+	largeEffectName "R_Ability_AssaultMode"
+	soundID "R_Ability_AssaultMode"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 10.000000
+	Level:1 15.000000
+	Level:2 20.000000
+	Level:3 30.000000
+cooldownTime
+	Level:0 80.000000
+	Level:1 75.000000
+	Level:2 70.000000
+	Level:3 65.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "R_ability_AssaultMode_name"
+descStringID "R_ability_AssaultMode_desc"
+hudIcon "R_hudicon_assaultmode"
+smallHudIcon "R_hudicon_assaultmode"
+infoCardIcon ""

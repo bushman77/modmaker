@@ -1,0 +1,53 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "C_icon_torp3"
+smallHudIcon "C_icon_torp3"
+infoCardIcon ""
+NameStringID "C_RES_PRIDE_UNION_NAME"
+DescriptionStringID "C_RES_PRIDE_UNION_DESC"
+researchWindowLocation
+	block 1
+	pos [ 6 , 0 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+    Subject "C_research_faction_unionist"
+    Level 1	
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 45.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 1200.000000
+	metal 100.000000
+	crystal 120.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 6
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 2.000000
+researchBoolModifiers 0
+researchFloatModifiers 3
+researchModifier
+	modifierType "HullPointsMaxAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
+researchModifier
+	modifierType "WeaponRateOfFireAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
+	linkedWeaponClass "MISSILE"
+researchModifier
+	modifierType "WeaponDamageAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
+	linkedWeaponClass "MISSILE"
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

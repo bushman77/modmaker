@@ -1,0 +1,68 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 4
+allowFirstSpawnerToStack TRUE
+buffExclusivityForAIType "NotExclusive"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 3
+instantAction
+	buffInstantActionType "ApplyBuffToLastSpawnerNoFilterNoRange"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.00000
+	buffType "K_Buff_PinPointStrikes_Target_Engines"
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.00000
+	buffType "K_Buff_PinPointStrikes_Target_Weapons"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""		
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.00000
+	buffType "K_Buff_PinPointStrikes_Target_Shields"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""		
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 2
+entityModifier
+	buffEntityModifierType "WeaponCooldown"
+	value
+		Level:0 0.166670
+		Level:1 0.302780
+		Level:2 0.438890
+		Level:3 0.575000
+entityModifier
+	buffEntityModifierType "WeaponRange"
+	value
+		Level:0 -0.166670
+		Level:1 -0.302780
+		Level:2 -0.438890
+		Level:3 -0.575000			
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 15.000000
+		Level:1 15.000000
+		Level:2 15.000000
+		Level:3 15.000000
+finishCondition
+	finishConditionType "OwnerChanged"

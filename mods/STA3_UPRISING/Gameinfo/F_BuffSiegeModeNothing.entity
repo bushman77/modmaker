@@ -1,0 +1,33 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 3
+instantAction
+	buffInstantActionType "RemoveBuffOfType"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffTypeToRemove "F_BuffSiegeMode"
+instantAction
+	buffInstantActionType "RemoveBuffOfType"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffTypeToRemove "F_Buff_SiegeModeGroup"
+instantAction
+	buffInstantActionType "RemoveBuffOfType"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffTypeToRemove "F_Buff_SiegeModeGroupOn"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

@@ -1,0 +1,43 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "F_res_icon_tritanium"
+smallHudIcon "F_res_icon_tritanium"
+infoCardIcon ""
+NameStringID "F_RES_UPGTRITANIUMEXTR_2_NAME"
+DescriptionStringID "F_RES_UPGTRITANIUMEXTR_2_DESC"
+researchWindowLocation
+	block 0
+	pos [ 4 , 0 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "F_Research_UpgTritanium_Extractor_1"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 40.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 1100.000000
+	metal 200.000000
+	crystal 225.000000
+PerLevelCostIncrease
+	credits 200.000000
+	metal 50.000000
+	crystal 50.000000
+Tier 4
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 2
+priority 3.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "ExtractionRateMetalAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.150000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

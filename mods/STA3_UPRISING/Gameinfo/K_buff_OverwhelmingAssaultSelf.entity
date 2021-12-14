@@ -1,0 +1,43 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 3
+instantAction
+	buffInstantActionType "ApplyBuffToFirstSpawnerNoFilterNoRange"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfFirstSpawnerHasBuff"
+	conditionBuffType "K_Buff_ImpenetrableFrontDefence"
+	conditionBuffShortName "K_Shortname_ImpenetrableFrontDefence"
+	buffType "K_Buff_OverwhelmingAssault"
+instantAction
+	buffInstantActionType "ApplyBuffToFirstSpawnerNoFilterNoRange"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfFirstSpawnerDoesNotHaveBuff"
+	conditionBuffType "K_Buff_ImpenetrableFrontDefence"
+	conditionBuffShortName "K_Shortname_ImpenetrableFrontDefence"
+	buffType "K_Buff_OverwhelmingAssaultAmplified"
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Aura"
+		smallEffectName "CapitalBuff_TelekineticPush"
+		mediumEffectName "CapitalBuff_TelekineticPush"
+		largeEffectName "CapitalBuff_TelekineticPush"
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AnyOnConditionInstantActionDone"

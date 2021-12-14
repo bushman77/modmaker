@@ -1,0 +1,68 @@
+﻿TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "F_Buff_Reinforcements"
+effectInfo
+	effectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyWhenEnemyFleetWillPrevail"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveShipSlots"
+creditCost
+	Level:0 2500.000000
+	Level:1 2500.000000
+	Level:2 2500.000000
+	Level:3 2500.000000
+metalCost
+	Level:0 500.000000
+	Level:1 500.000000
+	Level:2 500.000000
+	Level:3 500.000000
+crystalCost
+	Level:0 150.000000
+	Level:1 150.000000
+	Level:2 150.000000
+	Level:3 150.000000
+requiredShipSlots
+	Level:0 80.000000
+	Level:1 90.000000
+	Level:2 100.000000
+	Level:3 110.000000
+cooldownTime
+	Level:0 240.000000
+	Level:1 240.000000
+	Level:2 240.000000
+	Level:3 240.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0	
+nameStringID "F_ABILITY_REINFORCEMENTS_NAME"
+descStringID "F_ABILITY_REINFORCEMENTS_DESC"
+hudIcon "Bb_Fed_Reinforcements"
+smallHudIcon "Bb_Fed_Reinforcements"
+infoCardIcon ""

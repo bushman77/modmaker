@@ -1,0 +1,63 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 1
+periodicAction
+	actionCountType "Infinite"
+	actionIntervalTime
+		Level:0 5.000000
+		Level:1 5.000000
+		Level:2 5.000000
+		Level:3 5.000000
+	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
+	instantActionTriggerType "AlwaysPerform"
+	buffType "K_Buff_HailGowron_fleet"
+	targetFilter
+		numOwnerships 1
+		ownership "Friendly"
+		numObjects 4
+		object "Frigate"
+		object "Corvette"
+		object "CapitalShip"
+		object "Titan"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "CultureSpreadRateForOwner"
+	value
+		Level:0 -2.000000
+		Level:1 -3.000000
+		Level:2 -4.000000
+		Level:3 -5.000000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 35.000000
+		Level:1 40.000000
+		Level:2 55.000000
+		Level:3 65.000000

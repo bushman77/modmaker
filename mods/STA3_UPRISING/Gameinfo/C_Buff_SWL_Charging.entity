@@ -1,0 +1,71 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling TRUE
+numInstantActions 4
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Ability"
+			abilityIndex 0
+		smallEffectName "CapitalAbility_BeamBlastChargeUp"
+		mediumEffectName "CapitalAbility_BeamBlastChargeUp"
+		largeEffectName "CapitalAbility_BeamBlastChargeUp"
+		soundID ""
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Ability"
+			abilityIndex 0
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID "EFFECT_BEAMBLAST_CHARGING"
+instantAction
+	buffInstantActionType "ApplyTargettedBuffToSelfNoFilterNoRange"
+	instantActionTriggerType "OnDelay"
+	delayTime 5.000000
+	buffType "C_Buff_SWL_Activated"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyTargettedBuffToSelfNoFilterNoRange"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "C_Buff_SWL_Deactivated"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 1
+entityBoolModifier "DisableWeapons"
+numFinishConditions 3
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "TargetOwnerIsFriendly"

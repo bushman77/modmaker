@@ -1,0 +1,38 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "R_research_diplomacy_playergift"
+smallHudIcon "R_research_diplomacy_playergift"
+infoCardIcon ""
+NameStringID "R_res_diplomacy_playergift_name"
+DescriptionStringID "R_res_diplomacy_playergift_desc"
+researchWindowLocation
+	block 0
+	pos [ 1 , 3 ]
+ResearchField "Diplomacy"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 45.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 600.000000
+	metal 50.000000
+	crystal 100.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 1
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 1
+researchModifier
+	modifierType "AllowResourceDemandAndGifts"
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

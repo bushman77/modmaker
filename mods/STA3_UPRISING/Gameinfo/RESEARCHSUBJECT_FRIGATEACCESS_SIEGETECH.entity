@@ -1,0 +1,39 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "Bb_Fed_Steamrunner"
+smallHudIcon "Bb_Fed_Steamrunner"
+infoCardIcon ""
+NameStringID "F_RES_STEAM_ACCES_NAME"
+DescriptionStringID "F_RES_STEAM_ACCES_DESC"
+researchWindowLocation
+	block 2
+	pos [ 1 , 2 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "F_Research_Acces_Norway"
+		Level 1		
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 75.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1010.000000
+	metal 125.000000
+	crystal 115.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 1
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

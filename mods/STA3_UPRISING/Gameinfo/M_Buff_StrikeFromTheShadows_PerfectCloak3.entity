@@ -1,0 +1,25 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 2
+allowFirstSpawnerToStack TRUE
+buffExclusivityForAIType "NotExclusive"
+isInterruptable TRUE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "ApplyBuffToFirstSpawnerNoFilterNoRange"
+	instantActionTriggerType "OnDelay"
+	delayTime 1.000000
+	buffType "M_Buff_StrikeFromTheShadows_PerfectCloak4"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

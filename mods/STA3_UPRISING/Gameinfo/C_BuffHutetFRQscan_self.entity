@@ -1,0 +1,117 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 3
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsInRadius"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "C_BuffHutetFRQscan_Target"
+	targetFilter
+		numOwnerships 2
+		ownership "Friendly"
+		ownership "Player"		
+		numObjects 6
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "StarBase"
+		object "Titan"
+		object "Corvette"
+		numSpaces 1
+		space "Normal"
+		numConstraints 1
+		constraint "NotSelf"
+	range
+		Level:0 8000.000000
+		Level:1 8500.000000
+		Level:2 9000.000000
+		Level:3 10000.000000
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000		
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsInRadius"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "C_BuffHutetFRQscan_Target2"
+	targetFilter
+		numOwnerships 1
+		ownership "Player"		
+		numObjects 6
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "StarBase"
+		object "Titan"
+		object "Corvette"
+		numSpaces 1
+		space "Normal"
+		numConstraints 1
+		constraint "NotSelf"
+	range
+		Level:0 8000.000000
+		Level:1 8500.000000
+		Level:2 9000.000000
+		Level:3 10000.000000
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000		
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "DamageAsDamageTarget"
+	value
+		Level:0 -0.100000
+		Level:1 -0.150000
+		Level:2 -0.250000
+		Level:3 -0.350000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 25.000000
+		Level:1 30.000000
+		Level:2 35.000000
+		Level:3 40.000000
+finishCondition
+	finishConditionType "OwnerChanged"
+

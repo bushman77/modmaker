@@ -1,0 +1,169 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 2
+frigateRoleType "AntiModule"
+frigateRoleType "Support"
+statCountType "FrigateAntiModule"
+mainViewIcon "Icon_B_Wedge"
+picture "Unit_Picture_Bor"
+NameStringID "B_cruiser_wedge_name"
+DescriptionStringID "B_cruiser_wedge_desc"
+counterDescriptionStringID "B_ClassSiegeCruiser_RangeHeavyArtillery"
+basePrice
+	credits 1500.000000
+	metal 200.000000
+	crystal 200.000000
+slotCount 15.000000
+BuildTime 65.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 54.000000
+MaxHullPoints 1000.000000
+MaxShieldPoints 0.000000
+HullPointRestoreRate 4.500000
+ShieldPointRestoreRate 0.000000
+BaseArmorPoints 6.00000
+maxMitigation 0.600000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+	Subject "B_research_shipunlock_wedge"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 1
+numRandomDebrisSmall 10
+numSpecificDebris 0
+armorType "VeryHeavy"
+hudIcon "B_Wedge"
+smallHudIcon "Icon_Gen_Cruiser"
+infoCardIcon "Icon_Gen_Cruiser"
+minZoomDistanceMult 2.000000
+NumWeapons 1
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTIMODULE"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "PULSEWAVE"
+	DamagePerBank:FRONT 960.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 13500.000000
+	PreBuffCooldownTime 26.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 1.000000
+	TravelSpeed 1300.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 2
+		burstDelay 0.500000
+		fireDelay 0.000000
+		muzzleEffectName "Borg_Weap_Beam_Muzzle_Frig"
+		muzzleSoundMinRespawnTime 0.005000
+		muzzleSounds
+			soundCount 1
+			sound "B_TORP"
+		hitEffectName "Weapon_Tech_MissileFrigate_Hit"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Wpn_Imp_Pulse_Hull1"
+			sound "Wpn_Imp_Pulse_Hull2"
+			sound "Wpn_Imp_Pulse_Hull3"
+			sound "Wpn_Imp_Pulse_Hull4"			
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"		
+		missileTravelEffectName "Borg_Weap_Torpedo"
+		missileStartTurningDistance 250.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 0.010000		
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1500.000000
+ShieldMeshName ""
+renderShield TRUE
+maxAccelerationLinear 110.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 110.000000
+maxAccelerationAngular 4.650000
+maxDecelerationAngular 4.650000
+maxSpeedLinear 250.000000
+maxRollRate 15.000000
+maxRollAngle 90.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 4
+SoundID "borg_unit_attack5"
+SoundID "borg_unit_attack6"
+SoundID "borg_unit_attack7"
+SoundID "borg_unit_attack8"
+NumSoundsFor:ONCREATION 4
+SoundID "borg_unit_select4"
+SoundID "borg_unit_select5"
+SoundID "borg_unit_select6"
+SoundID "borg_unit_select7"
+NumSoundsFor:ONGENERALORDERISSUED 4
+SoundID "borg_unit_move1"
+SoundID "borg_unit_move2"
+SoundID "borg_unit_move3"
+SoundID "borg_unit_move4"
+NumSoundsFor:ONSELECTED 4
+SoundID "borg_unit_select4"
+SoundID "borg_unit_select5"
+SoundID "borg_unit_select6"
+SoundID "borg_unit_select7"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "borg_unit_move4"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "B_Wedge"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName ""
+ExplosionName "Explosion_Frigate_Borg_Medium"
+HyperspaceChargingSoundID "B_Enter_Warp"
+HyperspaceTravelSoundID ""
+EngineSoundID "Engine_Klingon"
+ability:0 "B_ability_ShieldDrainTorpedo_Frigate"
+ability:1 "B_AbilitySiegeMode"
+ability:2 ""
+ability:3 "NEM_AbilityPassiveLowLifeT2"
+ability:4 "G_Ability_UnCap"
+MaxAntiMatter 150.000000
+AntiMatterRestoreRate 1.250000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 3
+minShadow 0.100000
+maxShadow 1.000000
+allegianceDecreasePerRoundtrip 0.000000

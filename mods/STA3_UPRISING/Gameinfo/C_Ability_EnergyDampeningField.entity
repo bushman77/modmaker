@@ -1,0 +1,78 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadius"
+instantActionTriggerType "AlwaysPerform"
+buffType "C_Buff_EnergyDampeningField"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 6
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 2
+	constraint "HasAntiMatterPool"
+	constraint "NotInvulnerable"
+range
+	Level:0 4500.000000
+	Level:1 4500.000000
+	Level:2 4500.000000
+	Level:3 4500.000000
+maxTargetCount
+	Level:0 8.000000
+	Level:1 8.000000
+	Level:2 8.000000
+	Level:3 8.000000
+effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""		
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 2
+levelSourceType "StarBaseUpgradeLevel"
+sourcePropertyType "AbilityDLevel"
+aiUseTime "OnlyWhenManyTargetsInRange"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 6.000000
+	Level:1 6.000000
+	Level:2 6.000000
+	Level:3 6.000000
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 80.000000
+	Level:1 70.000000
+	Level:2 70.000000
+	Level:3 70.000000
+cooldownTime
+	Level:0 30.000000
+	Level:1 20.000000
+	Level:2 20.000000
+	Level:3 20.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "C_ENERGYDAMP_NAME"
+descStringID "C_ENERGYDAMP_DESC"
+hudIcon "C_res_icon_dampeningfield"
+smallHudIcon "C_res_icon_dampeningfield"
+infoCardIcon ""

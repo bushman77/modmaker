@@ -1,0 +1,127 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanet"
+instantActionTriggerType "AlwaysPerform"
+spawnShipsLevelCount 4
+spawnShips
+	minFleetPoints 10.000000
+	maxFleetPoints 20.000000
+	requiredShipCount 0
+	randomShipCount 2
+	randomShip
+		type "K_Frigate_Brell"
+		weight 5
+	randomShip
+		type "K_Corvette_Raptor"
+		weight 4
+spawnShips
+	minFleetPoints 20.000000
+	maxFleetPoints 30.000000
+	requiredShipCount 0
+	randomShipCount 3
+	randomShip
+		type "K_Flak_K32"
+		weight 3
+	randomShip
+		type "K_Frigate_Brell"
+		weight 5
+	randomShip
+		type "K_Corvette_Raptor"
+		weight 4
+spawnShips
+	minFleetPoints 30.000000
+	maxFleetPoints 40.000000
+	requiredShipCount 0
+	randomShipCount 4
+	randomShip
+		type "K_Support_D12"
+		weight 5
+	randomShip
+		type "K_Support_Ktinga"
+		weight 3
+	randomShip
+		type "K_Flak_K32"
+		weight 3
+	randomShip
+		type "K_Frigate_Brell"
+		weight 5
+spawnShips
+	minFleetPoints 40.000000
+	maxFleetPoints 50.000000
+	requiredShipCount 0
+	randomShipCount 5
+	randomShip
+		type "K_Support_Ktinga"
+		weight 5
+	randomShip
+		type "K_Cruiser_Deathrite"
+		weight 3
+	randomShip
+		type "K_Support_D12"
+		weight 3
+	randomShip
+		type "K_Frigate_Brell"
+		weight 5
+	randomShip
+		type "K_Longrange_Kvort"
+		weight 4		
+spawnShipsArrivalDelayTime 7.000000
+spawnShipsHyperspaceSpawnType "FleetBeacon"
+shouldAdoptFirstSpawnersMinorFactionState TRUE
+spawnShipsMinStartingHullPerc 1.0
+spawnShipsMaxStartingHullPerc 1.0
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 1.000000
+	Level:2 2.000000
+	Level:3 3.000000
+aiUseTime "OnlyWhenEnemyFleetWillPrevail"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveShipSlots"
+creditCost
+	Level:0 1200.000000
+	Level:1 1200.000000
+	Level:2 1200.000000
+	Level:3 1200.000000
+metalCost
+	Level:0 400.000000
+	Level:1 400.000000
+	Level:2 400.000000
+	Level:3 400.000000
+crystalCost
+	Level:0 230.000000
+	Level:1 230.000000
+	Level:2 230.000000
+	Level:3 230.000000
+requiredShipSlots
+	Level:0 15.000000
+	Level:1 25.000000
+	Level:2 35.000000
+	Level:3 45.000000
+cooldownTime
+	Level:0 140.000000
+	Level:1 130.000000
+	Level:2 120.000000
+	Level:3 110.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "K_ABILITY_REINF_NAME"
+descStringID "K_ABILITY_REINF_DESC"
+hudIcon "K_icon_calltobattle"
+smallHudIcon "K_icon_calltobattle"
+infoCardIcon ""

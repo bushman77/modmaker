@@ -1,0 +1,70 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "NotExclusive"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToTargetOnWeaponFired"
+	instantActionTriggerType "OnWeaponFired"
+	numWeaponClasses 2
+	weaponClassForWeaponPassive "LASERPSI"
+	weaponClassForWeaponPassive "PLASMA"
+	passiveWeaponEffectChance
+		Level:0 0.900000
+		Level:1 0.800000
+		Level:2 0.700000
+		Level:3 0.600000
+	buffType "R_Buff_PerfectCloak3"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 6
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "StarBase"
+		object "Titan"
+		object "Corvette"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 2
+entityModifier
+	buffEntityModifierType "ChanceToHitAsDamageTarget"
+	value
+		Level:0 -0.300000
+		Level:1 -0.360000
+		Level:2 -0.420000
+		Level:3 -0.500000
+entityModifier
+	buffEntityModifierType "DamageAsDamageDealer"
+	value
+		Level:0 0.100000
+		Level:1 0.100000
+		Level:2 0.100000
+		Level:3 0.100000
+numEntityBoolModifiers 1
+entityBoolModifier "IsInvisible"
+numFinishConditions 1
+finishCondition
+	finishConditionType "FirstSpawnerNoLongerHasBuff"
+	buffTypeToQuery "R_Buff_PerfectCloak"

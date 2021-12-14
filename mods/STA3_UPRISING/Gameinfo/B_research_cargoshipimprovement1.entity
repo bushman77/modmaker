@@ -1,0 +1,43 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "B_res_trade2A"
+smallHudIcon "B_res_trade2A"
+infoCardIcon ""
+NameStringID "B_res_cargoshipupgrade1_name"
+DescriptionStringID "B_res_cargoshipupgrade1_desc"
+researchWindowLocation
+	block 0
+	pos [ 6 , 3 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+	Subject "B_research_refineryupgrade1"
+	Level 1
+    RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 45.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1000.000000
+	metal 100.000000
+	crystal 100.000000
+PerLevelCostIncrease
+	credits 1000.000000
+	metal 100.000000
+	crystal 100.000000
+Tier 6
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 2
+priority 3.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "CargoShipCapacityAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

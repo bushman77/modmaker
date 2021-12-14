@@ -1,0 +1,72 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "K_buff_ionbeam_activation"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 6
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 2
+	constraint "NotSelf"
+	constraint "NotInvulnerable"
+range
+	Level:0 3500.000000
+	Level:1 3750.000000
+	Level:2 3750.000000
+	Level:3 3750.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility TRUE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 1.000000
+	Level:1 3.000000
+	Level:2 5.000000
+	Level:3 7.000000
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 100.000000
+	Level:1 90.000000
+	Level:2 80.000000
+	Level:3 70.000000
+cooldownTime
+	Level:0 180.000000
+	Level:1 180.000000
+	Level:2 180.000000
+	Level:3 180.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "K_ability_ionbeam_name"
+descStringID "K_ability_ionbeam_desc"
+hudIcon "K_icon_ionbeambaby"
+smallHudIcon "K_icon_ionbeambaby"
+infoCardIcon ""

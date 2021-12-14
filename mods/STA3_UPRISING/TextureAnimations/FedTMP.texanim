@@ -1,0 +1,8 @@
+TXT2
+SinsArchiveVersion 193
+textureFileName "FedPhaserTMP.tga"
+numFrames 4
+numFramesPerRow 4
+startTopLeft [0, 0]
+frameSize [64, 256]
+frameStride [64, 0]

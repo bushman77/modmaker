@@ -1,0 +1,86 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanet"
+instantActionTriggerType "AlwaysPerform"
+spawnShipsLevelCount 1
+spawnShips
+	minFleetPoints 60.000000
+	maxFleetPoints 120.000000
+	requiredShipCount 0
+	randomShipCount 6
+	randomShip
+		type "F_Corvette_Miranda"
+		weight 5
+	randomShip
+		type "F_Flak_Centaur"
+		weight 4
+	randomShip
+		type "F_Cruiser_Excelsior"
+		weight 3	
+	randomShip
+		type "K_Frigate_Brell"
+		weight 5		
+	randomShip
+		type "K_Support_Ktinga"
+		weight 4
+	randomShip
+		type "K_Cruiser_Kvort"
+		weight 3		
+spawnShipsArrivalDelayTime 7.000000
+spawnShipsHyperspaceSpawnType "FleetBeacon"
+shouldAdoptFirstSpawnersMinorFactionState TRUE
+spawnShipsMinStartingHullPerc 1.0
+spawnShipsMaxStartingHullPerc 1.0
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveShipSlots"
+creditCost
+	Level:0 4000.000000
+	Level:1 4000.000000
+	Level:2 4000.000000
+	Level:3 4000.000000
+metalCost
+	Level:0 800.000000
+	Level:1 800.000000
+	Level:2 800.000000
+	Level:3 800.000000
+crystalCost
+	Level:0 550.000000
+	Level:1 550.000000
+	Level:2 550.000000
+	Level:3 550.000000
+requiredShipSlots
+	Level:0 90.000000
+	Level:1 90.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 280.000000
+	Level:1 280.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+	Subject "F_Res_Pact_Kli_Wolf359"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0	
+nameStringID "F_ABILITY_KLIWOLF359_NAME"
+descStringID "F_ABILITY_KLIWOLF359_DESC"
+hudIcon "Bb_Fed_KliWolf359"
+smallHudIcon "Bb_Fed_KliWolf359"
+infoCardIcon ""

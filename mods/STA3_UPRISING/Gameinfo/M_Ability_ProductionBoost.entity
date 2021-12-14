@@ -1,0 +1,69 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetWithEntryVehicles"
+instantActionTriggerType "AlwaysPerform"
+buffType "M_Buff_ProductionBoost"
+targetFilter
+	numOwnerships 3
+	ownership "Enemy"
+	ownership "AlliedOrEnemy"	
+	ownership "Friendly"		
+	numObjects 1
+	object "Planet"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 5000.000000
+	Level:1 5000.000000
+	Level:2 0.000000
+	Level:3 0.000000
+entryVehicleType "F_EntryVehicle_Colonize"
+numEntryVehicles
+	Level:0 9.000000
+	Level:1 6.000000
+	Level:2 7.000000
+	Level:3 8.000000
+travelTime 30.000000
+entryVehicleLaunchInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility TRUE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 120.000000
+	Level:1 120.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "M_Ability_Productionboost_Name"
+descStringID "M_Ability_Productionboost_Desc"
+hudIcon "K_Res_PlanetTerror"
+smallHudIcon "K_Res_PlanetTerror"
+infoCardIcon ""

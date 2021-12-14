@@ -1,0 +1,263 @@
+TXT2
+SinsArchiveVersion 193
+entityType "CapitalShip"
+ability:0 "AbilityTechCapitalShipColonize"
+ability:1 "AbilityIonBlast"
+ability:2 "AbilityTargetingUplink"
+ability:3 "AbilityCeaseFire"
+ability:4 ""
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+autoJoinFleetDefault TRUE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 50.000000
+basePopulationKilled 0.000000
+bombingFreqTime 10.000000
+baseRange 5000.000000
+bombTransitTime 12.000000
+bombEffectCount 3
+bombEffectAngleVariance 15.000000
+bombEffectsDef
+	weaponType "Projectile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Fed_Weap_Photon_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "FedPhotonLight"
+	hitEffectName "Weapon_TechCapitalPlanetBombing_Hit"
+	hitHullEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	hitShieldsEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	projectileTravelEffectName "Fed_Weap_Photon_Orange"
+mainViewIcon "Icon_F_Ambassador"
+basePrice
+	credits 3000.000000
+	metal 400.000000
+	crystal 250.000000
+slotCount 30.000000
+BuildTime 75.000000
+MaxHullPoints
+	StartValue 2500.000000
+	ValueIncreasePerLevel 0.000000
+MaxShieldPoints
+	StartValue 2500.000000
+	ValueIncreasePerLevel 0.000000
+HullPointRestoreRate
+	StartValue 1.500000
+	ValueIncreasePerLevel 0.500000
+ShieldPointRestoreRate
+	StartValue 3.500000
+	ValueIncreasePerLevel 1.000000
+ArmorPointsFromExperience
+	StartValue 5.000000
+	ValueIncreasePerLevel 0.000000
+maxMitigation
+	StartValue 0.650000
+	ValueIncreasePerLevel 0.011110
+MaxAntiMatter
+	StartValue 260.000000
+	ValueIncreasePerLevel 35.000000
+AntiMatterRestoreRate
+	StartValue 0.850000
+	ValueIncreasePerLevel 0.100000
+CultureProtectRate
+	StartValue 0.300000
+	ValueIncreasePerLevel 0.050000
+NameStringID "F_AMBASSADOR_NAME"
+DescriptionStringID "F_cap_ambassador_desc"
+picture "Unit_Picture_Fed"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+roleType "COLONY"
+statCountType "CapitalShipUtility2"
+numRandomDebrisLarge 4
+numRandomDebrisSmall 17
+numSpecificDebris 2
+specificDebrisMeshName "F_Ambassador_Debris_A"
+specificDebrisMeshName "F_Ambassador_Debris_B"
+armorType "VeryHeavy"
+hudIcon "Bb_Fed_Ambassador"
+smallHudIcon "Icon_F_Ambassador"
+infoCardIcon "Icon_F_Ambassador"
+minZoomDistanceMult 1.350000
+NumWeapons 2
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTIMEDIUM"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "BEAM"
+	DamagePerBank:FRONT 160.000000
+	DamagePerBank:BACK 160.000000
+	DamagePerBank:LEFT 160.000000
+	DamagePerBank:RIGHT 160.000000
+	Range 4500.000000
+	PreBuffCooldownTime 6.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 2.00000
+	TravelSpeed 0.000000
+	Duration 1.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.300000
+		muzzleEffectName "Fed_Weap_Phaser_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "FedPhaserHeavy_Start"
+			sound "FedPhaserHeavy_Start2"
+			sound "FedPhaserHeavy_Start3"			
+		hitEffectName "Fed_Weap_Phaser_Impact"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Wpn_Imp_Pulse_Hull1"
+			sound "Wpn_Imp_Pulse_Hull2"
+			sound "Wpn_Imp_Pulse_Hull3"
+			sound "Wpn_Imp_Pulse_Hull4"			
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"		
+		beamEffectSounds
+			soundCount 1
+			sound "FedPhaserHeavy_Loop"
+		beamGlowTextureName "FedPhaserBeam_Glow"
+		beamCoreTextureName "FedPhaserBeam_Core"
+		beamWidth 10.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 20.000000
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 450.000000
+	DamagePerBank:BACK 450.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 6000.000000
+	PreBuffCooldownTime 24.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.250000
+	TravelSpeed 1300.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 4
+		burstDelay 0.250000
+		fireDelay 0.000000
+		muzzleEffectName "Fed_Weap_Photon_Muzzle"
+		muzzleSoundMinRespawnTime 0.005000
+		muzzleSounds
+			soundCount 1
+			sound "FedPhotonType9"
+		hitEffectName "Weapon_Fed_Photon_Hit"
+		hitHullEffectSounds
+			soundCount 2
+			sound "Wpn_Imp_Torp_Hull1"
+			sound "Wpn_Imp_Torp_Hull2"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"	
+		missileTravelEffectName "Fed_Weap_Photon_Orange"
+		missileStartTurningDistance 250.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 0.010000	
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 1
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+mass 1500.000000
+ShieldMeshName "F_Ambassador_Shield"
+renderShield TRUE
+maxAccelerationLinear 95.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 95.000000
+maxAccelerationAngular 4.400000
+maxDecelerationAngular 4.400000
+maxSpeedLinear 250.000000
+maxRollRate 15.000000
+maxRollAngle 35.000000
+squadTypeEntityDef:0 "F_Squad_Peregrine"
+squadAntiMatterCost:0 5.000000
+squadTypeEntityDef:1 "F_Squad_Danube"
+squadAntiMatterCost:1 9.000000
+squadTypeEntityDef:2 "F_Squad_ValMK1"
+squadAntiMatterCost:2 9.000000
+squadTypeEntityDef:3 "F_Squad_ValMK2"
+squadAntiMatterCost:3 20.000000
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "Fed7Attack"
+SoundID "Fed7Attack2"
+SoundID "Fed7Attack3"
+NumSoundsFor:ONCREATION 3
+SoundID "Fed7Select"
+SoundID "Fed7Select2"
+SoundID "Fed7Select3"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "Fed7Move"
+SoundID "Fed7Move2"
+SoundID "Fed7Move3"
+NumSoundsFor:ONSELECTED 3
+SoundID "Fed7Select"
+SoundID "Fed7Select2"
+SoundID "Fed7Select3"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "Fed7Move2"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "F_Ambassador"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName ""
+ExplosionName "Explosion_Capital_Fed"
+CommandPoints
+	StartValue 1.350000
+	ValueIncreasePerLevel 0.200000
+weaponCooldownDecreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.010000
+weaponDamageIncreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.010000
+HyperspaceChargingSoundID "FederationEnterWarp"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "Engine_Fed"
+formationRank 1
+minShadow 0.000000
+maxShadow 0.400000
+

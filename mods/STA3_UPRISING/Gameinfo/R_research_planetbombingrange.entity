@@ -1,0 +1,43 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "R_research_planetbombingrange"
+smallHudIcon "R_research_planetbombingrange"
+infoCardIcon ""
+NameStringID "R_res_planetbomb_range_name"
+DescriptionStringID "R_res_planetbomb_range_desc"
+researchWindowLocation
+	block 1
+	pos [ 7 , 2 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+	Subject "R_research_planetbombingdamage"
+	Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 90.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1400.000000
+	metal 250.000000
+	crystal 400.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 7
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 3
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "BombingRangeAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.666700
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

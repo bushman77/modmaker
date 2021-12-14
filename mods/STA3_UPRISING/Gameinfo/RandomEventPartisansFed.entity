@@ -1,0 +1,65 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "SpawnShipsAtPlanet"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	spawnShipsLevelCount 1
+	spawnShips
+		minFleetPoints 150.000000
+		maxFleetPoints 350.000000
+		requiredShipCount 5
+		requiredShip
+			type "F_Flak_Centaur"
+			minCount 2
+			maxCount 3
+		requiredShip
+			type "F_Carrier_Curry"
+			minCount 2
+			maxCount 3
+		requiredShip
+			type "F_Corvette_Miranda"
+			minCount 5
+			maxCount 6
+		requiredShip
+			type "F_Support_Intrepid"
+			minCount 3
+			maxCount 6
+		requiredShip
+			type "F_Cruiser_Excelsior"
+			minCount 5
+			maxCount 10
+		randomShipCount 4
+		randomShip
+			type "F_Cap_Galaxy"
+			weight 1
+		randomShip
+			type "F_Cap_Ambassador"
+			weight 1
+		randomShip
+			type "F_Cap_Phoenix"
+			weight 1
+		randomShip
+			type "F_Cap_Nebula"
+			weight 1
+	spawnShipsArrivalDelayTime 7.000000
+	spawnShipsHyperspaceSpawnType "FleetBeacon"
+	shouldAdoptFirstSpawnersMinorFactionState TRUE
+	spawnShipsMinStartingHullPerc 1.0
+	spawnShipsMaxStartingHullPerc 1.0
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

@@ -1,0 +1,44 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "F_Res_Diplo2"
+smallHudIcon "F_Res_Diplo2"
+infoCardIcon ""
+NameStringID "F_res_diplomacy_relationbonus2_name"
+DescriptionStringID "F_res_diplomacy_relationbonus2_desc"
+researchWindowLocation
+	block 0
+	pos [ 2 , 2 ]
+ResearchField "Diplomacy"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 50.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 800.000000
+	metal 100.000000
+	crystal 175.000000
+PerLevelCostIncrease
+	credits 300.000000
+	metal 100.000000
+	crystal 100.000000
+Tier 2
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "RelationshipBonus"
+	baseValue 0.000000
+	perLevelValue 0.400000
+researchModifier
+	modifierType "SelfRelationshipBonus"
+	baseValue 0.000000
+	perLevelValue 0.600000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

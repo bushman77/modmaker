@@ -1,0 +1,66 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayPersistantBeamEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	weaponEffectImpactOffsetType "RandomMesh"
+	canWeaponEffectHitHull TRUE
+	canWeaponEffectHitShields TRUE
+	weaponEffectsDef
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "R_Ability_ShieldRestore_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "R_Ability_ShieldRestore"
+		hitEffectName "R_Ability_ShieldRestore_Muzzle"
+		hitHullEffectSounds
+			soundCount 1
+			sound "R_Ability_ShieldRestore_Hit"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "R_Ability_ShieldRestore_Hit"
+		beamEffectSounds
+			soundCount 1
+			sound "EFFECT_SHIELDRESTORE_BEAM"
+		beamGlowTextureName "R_Ability_ShieldRestoreBeam_Glow"
+		beamCoreTextureName "R_Ability_ShieldRestoreBeam"
+		beamWidth 35.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
+instantAction
+	buffInstantActionType "ApplyBuffToTargetNoFilterNoRange"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "C_Buff_RepairBindingTarget"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 5.000000
+		Level:1 5.000000
+		Level:2 5.000000
+		Level:3 5.000000

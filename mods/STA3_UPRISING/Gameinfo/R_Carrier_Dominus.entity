@@ -1,0 +1,258 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 2
+frigateRoleType "Light"
+frigateRoleType "AntiFighter"
+statCountType "FrigateCarrier"
+mainViewIcon "Icon_R_Dominus"
+picture "Unit_Picture_Rom"
+NameStringID "R_DOMINUS_NAME"
+DescriptionStringID "R_dominus_desc"
+counterDescriptionStringID "R_ClassCarrier_RangeShort"
+basePrice
+	credits 480.000000
+	metal 230.000000
+	crystal 100.000000
+slotCount 10.000000
+BuildTime 65.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 120.000000
+MaxHullPoints 1475.000000
+MaxShieldPoints 2000.000000
+HullPointRestoreRate 1.500000
+ShieldPointRestoreRate 1.000000
+BaseArmorPoints 3.000000
+maxMitigation 0.550000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+	Subject "R_research_shipaccess_dominus"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 1
+numRandomDebrisSmall 10
+numSpecificDebris 0
+armorType "Medium"
+hudIcon "Bb_Rom_Dominus"
+smallHudIcon "Icon_Gen_Cruiser"
+infoCardIcon "Icon_Gen_Cruiser"
+minZoomDistanceMult 1.000000
+NumWeapons 3
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTIVERYLIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "FLASHBEAM"
+	DamagePerBank:FRONT 115.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 3000.000000
+	PreBuffCooldownTime 6.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.000000
+	TravelSpeed 0.000000
+	Duration 1.500000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weap_Rom_Disruptor_Beam_Impact"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "R_Disruptor_Start"
+		hitEffectName "Weap_Rom_Disruptor_Beam_Impact"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "R_Disruptor_Loop"
+		beamGlowTextureName "RomDisruptorBeam_Glow"
+		beamCoreTextureName "RomDisruptorBeam_Core"
+		beamWidth 7.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000	
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIVERYLIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "LASERPSI"
+	DamagePerBank:FRONT 95.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 95.000000
+	DamagePerBank:RIGHT 95.000000
+	Range 3000.000000
+	PreBuffCooldownTime 7.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.000000
+	TravelSpeed 4000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.150000
+		fireDelay 0.000000
+		muzzleEffectName "Rom_Weap_Pulse_muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "R_Pulse_2"
+		hitEffectName "Weapon_Rom_Disruptor_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Rom_Weap_Pulsephaser_medium"
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "WAVE"
+	DamagePerBank:FRONT 190.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 3000.000000
+	PreBuffCooldownTime 6.500000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.250000
+	TravelSpeed 1250.000000
+	Duration 0.000000
+	fireConstraintType "Research"
+    researchPrerequisites
+        NumResearchPrerequisites 0
+		RequiredFactionNameID "PLAYER_BORG_NAME"
+		RequiredCompletedResearchSubjects 0	
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Borg_Weap_Torpedo_Muzzle"
+		muzzleSoundMinRespawnTime 0.005000
+		muzzleSounds
+			soundCount 1
+			sound "R_Pulse_Scimitar"
+		hitEffectName "Weapon_Tech_MissileFrigate_Hit"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Wpn_Imp_Pulse_Hull1"
+			sound "Wpn_Imp_Pulse_Hull2"
+			sound "Wpn_Imp_Pulse_Hull3"
+			sound "Wpn_Imp_Pulse_Hull4"			
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"	
+		missileTravelEffectName "Borg_Weap_NaradaTorp"
+		missileStartTurningDistance 5.000000
+		missileSlowTurnRate 1.208997
+		missileMaxSlowTurnTime 4.000000				
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1500.000000
+ShieldMeshName "R_Carrier_Shield"
+renderShield TRUE
+maxAccelerationLinear 110.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 110.000000
+maxAccelerationAngular 6.650000
+maxDecelerationAngular 6.999996
+maxSpeedLinear 350.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+squadTypeEntityDef:0 "R_Squad_Javelin"
+squadAntiMatterCost:0 5.000000
+squadTypeEntityDef:1 "R_Squad_Shuttle"
+squadAntiMatterCost:1 5.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 2
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "romulan_cruiser2_attack1"
+SoundID "romulan_cruiser2_attack2"
+SoundID "romulan_cruiser2_attack3"
+NumSoundsFor:ONCREATION 1
+SoundID "romulan_cruiser2_select1"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "romulan_cruiser2_move1"
+SoundID "romulan_cruiser2_move2"
+SoundID "romulan_cruiser2_move3"
+NumSoundsFor:ONSELECTED 3
+SoundID "romulan_cruiser2_select1"
+SoundID "romulan_cruiser2_select2"
+SoundID "romulan_cruiser2_select3"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "romulan_cruiser2_move3"
+MeshNameInfoCount 2
+MeshNameInfo
+	meshName "R_Carrier"
+	criteriaType "None"
+MeshNameInfo
+	meshName "R_Dominus_Assimilated"
+	criteriaType "Research"
+	prerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID "PLAYER_BORG_NAME"
+		RequiredCompletedResearchSubjects 0			
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName ""
+ExplosionName "Explosion_Frigate_Rom_Medium"
+HyperspaceChargingSoundID "RomulanEnterWarp"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "Engine_Romulan"
+ability:0 "R_Ability_ShieldBooster"
+ability:1 "R_ability_CaptureDerelict"
+ability:2 "R_Ability_Boarding"
+ability:3 "R_Ability_RomCloak2"
+ability:4 "R_Ability_Cloak"
+MaxAntiMatter 600.000000
+AntiMatterRestoreRate 0.600000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 2
+minShadow 0.200000
+maxShadow 1.000000
+allegianceDecreasePerRoundtrip 0.000000

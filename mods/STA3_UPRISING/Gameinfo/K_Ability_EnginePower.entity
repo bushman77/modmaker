@@ -1,0 +1,48 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "K_Buff_EnginePower"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID "EFFECT_POWERSURGE"
+needsToFaceTarget FALSE
+canCollideWithTarget FALSE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityBLevel"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 100.000000
+	Level:1 100.000000
+	Level:2 100.000000
+	Level:3 100.000000
+cooldownTime
+	Level:0 70.000000
+	Level:1 65.000000
+	Level:2 60.000000
+	Level:3 55.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "K_Ability_EnginePower_Name"
+descStringID "K_Ability_EnginePower_Desc"
+hudIcon "K_icon_engineboost"
+smallHudIcon "K_icon_engineboost"
+infoCardIcon ""

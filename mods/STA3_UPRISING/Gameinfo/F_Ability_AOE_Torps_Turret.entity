@@ -1,0 +1,47 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyOrRemoveBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "F_Buff_AOE_Torps_Self_Turret"
+effectInfo
+	effectAttachInfo
+		attachType "Above"
+	smallEffectName "F_Ability_TorpedoAOE"
+	mediumEffectName "F_Ability_TorpedoAOE"
+	largeEffectName "F_Ability_TorpedoAOE"
+	soundID "F_Ability_WeaponOverload"
+toggleStateOnNameStringID "IDS_ABILITY_CHARGEDMISSILESACTIVE_NAME"
+toggleStateOnDescStringID "IDS_ABILITY_CHARGEDMISSILESACTIVE_DESCRIPTION"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyWhenAttackTargetIsInFiringSolutionAndHasAttackOrder"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "None"
+cooldownTime
+	Level:0 15.000000
+	Level:1 15.000000
+	Level:2 15.000000
+	Level:3 15.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+	Subject "F_research_abilityaccess_Proxtorps"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "F_PROXTORPS_NAME"
+descStringID "F_PROXTORPS_DESC"
+hudIcon "F_ability_Proximitytorpedoes"
+smallHudIcon "F_ability_Proximitytorpedoes"
+infoCardIcon ""

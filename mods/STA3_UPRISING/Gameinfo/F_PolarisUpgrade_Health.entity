@@ -1,0 +1,129 @@
+TXT2
+SinsArchiveVersion 193
+entityType "TitanUpgrade"
+stageCount 5
+stage
+	nameStringID "F_EXCALIBUR_UPGRADEARMOR_NAME"
+	descStringID "F_EXCALIBUR_UPGRADEARMOR_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement -1
+	hudIcon "F_ability_Fortifiedsuperstructure"
+	smallHudIcon "F_ability_Fortifiedsuperstructure"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "F_EXCALIBUR_UPGRADEARMOR_NAME"
+	descStringID "F_EXCALIBUR_UPGRADEARMOR_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 0
+	hudIcon "F_ability_Fortifiedsuperstructure"
+	smallHudIcon "F_ability_Fortifiedsuperstructure"
+	infoCardIcon ""
+	upgradePropertyCount 5
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 500.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 0.620000
+	upgradeProperty
+		propertyType "MaxShieldPoints"
+		value 500.000000
+	upgradeProperty
+		propertyType "ShieldPointRestoreRate"
+		value 0.800000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 2.000000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "F_EXCALIBUR_UPGRADEARMOR_NAME"
+	descStringID "F_EXCALIBUR_UPGRADEARMOR_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 2
+	hudIcon "F_ability_Fortifiedsuperstructure"
+	smallHudIcon "F_ability_Fortifiedsuperstructure"
+	infoCardIcon ""
+	upgradePropertyCount 5
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 1000.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 1.240000
+	upgradeProperty
+		propertyType "MaxShieldPoints"
+		value 1000.000000
+	upgradeProperty
+		propertyType "ShieldPointRestoreRate"
+		value 1.800000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 4.000000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "F_EXCALIBUR_UPGRADEARMOR_NAME"
+	descStringID "F_EXCALIBUR_UPGRADEARMOR_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 4
+	hudIcon "F_ability_Fortifiedsuperstructure"
+	smallHudIcon "F_ability_Fortifiedsuperstructure"
+	infoCardIcon ""
+	upgradePropertyCount 5
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 1500.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 1.860000
+	upgradeProperty
+		propertyType "MaxShieldPoints"
+		value 1500.000000
+	upgradeProperty
+		propertyType "ShieldPointRestoreRate"
+		value 2.700000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 6.000000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "F_EXCALIBUR_UPGRADEARMOR_NAME"
+	descStringID "F_EXCALIBUR_UPGRADEARMOR_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 6
+	hudIcon "F_ability_Fortifiedsuperstructure"
+	smallHudIcon "F_ability_Fortifiedsuperstructure"
+	infoCardIcon ""
+	upgradePropertyCount 5
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 2000.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 2.480000
+	upgradeProperty
+		propertyType "MaxShieldPoints"
+		value 2000.000000
+	upgradeProperty
+		propertyType "ShieldPointRestoreRate"
+		value 3.600000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 8.000000
+	upgradeBoolPropertyCount 0

@@ -1,0 +1,82 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack TRUE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 1.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 1
+periodicAction
+	actionCountType "Infinite"
+	actionIntervalTime
+		Level:0 5.000000
+		Level:1	5.000000
+		Level:2 5.000000
+		Level:3 5.000000
+	buffInstantActionType "ApplyBuffToTargetsInRadius"
+	instantActionTriggerType "AlwaysPerform"
+	buffType "M_Buff_System_TalarianBoom_Target"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 4
+		object "CapitalShip"
+		object "Frigate"
+		object "Titan"
+		object "Corvette"
+		numSpaces 1
+		space "Normal"
+		numConstraints 1
+		constraint "HasWeapons"
+	range
+		Level:0 3000.000000
+		Level:1 3000.000000
+		Level:2 3000.000000
+		Level:3 3000.000000
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "M_Ability_Talar_Playdead_rings"
+		mediumEffectName "M_Ability_Talar_Playdead_rings"
+		largeEffectName "M_Ability_Talar_Playdead_rings"
+		soundID ""
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 6
+entityBoolModifier "DisableAbilities"
+entityBoolModifier "DisableWeapons"
+entityBoolModifier "CannotBeDamaged"
+entityBoolModifier "DisableFighterLaunch"
+entityBoolModifier "DisableLinearEngines"
+entityBoolModifier "DisableAngularEngines"
+numFinishConditions 2
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 180.000000
+		Level:1 180.000000
+		Level:2 180.000000
+		Level:3 180.000000
+	

@@ -1,0 +1,103 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack TRUE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 3
+instantAction
+	buffInstantActionType "ApplyBuffToTargetOnWeaponFired"
+	instantActionTriggerType "OnWeaponFired"
+	numWeaponClasses 2
+	weaponClassForWeaponPassive "LASERPSI"
+	weaponClassForWeaponPassive "FLASHBEAM"
+	passiveWeaponEffectChance
+		Level:0 0.150000
+		Level:1 0.200000
+		Level:2 0.250000
+		Level:3 0.300000
+	buffType "K_Buff_PinPointStrikes_Target_Engines"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 6
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "StarBase"
+		object "Titan"
+		object "Corvette"
+		numSpaces 1
+		space "Normal"
+		numConstraints 1
+		constraint "HasWeapons"
+instantAction
+	buffInstantActionType "ApplyBuffToTargetOnWeaponFired"
+	instantActionTriggerType "OnWeaponFired"
+	numWeaponClasses 2
+	weaponClassForWeaponPassive "LASERPSI"
+	weaponClassForWeaponPassive "FLASHBEAM"
+	passiveWeaponEffectChance
+		Level:0 0.175000
+		Level:1 0.200000
+		Level:2 0.225000
+		Level:3 0.250000
+	buffType "K_Buff_PinPointStrikes_Target_Weapons"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 6
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "StarBase"
+		object "Titan"
+		object "Corvette"
+		numSpaces 1
+		space "Normal"
+		numConstraints 1
+		constraint "HasWeapons"
+instantAction
+	buffInstantActionType "ApplyBuffToTargetOnWeaponFired"
+	instantActionTriggerType "OnWeaponFired"
+	numWeaponClasses 2
+	weaponClassForWeaponPassive "LASERPSI"
+	weaponClassForWeaponPassive "FLASHBEAM"
+	passiveWeaponEffectChance
+		Level:0 0.175000
+		Level:1 0.200000
+		Level:2 0.225000
+		Level:3 0.250000
+	buffType "K_Buff_PinPointStrikes_Target_Shields"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 6
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "StarBase"
+		object "Titan"
+		object "Corvette"
+		numSpaces 1
+		space "Normal"
+		numConstraints 1
+		constraint "HasWeapons"		
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "EnergyWeaponCooldown"
+	value
+		Level:0 -0.400000
+		Level:1 -0.600000
+		Level:2 -0.800000
+		Level:3 -1.000000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "OwnerChanged"

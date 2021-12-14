@@ -1,0 +1,62 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "NEM_buff_TitanKiller_Activation"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 1
+	object "Titan"
+	numSpaces 1
+	space "Normal"
+	numConstraints 2
+	constraint "NotSelf"
+	constraint "NotInvulnerable"
+range
+	Level:0 26000.000000
+	Level:1 26000.000000
+	Level:2 26000.000000
+	Level:3 26000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility TRUE
+maxNumLevels 4
+levelSourceType "FixedLevel0"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 1.000000
+	Level:1 1.000000
+	Level:2 1.000000
+	Level:3 1.000000
+cooldownTime
+	Level:0 10.000000
+	Level:1 10.000000
+	Level:2 10.000000
+	Level:3 10.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "K_ability_ionbeam_name"
+descStringID "K_ability_ionbeam_desc"
+hudIcon "K_icon_ionbeambaby"
+smallHudIcon "K_icon_ionbeambaby"
+infoCardIcon ""

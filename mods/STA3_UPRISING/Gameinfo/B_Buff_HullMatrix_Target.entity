@@ -1,0 +1,50 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "CapitalAbility_ShieldRestoreTargetActivate"
+		mediumEffectName "CapitalAbility_ShieldRestoreTargetActivate"
+		largeEffectName "CapitalAbility_ShieldRestoreTargetActivate"
+		soundID "EFFECT_ADAPTIVESHIELD"
+instantAction
+	buffInstantActionType "RestoreHullPoints"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	hull
+		Level:0 300.000000
+		Level:1 600.000000
+		Level:2 900.000000
+		Level:3 1500.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "ArmorAsDamageTarget"
+	value
+		Level:0 250.000000
+		Level:1 500.000000
+		Level:2 750.000000
+		Level:3 999.000000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 10.000000
+		Level:1 10.000000
+		Level:2 10.000000
+		Level:3 10.000000

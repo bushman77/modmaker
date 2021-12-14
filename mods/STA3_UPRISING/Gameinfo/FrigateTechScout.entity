@@ -1,0 +1,223 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn FALSE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+autoJoinFleetDefault FALSE
+canBomb FALSE
+typeCount 2
+frigateRoleType "Scout"
+frigateRoleType "AntiMine"
+statCountType "FrigateScout"
+mainViewIcon "Icon_F_Nova"
+picture "Unit_Picture_Fed"
+NameStringID "F_NOVA_NAME"
+DescriptionStringID "F_nova_desc"
+counterDescriptionStringID "F_ClassScout_RangeShort"
+basePrice
+	credits 300.000000
+	metal 0.000000
+	crystal 0.000000
+slotCount 2.000000
+BuildTime 15.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 8.000000
+MaxHullPoints 1000.000000
+MaxShieldPoints 1000.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 0.500000
+BaseArmorPoints 1.000000
+maxMitigation 0.600000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 3
+numSpecificDebris 0
+armorType "Light"
+hudIcon "Bb_Fed_Nova"
+smallHudIcon "Icon_F_Nova"
+infoCardIcon "Icon_F_Nova"
+minZoomDistanceMult 0.650000
+NumWeapons 2
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTILIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "BEAM"
+	DamagePerBank:FRONT 60.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 3000.000000
+	PreBuffCooldownTime 9.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 2.000000
+	TravelSpeed 0.000000
+	Duration 1.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.300000
+		muzzleEffectName "Fed_Weap_Phaser_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "FedPhaserLight_Start"
+			sound "FedPhaserLight_Start2"
+			sound "FedPhaserLight_Start3"
+		hitEffectName "Fed_Weap_Phaser_Impact"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Wpn_Imp_Pulse_Hull1"
+			sound "Wpn_Imp_Pulse_Hull2"
+			sound "Wpn_Imp_Pulse_Hull3"
+			sound "Wpn_Imp_Pulse_Hull4"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"
+		beamEffectSounds
+			soundCount 1
+			sound "FedPhaserLight_Loop"
+		beamGlowTextureName "FedPhaserBeam_Glow"
+		beamCoreTextureName "FedPhaserBeam_Core"
+		beamWidth 10.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 8.000000
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTILIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 100.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 3000.000000
+	PreBuffCooldownTime 25.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.330000
+	TravelSpeed 1300.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Fed_Weap_Photon_Muzzle"
+		muzzleSoundMinRespawnTime 0.005000
+		muzzleSounds
+			soundCount 1
+			sound "FedPhotonType6"
+		hitEffectName "Weapon_Fed_Photon_Hit"
+		hitHullEffectSounds
+			soundCount 2
+			sound "Wpn_Imp_Torp_Hull1"
+			sound "Wpn_Imp_Torp_Hull2"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"
+		missileTravelEffectName "Fed_Weap_Photon_Voyager"
+		missileStartTurningDistance 250.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 0.010000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1500.000000
+ShieldMeshName "F_Nova_Shield"
+renderShield TRUE
+maxAccelerationLinear 155.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 155.000000
+maxAccelerationAngular 8.950000
+maxDecelerationAngular 8.950000
+maxSpeedLinear 700.000000
+maxRollRate 15.000000
+maxRollAngle 90.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "Fed11Attack"
+SoundID "Fed11Attack2"
+SoundID "Fed11Attack3"
+NumSoundsFor:ONCREATION 3
+SoundID "Fed11Select"
+SoundID "Fed11Select2"
+SoundID "Fed11Select3"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "Fed11Move"
+SoundID "Fed11Move"
+SoundID "Fed11Move2"
+NumSoundsFor:ONSELECTED 3
+SoundID "Fed11Select"
+SoundID "Fed11Select2"
+SoundID "Fed11Select3"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "Fed11Move2"
+MeshNameInfoCount 2
+MeshNameInfo
+	meshName "F_Nova"
+	criteriaType "None"
+MeshNameInfo
+	meshName "F_Nova_RI"
+	criteriaType "Research"
+	prerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "F_research_hyperspace_startravel"
+			Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 1
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName ""
+ExplosionName "Explosion_Frigate_Fed_Medium"
+HyperspaceChargingSoundID "FederationEnterWarp"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "Engine_Fed"
+ability:0 "AbilityExplore"
+ability:1 "AbilityProbe"
+ability:2 "AbilityTimedCharges"
+ability:3 "AbilityUnstoppablePhaseJumpTech"
+ability:4 "AbilityDetectMinesTech"
+MaxAntiMatter 500.000000
+AntiMatterRestoreRate 0.500000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 1
+minShadow 0.100000
+maxShadow 0.800000
+allegianceDecreasePerRoundtrip 0.000000

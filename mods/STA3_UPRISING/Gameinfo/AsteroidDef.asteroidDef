@@ -1,0 +1,1097 @@
+TXT2
+SinsArchiveVersion 193
+meshGroupCount 22
+meshGroup
+	name "Fed_debris_Wolf359"
+	meshNameCount 4
+	meshName "F_Challenger_Debris"
+	meshName "F_Cheyenne_Debris"
+	meshName "F_Neworleans_Debris"
+	meshName "F_Springfield_Debris"
+meshGroup
+	name "Borg_debris_general"
+	meshNameCount 15
+	meshName "B_Debris_Big_1"
+	meshName "B_Debris_Big_2"
+	meshName "B_Debris_Big_3"
+	meshName "B_Debris_Big_4"
+	meshName "B_Debris_Big_5"
+	meshName "B_Debris_Large_1"
+	meshName "B_Debris_Large_2"
+	meshName "B_Debris_Large_3"
+	meshName "B_Debris_Large_4"
+	meshName "B_Debris_Large_5"
+	meshName "B_Debris_Small_1"
+	meshName "B_Debris_Small_2"
+	meshName "B_Debris_Small_3"
+	meshName "B_Debris_Small_4"
+	meshName "B_Debris_Small_5"
+meshGroup
+	name "Dom_debris_general"
+	meshNameCount 6
+	meshName "D_BreenCruiser_Debris_A"
+	meshName "D_BreenCruiser_Debris_B"
+	meshName "D_Carrier_Debris"
+	meshName "D_Strikecruiser_Debris"
+	meshName "D_SupportCruiser_Debris"
+	meshName "D_Warship_Debris"
+meshGroup
+	name "Card_debris_general"
+	meshNameCount 9
+	meshName "C_Galor_Debris"
+	meshName "C_Jannisary_Debris_A"
+	meshName "C_Jannisary_Debris_B"
+	meshName "C_Keldon_Debris"
+	meshName "C_Krenar_Debris"
+	meshName "C_Kulinor_Debris"
+	meshName "C_Legate_Debris"
+	meshName "C_Norin_Debris"
+	meshName "C_Tonga_Debris"
+meshGroup
+	name "Kli_debris_general"
+	meshNameCount 19
+	meshName "K_Bop_Debris_A"
+	meshName "K_Bop_Debris_B"
+	meshName "K_Carrier_Debris"
+	meshName "K_D12_Debris"
+	meshName "K_Deathrite_Debris"
+	meshName "K_Feklhr_Debris_A"
+	meshName "K_Feklhr_Debris_B"
+	meshName "K_K32_Debris"
+	meshName "K_Ktinga_Debris_A"
+	meshName "K_Ktinga_Debris_B"
+	meshName "K_Kvek_Debris"
+	meshName "K_Neghvar_Debris"
+	meshName "K_Predator_Debris"
+	meshName "K_Qehrall_Debris"
+	meshName "K_Raptor_Debris"
+	meshName "K_Ravenous_Debris_A"
+	meshName "K_Ravenous_Debris_B"
+	meshName "K_Vorcha_Debris_A"
+	meshName "K_Vorcha_Debris_B"
+meshGroup
+	name "fed_debris_general"
+	meshNameCount 24
+	meshName "F_Akira_Debris"
+	meshName "F_Ambassador_Debris_A"
+	meshName "F_Ambassador_Debris_B"
+	meshName "F_Centaur_Debris"
+	meshName "F_Constellation_Debris"
+	meshName "F_Curry_Debris"
+	meshName "F_Defiant_Debris"
+	meshName "F_Excelsior_Debris"
+	meshName "F_Galaxy_Debris_A"
+	meshName "F_Galaxy_Debris_B"
+	meshName "F_Galaxy_Debris_C"
+	meshName "F_Intrepid_Debris"
+	meshName "F_Miranda_Debris"
+	meshName "F_Nebula_Debris_A"
+	meshName "F_Nebula_Debris_B"
+	meshName "F_Neworleans_Debris"
+	meshName "F_Norway_Debris_A"
+	meshName "F_Norway_Debris_B"
+	meshName "F_Phoenix_Debris_A"
+	meshName "F_Phoenix_Debris_B"
+	meshName "F_Saber_Debris"
+	meshName "F_Sovereign_Debris_A"
+	meshName "F_Sovereign_Debris_B"
+	meshName "F_Steamrunner_Debris"
+meshGroup
+	name "RandomRegular"
+	meshNameCount 20
+	meshName "Asteroid1"
+	meshName "Asteroid2"
+	meshName "Asteroid3"
+	meshName "Asteroid4"
+	meshName "Asteroid5"
+	meshName "Asteroid6"
+	meshName "Asteroid7"
+	meshName "Asteroid8"
+	meshName "Asteroid9"
+	meshName "Asteroid10"
+	meshName "Asteroid1_Large"
+	meshName "Asteroid2_Large"
+	meshName "Asteroid3_Large"
+	meshName "Asteroid4_Large"
+	meshName "Asteroid5_Large"
+	meshName "Asteroid6_Large"
+	meshName "Asteroid7_Large"
+	meshName "Asteroid8_Large"
+	meshName "Asteroid9_Large"
+	meshName "Asteroid10_Large"	
+meshGroup
+	name "RandomMetallic"
+	meshNameCount 20
+	meshName "Asteroid1_Metallic"
+	meshName "Asteroid2_Metallic"
+	meshName "Asteroid3_Metallic"
+	meshName "Asteroid4_Metallic"
+	meshName "Asteroid5_Metallic"
+	meshName "Asteroid6_Metallic"
+	meshName "Asteroid7_Metallic"
+	meshName "Asteroid8_Metallic"
+	meshName "Asteroid9_Metallic"
+	meshName "Asteroid10_Metallic"
+	meshName "Asteroid1_Metallic_Large"
+	meshName "Asteroid2_Metallic_Large"
+	meshName "Asteroid3_Metallic_Large"
+	meshName "Asteroid4_Metallic_Large"
+	meshName "Asteroid5_Metallic_Large"
+	meshName "Asteroid6_Metallic_Large"
+	meshName "Asteroid7_Metallic_Large"
+	meshName "Asteroid8_Metallic_Large"
+	meshName "Asteroid9_Metallic_Large"
+	meshName "Asteroid10_Metallic_Large"		
+meshGroup
+	name "RandomIce"
+	meshNameCount 20
+	meshName "Asteroid1_Ice"
+	meshName "Asteroid2_Ice"
+	meshName "Asteroid3_Ice"
+	meshName "Asteroid4_Ice"
+	meshName "Asteroid5_Ice"
+	meshName "Asteroid6_Ice"
+	meshName "Asteroid7_Ice"
+	meshName "Asteroid8_Ice"
+	meshName "Asteroid9_Ice"
+	meshName "Asteroid10_Ice"
+	meshName "Asteroid1_Ice_Large"
+	meshName "Asteroid2_Ice_Large"
+	meshName "Asteroid3_Ice_Large"
+	meshName "Asteroid4_Ice_Large"
+	meshName "Asteroid5_Ice_Large"
+	meshName "Asteroid6_Ice_Large"
+	meshName "Asteroid7_Ice_Large"
+	meshName "Asteroid8_Ice_Large"
+	meshName "Asteroid9_Ice_Large"
+	meshName "Asteroid10_Ice_Large"		
+meshGroup
+	name "Promelians"
+	meshNameCount 4
+	meshName "M_Promelian_Wreck"
+	meshName "M_Promelian_Wreck"
+	meshName "M_Promelian_Wreck"
+	meshName "M_Promelian_Wreck"	
+meshGroup
+	name "GasGiant"
+	meshNameCount 1
+	meshName "Planet_ClassJ_Moon"
+meshGroup
+	name "Moontest2"
+	meshNameCount 1
+	meshName "Moon"
+meshGroup
+	name "ShatteredMoon"
+	meshNameCount 10
+	meshName "Asteroid1"
+	meshName "Asteroid2"
+	meshName "Asteroid3"
+	meshName "Asteroid4"
+	meshName "Asteroid5"
+	meshName "Asteroid6"
+	meshName "Asteroid7"
+	meshName "Asteroid8"
+	meshName "Asteroid9"
+	meshName "Asteroid10"	
+meshGroup
+	name "RandomSpherical"
+	meshNameCount 10
+	meshName "Asteroid1"
+	meshName "Asteroid2"
+	meshName "Asteroid3"
+	meshName "Asteroid4"
+	meshName "Asteroid5"
+	meshName "Asteroid6"
+	meshName "Asteroid7"
+	meshName "Asteroid8"
+	meshName "Asteroid9"
+	meshName "Asteroid10"
+meshGroup
+	name "RandomElongated"
+	meshNameCount 10
+	meshName "Asteroid1"
+	meshName "Asteroid2"
+	meshName "Asteroid3"
+	meshName "Asteroid4"
+	meshName "Asteroid5"
+	meshName "Asteroid6"
+	meshName "Asteroid7"
+	meshName "Asteroid8"
+	meshName "Asteroid9"
+	meshName "Asteroid10"
+meshGroup
+	name "RandomSmall"
+	meshNameCount 10
+	meshName "Asteroid1"
+	meshName "Asteroid2"
+	meshName "Asteroid3"
+	meshName "Asteroid4"
+	meshName "Asteroid5"
+	meshName "Asteroid6"
+	meshName "Asteroid7"
+	meshName "Asteroid8"
+	meshName "Asteroid9"
+	meshName "Asteroid10"
+meshGroup
+	name "DebrisTechGeneric"
+	meshNameCount 3
+	meshName "DebrisTechGenericLarge0"
+	meshName "DebrisTechGenericLarge1"
+	meshName "DebrisTechGenericLarge2"
+meshGroup
+	name "DebrisVasariGeneric"
+	meshNameCount 8
+	meshName "DebrisPhaseGenericLarge0"
+	meshName "DebrisPhaseGenericLarge1"
+	meshName "DebrisPhaseGenericLarge2"
+	meshName "DebrisPhaseGenericSmall0"
+	meshName "DebrisPhaseGenericSmall1"
+	meshName "DebrisPhaseGenericSmall2"
+	meshName "DebrisPhaseGenericSmall3"
+	meshName "DebrisPhaseGenericSmall4"
+meshGroup
+	name "DebrisVasariSpecific"
+	meshNameCount 3
+	meshName "DebrisPhaseCapitalShipBattleship"
+	meshName "DebrisPhaseCapitalShipCarrier"
+	meshName "DebrisPhaseCapitalShipColony"
+meshGroup
+	name "ShipDebris"
+	meshNameCount 20
+	meshName "F_Ambassador_Debris_A"
+	meshName "F_Ambassador_Debris_B"
+	meshName "F_Galaxy_Debris_A"
+	meshName "F_Galaxy_Debris_B"
+	meshName "K_Bop_Debris_A"
+	meshName "K_Bop_Debris_B"
+	meshName "K_Ktinga_Debris_A"
+	meshName "K_Ktinga_Debris_B"
+	meshName "K_K32_Debris"
+	meshName "K_Deathrite_Debris"
+	meshName "F_Steamrunner_Debris"
+	meshName "F_Intrepid_Debris"
+	meshName "F_Akira_Debris"
+	meshName "F_Constellation_Debris"
+	meshName "F_Centaur_Debris"
+	meshName "K_Predator_Debris"
+	meshName "K_D12_Debris"
+	meshName "F_Challenger_Debris"
+	meshName "F_Cheyenne_Debris"
+	meshName "F_Excelsior_Debris"	
+meshGroup
+	name "CapShipDebris"
+	meshNameCount 8
+	meshName "CapitalShip_TechBattleship"
+	meshName "CapitalShip_PsiBattleship"
+	meshName "CapitalShip_TechSupport"
+	meshName "CapitalShip_PsiBattlePsionic"
+	meshName "CapitalShip_PsiCarrier"
+	meshName "CapitalShip_PsiPlanetPsionic"
+	meshName "CapitalShip_TechCarrier"
+	meshName "CapitalShip_TechSiege"
+meshGroup
+	name "DebrisLarge"
+	meshNameCount 5
+	meshName "DebrisPhaseCapitalShipBattleship"
+	meshName "DebrisPhaseCapitalShipCarrier"
+	meshName "DebrisPhaseCapitalShipColony"
+	meshName "DebrisAdventLarge"
+	meshName "DebrisTechLarge"
+templateCount 32
+template
+	name "promelianmentharbattlefield"
+	clusterCount 3
+	cluster
+		meshGroupName "Promelians"
+		asteroidCount 80
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 1.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "DebrisVasariGeneric"
+		asteroidCount 40
+		minDistance 0.01
+		maxDistance 0.6
+		maxZOffset 1.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.6
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 10
+		minDistance 0.01
+		maxDistance 0.6
+		maxZOffset 1.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.6
+template
+	name "domonlybattlefield"
+	clusterCount 2
+	cluster
+		meshGroupName "Dom_debris_general"
+		asteroidCount 150
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 1.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 10
+		minDistance 0.01
+		maxDistance 0.6
+		maxZOffset 1.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.6
+template
+	name "cardonlybattlefield"
+	clusterCount 2
+	cluster
+		meshGroupName "Card_debris_general"
+		asteroidCount 150
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 1.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 10
+		minDistance 0.01
+		maxDistance 0.6
+		maxZOffset 1.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.6
+template
+	name "klinkonlybattlefield"
+	clusterCount 2
+	cluster
+		meshGroupName "Kli_debris_general"
+		asteroidCount 150
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 1.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 10
+		minDistance 0.01
+		maxDistance 0.6
+		maxZOffset 1.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.6
+template
+	name "wolf359battlefield"
+	clusterCount 3
+	cluster
+		meshGroupName "Fed_debris_Wolf359"
+		asteroidCount 150
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 1.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "fed_debris_general"
+		asteroidCount 40
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 0.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "Borg_debris_general"
+		asteroidCount 40
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 0.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+template
+	name "klinkklinkbattlefield"
+	clusterCount 3
+	cluster
+		meshGroupName "Kli_debris_general"
+		asteroidCount 100
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 1.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "Kli_debris_general"
+		asteroidCount 100
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 0.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 10
+		minDistance 0.01
+		maxDistance 0.6
+		maxZOffset 1.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.6
+template
+	name "klinkdombattlefield"
+	clusterCount 3
+	cluster
+		meshGroupName "Dom_debris_general"
+		asteroidCount 100
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 1.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "Kli_debris_general"
+		asteroidCount 100
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 0.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 10
+		minDistance 0.01
+		maxDistance 0.6
+		maxZOffset 1.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.6
+template
+	name "klinkcardbattlefield"
+	clusterCount 3
+	cluster
+		meshGroupName "Card_debris_general"
+		asteroidCount 100
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 1.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "Kli_debris_general"
+		asteroidCount 100
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 0.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 10
+		minDistance 0.01
+		maxDistance 0.6
+		maxZOffset 1.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.6
+template
+	name "feddombattlefield"
+	clusterCount 3
+	cluster
+		meshGroupName "Dom_debris_general"
+		asteroidCount 100
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 1.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "fed_debris_general"
+		asteroidCount 100
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 0.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 10
+		minDistance 0.01
+		maxDistance 0.6
+		maxZOffset 1.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.6
+template
+	name "fedcardbattlefield"
+	clusterCount 3
+	cluster
+		meshGroupName "Card_debris_general"
+		asteroidCount 100
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 1.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "fed_debris_general"
+		asteroidCount 100
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 0.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 10
+		minDistance 0.01
+		maxDistance 0.6
+		maxZOffset 1.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.6
+template
+	name "fedborgbattlefield"
+	clusterCount 3
+	cluster
+		meshGroupName "Borg_debris_general"
+		asteroidCount 40
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 1.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "fed_debris_general"
+		asteroidCount 150
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 0.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 10
+		minDistance 0.01
+		maxDistance 0.6
+		maxZOffset 1.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.6
+template
+	name "fedklinkbattlefield"
+	clusterCount 3
+	cluster
+		meshGroupName "Kli_debris_general"
+		asteroidCount 100
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 1.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "fed_debris_general"
+		asteroidCount 100
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 0.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 10
+		minDistance 0.01
+		maxDistance 0.6
+		maxZOffset 1.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.6
+template
+	name "DenseMetallic"
+	clusterCount 2
+	cluster
+		meshGroupName "RandomMetallic"
+		asteroidCount 55
+		minDistance 0.5
+		maxDistance 1.0
+		maxZOffset 4.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.2
+	cluster
+		meshGroupName "RandomMetallic"
+		asteroidCount 55
+		minDistance 0.6
+		maxDistance 2.0
+		maxZOffset 4.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.2
+template
+	name "DenseIce"
+	clusterCount 2
+	cluster
+		meshGroupName "RandomIce"
+		asteroidCount 55
+		minDistance 0.5
+		maxDistance 1.0
+		maxZOffset 4.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.2
+	cluster
+		meshGroupName "RandomIce"
+		asteroidCount 55
+		minDistance 0.6
+		maxDistance 2.0
+		maxZOffset 4.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.2
+template
+	name "ShatterdPromelian"
+	clusterCount 2
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 45
+		minDistance 0.01
+		maxDistance 0.6
+		maxZOffset 1.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.6
+	cluster
+		meshGroupName "Promelians"
+		asteroidCount 5
+		minDistance 0.0
+		maxDistance 0.3
+		maxZOffset 0.4
+		minAngle 0
+		maxAngle 75
+		minAngularSpeed 0.1
+		maxAngularSpeed 0.2			
+template
+	name "VeryDense"
+	clusterCount 1
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 35
+		minDistance 0.01
+		maxDistance 0.6
+		maxZOffset 1.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.6
+template
+	name "GasMoon"
+	clusterCount 1
+	cluster
+		meshGroupName "GasGiant"
+		asteroidCount 1
+		minDistance 0.7
+		maxDistance 1.1
+		maxZOffset 1.2
+		minAngle 0
+		maxAngle 5
+		minAngularSpeed 0.05
+		maxAngularSpeed 0.07
+template
+	name "Moontest"
+	clusterCount 1
+	cluster
+		meshGroupName "Moontest2"
+		asteroidCount 1
+		minDistance 0.7
+		maxDistance 1.1
+		maxZOffset 1.2
+		minAngle 0
+		maxAngle 5
+		minAngularSpeed 0.05
+		maxAngularSpeed 0.07
+template
+	name "Shattered"
+	clusterCount 2
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 125
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 0.9
+		minAngle 0
+		maxAngle 75
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.9
+	cluster
+		meshGroupName "Promelians"
+		asteroidCount 5
+		minDistance 0.0
+		maxDistance 0.3
+		maxZOffset 0.4
+		minAngle 0
+		maxAngle 75
+		minAngularSpeed 0.1
+		maxAngularSpeed 0.15		
+template
+	name "Graveyard"
+	clusterCount 2
+	cluster
+		meshGroupName "ShipDebris"
+		asteroidCount 100
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 1.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "ShipDebris"
+		asteroidCount 100
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 0.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+template
+	name "DenseDebris"
+	clusterCount 2
+	cluster
+		meshGroupName "DebrisLarge"
+		asteroidCount 400
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 1.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "DebrisVasariGeneric"
+		asteroidCount 100
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 0.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+template
+	name "Empty"
+	clusterCount 0
+template
+	name "Sparse"
+	clusterCount 2
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 5
+		minDistance 0.4
+		maxDistance 1.0
+		maxZOffset 4.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.2
+	cluster
+		meshGroupName "RandomMetallic"
+		asteroidCount 4
+		minDistance 0.6
+		maxDistance 3.0
+		maxZOffset 4.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.2
+template
+	name "Dense"
+	clusterCount 2
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 55
+		minDistance 0.5
+		maxDistance 1.0
+		maxZOffset 4.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.2
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 55
+		minDistance 0.6
+		maxDistance 2.0
+		maxZOffset 4.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.2
+template
+	name "Ring"
+	clusterCount 2
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 11
+		minDistance 1.0
+		maxDistance 1.2
+		maxZOffset 1.1
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.05
+		maxAngularSpeed 0.25
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 11
+		minDistance 1.0
+		maxDistance 1.2
+		maxZOffset 1.1
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.05
+		maxAngularSpeed 0.25
+template
+	name "Wall"
+	clusterCount 2
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 21
+		minDistance 0.8
+		maxDistance 1.0
+		maxZOffset 1.3
+		minAngle 0
+		maxAngle 65
+		minAngularSpeed 0.05
+		maxAngularSpeed 0.25
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 6
+		minDistance 0.8
+		maxDistance 1.0
+		maxZOffset 0.4
+		minAngle 0
+		maxAngle 90
+		minAngularSpeed 0.05
+		maxAngularSpeed 0.25	
+template
+	name "SpaceJunk"
+	clusterCount 3
+	cluster
+		meshGroupName "DebrisTechGeneric"
+		asteroidCount 85
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 0.3
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.1
+		maxAngularSpeed 0.3
+	cluster
+		meshGroupName "RandomMetallic"
+		asteroidCount 15
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 0.3
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.01
+		maxAngularSpeed 0.2
+	cluster
+		meshGroupName "RandomMetallic"
+		asteroidCount 7
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 0.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.01
+		maxAngularSpeed 0.2
+template
+	name "AlienRuins"
+	clusterCount 3
+	cluster
+		meshGroupName "DebrisVasariGeneric"
+		asteroidCount 50
+		minDistance 0.0
+		maxDistance 0.2
+		maxZOffset 0.2
+		minAngle 0
+		maxAngle 30
+		minAngularSpeed 0.1
+		maxAngularSpeed 0.3
+	cluster
+		meshGroupName "DebrisVasariSpecific"
+		asteroidCount 3
+		minDistance 0.0
+		maxDistance 0.3
+		maxZOffset 0.3
+		minAngle 0
+		maxAngle 40
+		minAngularSpeed 0.01
+		maxAngularSpeed 0.1
+	cluster
+		meshGroupName "RandomSmall"
+		asteroidCount 10
+		minDistance 0.0
+		maxDistance 0.2
+		maxZOffset 0.3
+		minAngle 0
+		maxAngle 40
+		minAngularSpeed 0.01
+		maxAngularSpeed 0.1
+template
+	name "Field"
+	clusterCount 2
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 60
+		minDistance 0.0
+		maxDistance 0.6
+		maxZOffset 1.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.1
+		maxAngularSpeed 0.3
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 60
+		minDistance 0.0
+		maxDistance 1.0
+		maxZOffset 0.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.1
+		maxAngularSpeed 0.3
+template
+	name "Belt"
+	clusterCount 2
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 90
+		minDistance 0.5
+		maxDistance 0.9
+		maxZOffset 1.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.1
+		maxAngularSpeed 0.3
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 40
+		minDistance 0.6
+		maxDistance 0.9
+		maxZOffset 1.0
+		minAngle 0
+		maxAngle 300
+		minAngularSpeed 0.15
+		maxAngularSpeed 0.35
+template
+	name "Crescent"
+	clusterCount 2
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 80
+		minDistance 0.5
+		maxDistance 1.0
+		maxZOffset 1.0
+		minAngle 0
+		maxAngle 150
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.25
+	cluster
+		meshGroupName "RandomRegular"
+		asteroidCount 30
+		minDistance 0.7
+		maxDistance 0.9
+		maxZOffset 0.5
+		minAngle 10
+		maxAngle 180
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.35
+template
+	name "Line"
+	clusterCount 2
+	cluster
+		meshGroupName "RandomElongated"
+		asteroidCount 50
+		minDistance -0.5
+		maxDistance 0.5
+		maxZOffset 1.5
+		minAngle -10
+		maxAngle 10
+		minAngularSpeed 0.1
+		maxAngularSpeed 0.2
+	cluster
+		meshGroupName "RandomSpherical"
+		asteroidCount 50
+		minDistance -1.2
+		maxDistance 1.0
+		maxZOffset 1.0
+		minAngle -10
+		maxAngle 10
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.35
+		

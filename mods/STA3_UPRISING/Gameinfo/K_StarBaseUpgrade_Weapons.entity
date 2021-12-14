@@ -1,0 +1,85 @@
+TXT2
+SinsArchiveVersion 193
+entityType "StarBaseUpgrade"
+stageCount 4
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "K_STARBASEUPGRADEWEAPONS0_NAME"
+	descStringID "K_STARBASEUPGRADEWEAPONS0_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "K_icon_assaultsystems"
+	smallHudIcon "K_icon_assaultsystems"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1000.000000
+		metal 175.000000
+		crystal 100.000000
+	upgradeTime 30.000000
+	nameStringID "K_STARBASEUPGRADEWEAPONS1_NAME"
+	descStringID "K_STARBASEUPGRADEWEAPONS1_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "K_icon_assaultsystems"
+	smallHudIcon "K_icon_assaultsystems"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "WeaponUpgradeLevel"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1200.000000
+		metal 175.000000
+		crystal 125.000000
+	upgradeTime 45.000000
+	nameStringID "K_STARBASEUPGRADEWEAPONS2_NAME"
+	descStringID "K_STARBASEUPGRADEWEAPONS2_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "K_icon_assaultsystems"
+	smallHudIcon "K_icon_assaultsystems"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "WeaponUpgradeLevel"
+		value 2.000000
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1700.000000
+		metal 225.000000
+		crystal 185.000000
+	upgradeTime 45.000000
+	nameStringID "K_STARBASEUPGRADEWEAPONS3_NAME"
+	descStringID "K_STARBASEUPGRADEWEAPONS3_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "K_icon_assaultsystems"
+	smallHudIcon "K_icon_assaultsystems"
+	infoCardIcon ""
+	upgradePropertyCount 2
+	upgradeProperty
+		propertyType "WeaponUpgradeLevel"
+		value 2.000000
+	upgradeProperty
+		propertyType "WeaponDamage"
+		value 0.200000
+	upgradeBoolPropertyCount 0
+xpModifier 75.000000

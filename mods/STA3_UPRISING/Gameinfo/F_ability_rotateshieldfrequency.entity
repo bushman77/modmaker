@@ -1,0 +1,50 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "F_buff_rotateshieldfrequency"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "F_Ability_RotateShields"
+	mediumEffectName "F_Ability_RotateShields"
+	largeEffectName "F_Ability_RotateShields"
+	soundID "EFFECT_TELEKINETICPUSH"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyWhenTakingDamage"
+aiUseTargetCondition "ShieldDamageExceedsAmount"
+onlyAutoCastWhenTargetShieldDamageExceedsAmount
+	Level:0 300.000000
+	Level:1 300.000000
+	Level:2 300.000000
+	Level:3 300.000000
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget FALSE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "None"
+cooldownTime
+	Level:0 50.000000
+	Level:1 80.000000
+	Level:2 80.000000
+	Level:3 80.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+	Subject "F_research_ability_rotateshieldfrequency"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "F_ability_rotateshieldfrequency_name"
+descStringID "F_ability_rotateshieldfrequency_desc"
+hudIcon "F_res_icon_norwayability"
+smallHudIcon "F_res_icon_norwayability"
+infoCardIcon ""

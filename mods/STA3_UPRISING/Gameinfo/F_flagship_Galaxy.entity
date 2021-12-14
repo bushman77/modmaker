@@ -1,0 +1,323 @@
+TXT2
+SinsArchiveVersion 193
+entityType "CapitalShip"
+ability:0 "F_Ability_Torpedospread"
+ability:1 "F_Ability_TachyonBeam"
+ability:2 "F_Ability_Antimatterspread"
+ability:3 "G_ability_flagship"
+ability:4 ""
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+autoJoinFleetDefault TRUE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 43.000000
+basePopulationKilled 1.700000
+bombingFreqTime 10.000000
+baseRange 3000.000000
+bombTransitTime 5.000000
+bombEffectCount 3
+bombEffectAngleVariance 15.000000
+bombEffectsDef
+	weaponType "Projectile"
+	burstCount 4
+	burstDelay 0.300000
+	fireDelay 0.000000
+	muzzleEffectName "Fed_Weap_Photon_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "FedPhotonLight"
+	hitEffectName "Weapon_TechCapitalPlanetBombing_Hit"
+	hitHullEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	hitShieldsEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	projectileTravelEffectName "Fed_Weap_Photon_Orange"
+mainViewIcon "Icon_F_Galaxy"
+basePrice
+	credits 3000.000000
+	metal 400.000000
+	crystal 250.000000
+slotCount 30.000000
+BuildTime 75.000000
+MaxHullPoints
+	StartValue 3500.000000
+	ValueIncreasePerLevel 0.000000
+MaxShieldPoints
+	StartValue 4000.000000
+	ValueIncreasePerLevel 0.000000
+HullPointRestoreRate
+	StartValue 2.000000
+	ValueIncreasePerLevel 0.500000
+ShieldPointRestoreRate
+	StartValue 3.600000
+	ValueIncreasePerLevel 1.000000
+ArmorPointsFromExperience
+	StartValue 18.000000
+	ValueIncreasePerLevel 0.000000
+maxMitigation
+	StartValue 0.650000
+	ValueIncreasePerLevel 0.000000
+MaxAntiMatter
+	StartValue 225.000000
+	ValueIncreasePerLevel 20.000000
+AntiMatterRestoreRate
+	StartValue 0.750000
+	ValueIncreasePerLevel 0.080000
+CultureProtectRate
+	StartValue 0.300000
+	ValueIncreasePerLevel 0.050000
+NameStringID "F_GALAXY_NAME"
+DescriptionStringID "F_cap_galaxy_desc"
+picture "Unit_Picture_Fed"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+roleType "Invalid"
+statCountType "CapitalShipBattleship"
+numRandomDebrisLarge 6
+numRandomDebrisSmall 12
+numSpecificDebris 2
+specificDebrisMeshName "F_Galaxy_Debris_A"
+specificDebrisMeshName "F_Galaxy_Debris_B"
+armorType "Titan"
+hudIcon "Bb_Fed_Galaxy"
+smallHudIcon "Icon_Gen_CapShip"
+infoCardIcon "Icon_Gen_CapShip"
+minZoomDistanceMult 0.750000
+NumWeapons 3
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "BEAM"
+	DamagePerBank:FRONT 170.000000
+	DamagePerBank:BACK 170.000000
+	DamagePerBank:LEFT 170.000000
+	DamagePerBank:RIGHT 170.000000
+	Range 4500.000000
+	PreBuffCooldownTime 6.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 2.00000
+	TravelSpeed 0.000000
+	Duration 1.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.300000
+		muzzleEffectName "Fed_Weap_Phaser_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "FedPhaserHeavy_Start"
+			sound "FedPhaserHeavy_Start2"
+			sound "FedPhaserHeavy_Start3"			
+		hitEffectName "Fed_Weap_Phaser_Impact"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Wpn_Imp_Pulse_Hull1"
+			sound "Wpn_Imp_Pulse_Hull2"
+			sound "Wpn_Imp_Pulse_Hull3"
+			sound "Wpn_Imp_Pulse_Hull4"			
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"	
+		beamEffectSounds
+			soundCount 1
+			sound "FedPhaserHeavy_Loop"
+		beamGlowTextureName "FedPhaserBeam_Glow"
+		beamCoreTextureName "FedPhaserBeam_Core"
+		beamWidth 10.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 8.000000
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 500.000000
+	DamagePerBank:BACK 500.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4500.000000
+	PreBuffCooldownTime 24.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.250000
+	TravelSpeed 1300.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 4
+		burstDelay 0.250000
+		fireDelay 0.000000
+		muzzleEffectName "Fed_Weap_Photon_Muzzle"
+		muzzleSoundMinRespawnTime 0.005000
+		muzzleSounds
+			soundCount 1
+			sound "FedPhotonType9"
+		hitEffectName "Weapon_Fed_Photon_Hit"
+		hitHullEffectSounds
+			soundCount 2
+			sound "Wpn_Imp_Torp_Hull1"
+			sound "Wpn_Imp_Torp_Hull2"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"	
+		missileTravelEffectName "Fed_Weap_Photon_Orange"
+		missileStartTurningDistance 250.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 0.010000	
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "ION"
+	DamagePerBank:FRONT 500.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4500.000000
+	PreBuffCooldownTime 30.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.250000
+	TravelSpeed 1350.000000
+	Duration 0.000000
+	fireConstraintType "Research"
+    researchPrerequisites
+        NumResearchPrerequisites 1
+        ResearchPrerequisite
+            Subject "F_Research_Acces_GalaxyRefit"
+            Level 1	
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0		
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 4
+		burstDelay 0.250000
+		fireDelay 0.000000
+		muzzleEffectName "Fed_Weap_Quantum_Muzzle"
+		muzzleSoundMinRespawnTime 0.005000
+		muzzleSounds
+			soundCount 1
+			sound "FedQuantum"
+		hitEffectName "Weapon_Tech_MissileFrigate_Hit"
+		hitHullEffectSounds
+			soundCount 2
+			sound "Wpn_Imp_Torp_Hull1"
+			sound "Wpn_Imp_Torp_Hull2"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"
+		missileTravelEffectName "Fed_Weap_Quantum"
+		missileStartTurningDistance 250.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 0.010000			
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 1
+TargetCountPerBank:LEFT 2
+TargetCountPerBank:RIGHT 2
+canOnlyTargetStructures FALSE
+mass 1500.000000
+ShieldMeshName "F_Galaxy_Shield"
+renderShield TRUE
+maxAccelerationLinear 110.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 110.000000
+maxAccelerationAngular 5.000000
+maxDecelerationAngular 5.000000
+maxSpeedLinear 350.000000
+maxRollRate 15.000000
+maxRollAngle 45.000000
+squadTypeEntityDef:0 "F_Squad_Peregrine"
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 "F_Squad_Danube"
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 "F_Squad_ValMK1"
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 "F_Squad_ValMK2"
+squadAntiMatterCost:3 0.000000
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "Fed9Attack"
+SoundID "Fed9Attack2"
+SoundID "Fed9Attack3"
+NumSoundsFor:ONCREATION 3
+SoundID "Fed9Select"
+SoundID "Fed9Select2"
+SoundID "Fed9Select3"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "Fed9Move"
+SoundID "Fed9Move2"
+SoundID "Fed9Move3"
+NumSoundsFor:ONSELECTED 3
+SoundID "Fed9Select"
+SoundID "Fed9Select2"
+SoundID "Fed9Select3"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "Fed9Move2"
+MeshNameInfoCount 2
+MeshNameInfo
+	meshName "F_Galaxy"
+	criteriaType "None"
+MeshNameInfo
+	meshName "F_Galaxy_Venture"
+	criteriaType "Research"
+	prerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "F_Research_Acces_GalaxyRefit"
+			Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0	
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName ""
+ExplosionName "Explosion_Capital_Fed"
+CommandPoints
+	StartValue 0.600000
+	ValueIncreasePerLevel 0.200000
+weaponCooldownDecreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.010000
+weaponDamageIncreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.010000
+HyperspaceChargingSoundID "FederationEnterWarp"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "Engine_Fed"
+formationRank 3
+minShadow 0.000000
+maxShadow 1.000000

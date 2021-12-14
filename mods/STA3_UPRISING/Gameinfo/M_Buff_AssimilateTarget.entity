@@ -1,0 +1,66 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack TRUE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 5
+instantAction
+	buffInstantActionType "ChangePlayerIndexToFirstSpawner"
+	instantActionTriggerType "OnDelay"
+	delayTime 10.000000
+	isPermanent TRUE
+	failIfNotEnoughShipSlots FALSE
+	experiencePercentageToAward 0.500000
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 10.000000
+	buffType "B_Buff_Recourse"
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "RestoreHullPointsPerc"
+	instantActionTriggerType "OnDelay"
+	delayTime 10.000000
+	hullPerc
+		Level:0 0.200000
+		Level:1 0.200000
+		Level:2 0.200000
+		Level:3 0.200000
+instantAction
+	buffInstantActionType "RestoreShieldPointsPerc"
+	instantActionTriggerType "OnDelay"
+	delayTime 10.000000
+	shieldPerc
+		Level:0 0.200000
+		Level:1 0.200000
+		Level:2 0.200000
+		Level:3 0.200000		
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "B_FX_Transporter"
+		mediumEffectName "B_FX_Transporter"
+		largeEffectName "B_FX_Transporter"
+		soundID "C_FX_Transporter"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

@@ -1,0 +1,57 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 1
+periodicAction
+	actionCountType "Infinite"
+	actionIntervalTime
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 1.000000
+	buffInstantActionType "ApplyBuffToTargetsInRadius"
+	instantActionTriggerType "AlwaysPerform"
+	buffType "G_buff_detectcloakcapitalblast_target"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 4
+		object "SpaceMine"
+		object "CapitalShip"
+		object "Frigate"
+		object "Corvette"
+		numSpaces 2
+		space "Phase"
+		space "Normal"
+		numConstraints 0
+	range
+		Level:0 9500.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 5.000000
+		Level:2 5.000000
+		Level:3 5.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "OwnerChanged"

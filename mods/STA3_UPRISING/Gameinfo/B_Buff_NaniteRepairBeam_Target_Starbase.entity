@@ -1,0 +1,52 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack TRUE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "Borg_Weap_HoldingBeam_Impact"
+		mediumEffectName "Borg_Weap_HoldingBeam_Impact"
+		largeEffectName "Borg_Weap_HoldingBeam_Impact"
+		soundID ""
+instantAction
+	buffInstantActionType "RestoreHullPoints"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	hull
+		Level:0 2000.000000
+		Level:1 3500.000000
+		Level:2 4500.000000
+		Level:3 4500.000000
+numPeriodicActions 0
+numOverTimeActions 1
+	overTimeAction
+	buffOverTimeActionType "RestoreHull"
+	hullRestoreRate
+		Level:0 30.000000
+		Level:1 40.000000
+		Level:2 50.000000
+		Level:3 50.000000
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 20.000000
+		Level:1 25.000000
+		Level:2 35.000000
+		Level:3 35.000000

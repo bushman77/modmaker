@@ -1,0 +1,76 @@
+TXT2
+SinsArchiveVersion 193
+entityType "PlanetModuleStandard"
+minZoomDistanceMult 1.500000
+ability:0 "B_Ability_RepairNode"
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 300.000000
+AntiMatterRestoreRate 0.500000
+numRandomDebrisLarge 3
+numRandomDebrisSmall 20
+numSpecificDebris 0
+armorType "Module"
+hudIcon "B_icon_repairnodeicon"
+smallHudIcon "Icon_B_Repairyard"
+infoCardIcon "Icon_B_Repairyard"
+planetUpgradeSlotType "Tactical"
+planetUpgradeSlotCount 6.000000
+basePrice
+	credits 400.000000
+	metal 100.000000
+	crystal 75.000000
+NameStringID "B_REPAIRYARD_NAME"
+DescriptionStringID "B_REPAIRYARD_DESC"
+planetModuleRoleType "REPAIRPLATFORM"
+statCountType "ModuleRepair"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+	Subject "B_research_repairyard"
+	Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MaxHullPoints 20500.000000
+HullPointRestoreRate 2.000000
+BaseArmorPoints 6.000000
+MaxShieldPoints 0.000000
+ShieldPointRestoreRate 0.000000
+maxShieldMitigation 0.000000
+ExperiencePointsForDestroying 25.000000
+resourceExtractionType "Invalid"
+cultureSpreadRate 0.000000
+isAffectedBySimilarModuleCostResearch FALSE
+placementRadius 350.000000
+nearPlacementDistOffset 0.000000
+farPlacementDistOffset 9000.000000
+spawnCount 1
+swapMineType ""
+angularSpeed 0.000000
+rotateSoundName ""
+rotateFacingType "None"
+rotateConstantly FALSE
+ShieldMeshName ""
+renderShield TRUE
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 0
+NumSoundsFor:ONSELECTED 1
+SoundID "B_Station_Repairyard"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "B_Repairyard"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExplosionName "Explosion_Cube_Borg"
+mainViewIcon "Icon_B_Repairyard"
+picture "Unit_Picture_Bor"
+minShadow 0.200000
+maxShadow 1.200000
+formationRank 3
+baseBuildTime 60.000000
+buildEffectName ""

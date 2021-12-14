@@ -1,0 +1,44 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "F_Ability_TachyonBeam_Target_Small"
+		mediumEffectName "F_Ability_TachyonBeam_Target_Medium"
+		largeEffectName "F_Ability_TachyonBeam_Target_Large"
+		soundID "F_Ability_ShieldDisruptor_Hit"
+numPeriodicActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "DoDamage"
+	damageRate
+		Level:0 125.000000
+		Level:1 165.000000
+		Level:2 175.000000
+		Level:3 195.000000
+	damageAffectType "AFFECTS_ONLY_SHIELDS"
+	damageType "ENERGY"
+	isDamageShared FALSE
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 3.000000
+		Level:1 6.000000
+		Level:2 9.000000
+		Level:3 12.000000

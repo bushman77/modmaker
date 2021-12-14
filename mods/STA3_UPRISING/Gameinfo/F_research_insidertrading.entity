@@ -1,0 +1,43 @@
+TXT2
+SinsArchiveVersion 193
+entityType "ResearchSubject"
+hudIcon "F_res_icon_tradeupgrade3"
+smallHudIcon "F_res_icon_tradeupgrade3"
+infoCardIcon ""
+NameStringID "F_res_insidertrading_name"
+DescriptionStringID "F_res_insidertrading_desc"
+researchWindowLocation
+	block 0
+	pos [ 6 , 3 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "F_Research_tradecredits"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 60.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 1900.000000
+	metal 290.000000
+	crystal 290.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 6
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 2
+priority 3.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "BlackMarketBuyPriceAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.050000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880
