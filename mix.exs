@@ -10,8 +10,7 @@ defmodule ModmakerUmbrella.MixProject do
       releases: [
         brain: [
           applications: 
-          [brain: :permanent,
-           frontend: :permanent
+          [
           ]
         ]
       ]
